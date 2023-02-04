@@ -1364,7 +1364,7 @@
 
 		<item name="meleeWpnSpearStagSpear">
 			<property name="Extends" value="meleeWpnSpearT1IronSpear"/>
-			<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfBlows,canHaveCosmetic,thrownWeapon"/>			
+			<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfBlows,canHaveCosmetic,thrownWeapon,perkElectrocutioner"/>			
 			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
 			<property name="Material" value="MmeleeWpnSpearParts"/>
 			<property name="Weight" value="5.5"/> <!-- Default is 6.0 -->
@@ -1412,6 +1412,21 @@
 				<passive_effect name="EntityDamage" operation="perc_add" value="3.14" tags="secondary"/> <!-- Default is 2.85 +10%-->
 				<passive_effect name="BlockDamage" operation="perc_add" value="2.85" tags="secondary"/>
 				<passive_effect name="StaminaLoss" operation="base_set" value="40.3" tags="secondary"/> <!-- Default is 44.8 -10%-->			
+
+				<!-- Repulsor from Baton -->
+				
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="other" duration="2.5" force="100">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="2.5" force="100">
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+				<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="otherAOE" range="0.45" target_tags="zombie,animal" duration="2.5" force="100"> <!-- 1.1 / 350 -->
+				<requirement name="HasBuff" buff="buffmodMeleeStunBatonRepulsor"/>
+			</triggered_effect>			
 			</effect_group>
 			<property name="Group" value="Ammo/Weapons"/>
 		</item>

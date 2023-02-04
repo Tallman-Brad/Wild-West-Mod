@@ -2635,12 +2635,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceRawDiamond" count="3"/>
 </recipe>
 
-<!--recipe name="modMeleeStunBatonRepulsor" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+<recipe name="modMeleeStunBatonRepulsor" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedSteel" count="5"/>
 	<ingredient name="resourceDuctTape" count="5"/>
 	<ingredient name="resourceElectricParts" count="10"/>
-	<ingredient name="resourceMechanicalParts" count="5"/>
-</recipe-->
+	<!--ingredient name="resourceMechanicalParts" count="5"/--> <!-- Replaced below for context -->
+	<ingredient name="modMeleeWeightedHead" count="1"/>
+</recipe>
 
 <recipe name="modMeleeBunkerBuster" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedSteel" count="5"/>
