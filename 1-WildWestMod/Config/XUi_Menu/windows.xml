@@ -1,0 +1,3 @@
+<wildwestmod>
+	<remove xpath="//window[@name='newsWindow']"/>
+</wildwestmod>

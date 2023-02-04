@@ -1,0 +1,82 @@
+<wildwestmod>
+
+	<!-- Wasteland -->
+
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+		<entity name="zombieWendigoRadiatedShower" prob="0.8"/>
+		<entity name="zombieBurnt" prob="3"/>
+		<entity name="zombieBurntFeral" prob="2"/>
+		<entity name="zombieBurntRadiated" prob="1"/>		
+		<entity name="zombieWightFeral" prob="1.5"/>
+		<entity name="zombieWightRadiated" prob="1"/>
+		<entity name="zombieSoldier" prob="2"/>
+		<entity name="zombieSoldierFeral" prob="1.5"/>
+		<entity name="zombieSoldierRadiated" prob="1"/>
+		<entity name="zombieMutated" prob="2"/>
+		<entity name="zombieMutatedFeral" prob="1.5"/>
+		<entity name="zombieMutatedRadiated" prob="1.5"/>
+		<entity name="zombieSpider" prob="2"/>	
+		<entity name="zombieSpiderFeral" prob="1.5"/>
+		<entity name="zombieSpiderRadiated" prob="1"/>
+		<entity name="zombieDemolition" prob="0.8"/>		
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+		<entity name="zombieWendigoRadiatedShower" prob="0.8"/>
+		<entity name="zombieBurnt" prob="3"/>
+		<entity name="zombieBurntFeral" prob="2"/>
+		<entity name="zombieBurntRadiated" prob="1"/>		
+		<entity name="zombieWightFeral" prob="1.5"/>
+		<entity name="zombieWightRadiated" prob="1"/>
+		<entity name="zombieSoldier" prob="2"/>
+		<entity name="zombieSoldierFeral" prob="1.5"/>
+		<entity name="zombieSoldierRadiated" prob="1"/>
+		<entity name="zombieMutated" prob="2"/>
+		<entity name="zombieMutatedFeral" prob="1.5"/>
+		<entity name="zombieMutatedRadiated" prob="1.5"/>
+		<entity name="zombieSpider" prob="2"/>	
+		<entity name="zombieSpiderFeral" prob="1.5"/>
+		<entity name="zombieSpiderRadiated" prob="1"/>
+		<entity name="zombieDemolition" prob="0.8"/>		
+	</set>	
+	
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="animalZombieWastelandCraterBear" prob="5"/>
+		<entity name="animalBossGrace" prob="3"/>
+		<entity name="guppyVultureBurnt" prob="15"/>		
+	</append>
+	
+	<!-- Desert -->
+
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']">
+		<entity name="animalDesertHare" prob="7"/> <!-- A timid animal but desert enemy group is appropriate -->
+		<entity name="ZombieUndertakerWildWest" prob="2"/> <!-- An entity but desert specific -->
+		<entity name="ZombieHammerSpammerWildWest" prob="2"/> <!-- An entity but desert specific -->
+		<entity name="guppyVultureBurnt" prob="15"/>		
+	</append>
+	
+	<!-- Snow -->
+	
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']">
+		<entity name="animalWildWestSnowBear" prob="3"/>
+		<entity name="animalWolf" prob="13"/>
+		<entity name="animalSnowHare" prob="13"/> <!-- A timid animal but snow enemy group is appropriate -->
+		<entity name="zombieWendigo" prob="1"/>	 <!-- An entity but snow specific -->	
+	</append>
+
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/entity[@name='animalMountainLion']/@prob">7</set><!-- default 25 -->
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/entity[@name='animalBear']/@prob">7</set><!-- default 10 -->
+
+	<!-- Custom Groups -->
+
+	<append xpath="/entitygroups">	
+	<entitygroup name="animalZombieWastelandCraterBear">
+		<entity name="animalZombieWastelandCraterBear" />
+	</entitygroup>
+	
+	<entitygroup name="WastelandCraterBearGroup">
+		<entity name="animalZombieWastelandCraterBear"/>
+	</entitygroup>
+	</append>	
+
+</wildwestmod>
