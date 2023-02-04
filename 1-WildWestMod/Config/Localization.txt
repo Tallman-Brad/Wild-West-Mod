@@ -472,7 +472,7 @@ perkTechJunkie4ShellsLongDesc,progression,perk  book,,,Scrap Spitter Shells: Tur
 perkTechJunkie5RepulsorDesc,progression,perk  book,,,Craft Stag Spear Weighted Head Mods.,,,,,,,,,,,,,
 perkTechJunkie5RepulsorLongDesc,progression,perk  book,,,Stag Spear Weighted Head Mods: Craft a Stag Spear Weighted Head Mod and send zombies flying.,,,,,,,,,,,,,
 perkTechJunkie6BatonChargeDesc,progression,perk  book,,,Stag Spear Stunner.,,,,,,,,,,,,,
-perkTechJunkie6BatonChargeLongDesc,progression,perk  book,,,Stunner Strike: Stag Spear Weighted Head Mods can repeatedly knock them down, until they stop getting up.,,,,,,,,,,,,,
+perkTechJunkie6BatonChargeLongDesc,progression,perk  book,,,Stunner Strike: Stag Spear Weighted Head Mods can repeatedly knock them down until they stop getting up.,,,,,,,,,,,,,
 perkTechJunkie7HydraulicsDesc,progression,perk  book,,,Increase the fire rate of Scrap Spitters.,,,,,,,,,,,,,
 perkTechJunkie7HydraulicsLongDesc,progression,perk  book,,,Hydraulics: This advanced tweak to hydraulics increases the fire rate of Scrap Spitters by 10%.,,,,,,,,,,,,,
 perkTechJunkie8CompleteDesc,progression,perk  book,,,Bulk craft all Scrap Spitter ammo.,,,,,,,,,,,,,
