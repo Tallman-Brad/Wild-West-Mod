@@ -30,6 +30,7 @@ Individual assets and know-how are provided by (From Z - A):
 Zeebark - Custom Prefab submissions.
 Telric - Kind permission to update Telrics Horses to A20 (Can be use as an orthodox addition or expanded with Saddle Light/No Light Patch).
 Tallman Brad - Created and administered a hub for the concept to come alive, game direction planning, developing xml, POI, and custom World creation.
+Syco54645 - A19 Farming For A20. Brings back seedlings upon harvesting to replace the A20 system of non sustainable negative returns.
 Stallionsden - Assisted with community relations, technical advice on a number of topics, and submitted a Ranch POI.
 sphereii - SphereII Legacy Distant Terrain.
 Oakraven - Wild West Lighting, replacement blocks, balloons, weapons, storage, and an absolute abundance more in all capacities.
