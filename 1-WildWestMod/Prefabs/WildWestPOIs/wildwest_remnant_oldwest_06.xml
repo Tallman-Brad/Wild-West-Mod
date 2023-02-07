@@ -13,7 +13,7 @@
   <property name="RotationToFaceNorth" value="2" />
   <property name="EditorGroups" value="oldwest, remnant" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="oldwes,wildwestoutskirtt" />
+  <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="25, 14, 25" />
   <property class="Stats">
     <property name="TotalVertices" value="59201" />

@@ -13,7 +13,7 @@
   <property name="YOffset" value="-1" />
   <property name="EditorGroups" value="remnant, oldwest" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="25, 12, 25" />
   <property class="Stats">
     <property name="TotalVertices" value="32646" />

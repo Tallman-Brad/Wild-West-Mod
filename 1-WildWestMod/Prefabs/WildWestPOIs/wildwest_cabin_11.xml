@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False" />
-  <property name="Tags" value="wilderness,oldwest,wildwestoutskirt" />
+  <property name="Tags" value="wilderness" />
   <property name="POIMarkerSize" value="3, 1, 3" />
   <property name="POIMarkerStart" value="20, 11, -2" />
   <property name="POIMarkerGroup" value="new" />

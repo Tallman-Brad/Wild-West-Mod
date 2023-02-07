@@ -20,7 +20,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="2,2,2,2,0,0,0,0,0,2,2" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="desert,oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="EditorGroups" value="oldwest" />
   <property class="Stats">
     <property name="TotalVertices" value="918688" />

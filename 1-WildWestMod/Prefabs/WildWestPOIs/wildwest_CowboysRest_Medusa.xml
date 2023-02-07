@@ -12,7 +12,7 @@
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-1" />
-  <property name="Tags" value="wilderness,oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="QuestTags" value="clear,fetch" />
   <property name="SleeperVolumeSize" value="18, 3, 6#13, 2, 11#11, 3, 13#13, 2, 8#18, 3, 21#12, 5, 21#21, 8, 17#16, 6, 15#6, 2, 3#7, 2, 8#9, 3, 7#8, 3, 10#6, 3, 7" />
   <property name="SleeperVolumeStart" value="1, 1, 1#28, 2, 1#17, 1, 7#28, 1, 12#23, 1, 20#27, 5, 20#1, 1, 23#1, 0, 7#1, 6, 13#1, 7, 5#8, 7, 5#9, 7, 13#2, 7, 16" />

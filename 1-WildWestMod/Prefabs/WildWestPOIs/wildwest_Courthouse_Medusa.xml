@@ -20,7 +20,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False" />
   <property name="SleeperVolumeFlags" value="2,2,2" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property class="Stats">
     <property name="TotalVertices" value="293620" />
     <property name="TotalTriangles" value="301882" />

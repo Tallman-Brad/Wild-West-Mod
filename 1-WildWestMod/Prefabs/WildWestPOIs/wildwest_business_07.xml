@@ -10,7 +10,7 @@
   <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="TraderArea" value="False" />
   <property name="SleeperVolumeSize" value="5, 7, 5#20, 5, 7" />
   <property name="SleeperVolumeStart" value="10, 1, 9#1, 2, 15" />

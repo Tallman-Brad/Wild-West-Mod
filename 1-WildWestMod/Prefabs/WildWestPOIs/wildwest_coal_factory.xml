@@ -22,7 +22,7 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="42, 31, 42" />
   <property class="Stats">
     <property name="TotalVertices" value="354369" />

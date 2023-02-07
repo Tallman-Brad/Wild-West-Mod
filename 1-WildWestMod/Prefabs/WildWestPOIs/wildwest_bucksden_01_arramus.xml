@@ -8,7 +8,7 @@
   <property name="DifficultyTier" value="2" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="QuestTags" value="clear,fetch,restore_power" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="42, 17, 42" />
   <property name="RotationToFaceNorth" value="2" />

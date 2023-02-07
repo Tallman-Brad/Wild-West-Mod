@@ -10,7 +10,7 @@
   <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="wilderness,oldwest,wildwestoutskirt" />
+  <property name="Tags" value="wilderness,oldwest" />
   <property name="TraderArea" value="False" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="EditorGroups" value="remnant, rural" />

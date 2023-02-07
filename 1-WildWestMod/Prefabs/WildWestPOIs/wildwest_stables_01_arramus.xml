@@ -19,7 +19,7 @@
   <property name="SleeperVolumeGroup" value="S_-_Group_Ghost_Town,2,4,S_-_Group_Ghost_Town,3,6,S_-_Group_Ghost_Town,3,5" />
   <property name="SleeperIsLootVolume" value="False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="SleeperVolumeFlags" value="0,0,0" />
   <property class="Stats">
     <property name="TotalVertices" value="233381" />

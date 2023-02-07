@@ -13,7 +13,7 @@
   <property name="ExcludePOICulling" value="False" />
   <property name="YOffset" value="-1" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="25, 8, 25" />
   <property class="Stats">
     <property name="TotalVertices" value="11051" />

@@ -13,7 +13,7 @@
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-2" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="SleeperVolumeSize" value="13, 6, 15#23, 6, 15#23, 6, 15#13, 6, 15#36, 3, 7#6, 3, 7" />
   <property name="SleeperVolumeStart" value="3, 2, 2#16, 2, 2#16, 2, 17#3, 2, 17#3, 2, 32#16, 6, 32" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0" />

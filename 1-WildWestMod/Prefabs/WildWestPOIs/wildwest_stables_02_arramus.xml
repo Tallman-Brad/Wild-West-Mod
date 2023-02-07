@@ -9,7 +9,7 @@
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="oldwest,wildwestoutskirt" />
+  <property name="Tags" value="oldwest" />
   <property name="PrefabSize" value="25, 12, 25" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="none" />
