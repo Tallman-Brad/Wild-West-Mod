@@ -59,7 +59,7 @@
 
 <!-- Haidr'Gna - Invisible Dye -->
 
-	<item_modifier name="modInvisible" installable_tags="clothing,armor" modifier_tags="dye" blocked_tags="noMods" type="attachment">
+	<item_modifier name="modInvisible" installable_tags="clothing,armor" modifier_tags="dye" blocked_tags="noMods" type="attachment" cosmetic_install_chance="0.000000001">
 		<property name="CustomIcon" value="modDyeWhite"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="Group" value="Mods"/>
