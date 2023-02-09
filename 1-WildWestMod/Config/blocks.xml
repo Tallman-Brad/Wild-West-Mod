@@ -57,6 +57,8 @@
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage1v08']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonPrefab</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage2v08']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonPrefab</set>
 <!-- There are additional vehicles for flat bed trailers and buses, etc. They may need changing if they appear -->
+<!-- Quest Marker -->
+	<set xpath="/blocks/block[@name='questRallyMarker']/property[@name='Model']/@value">#@modfolder:Resources/rally_pointStar.unity3d?rally_pointStar</set>
 <!-- Car Box and Mo Power Box replacements for time period -->
 	<set xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']/property[@name='Model']/@value">#Entities/LootContainers?crate_storePrefab.prefab</set>
 	<set xpath="/blocks/block[@name='cntShippingCrateCarParts']/property[@name='Model']/@value">#Entities/LootContainers?crate_storePrefab.prefab</set>
