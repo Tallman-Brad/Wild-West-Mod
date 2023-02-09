@@ -18,12 +18,12 @@ It is necessary to remove this POI (6 individual files named MaybellsFarm) from 
 This will ensure it doesn't get placed on the World when using RWG.
 For players who would like to see this POI, it is not necessary to remove it.
 
-2. Default 7D2D POIs are not necessary for the Wild West Mod due to modern features.
+3. Default 7D2D POIs are not necessary for the Wild West Mod due to modern features.
 Go to your default 7D2D main directory. In the Data / Prefabs folder, delete the POIs folder (after making a backup).
 This will ensure no regular POIs are placed into the World when using RWG.
 Any necesssary POIs such as iron ore 'nuggets' or decorative POIs have already been bundled into the Wild West Mod. 
 
-3. Generate a RWG World using the game World Generator.
+4. Generate a RWG World using the game World Generator.
 It is recommended to set 50% Desert Biome, and share the remainder between Pine Forest, Snow, and Wasteland.
 It is necessary to have all Biomes on a World since certain game features require visiting them for resources and quests.
 It is recommended to set Towns to many and leave Wilderness at Default or Few.
@@ -39,4 +39,4 @@ There will be Trader Hugh or Joel in every 'Wild West Town' at the Gateway area.
 There will also be a customised Travelling Trader Hugh POI and Rekt POI in the Wilderness.
 You will also find some custom decorative POIs spawning in the Wilderness that provide a cosmetic update and access to resources.
 
-By following Steps 1, 2, and 3, the Wild West Mod will offer a highly immersive addition to the collection of Overhauls and Mods available to enhance the 7D2D experience.
+By following Steps 1, 2, 3 and 4, the Wild West Mod will offer a highly immersive addition to the collection of Overhauls and Mods available to enhance the 7D2D experience.
