@@ -14,6 +14,9 @@
 		</window_group>
 		<window_group name="menuBackgroundWW5" actionSet="false">
 			<window name="WWbackground5" />
+		</window_group>
+		<window_group name="menuBackgroundWW6" actionSet="false">
+			<window name="WWbackground6" />
 		</window_group>		
 	</append>
 </test>
