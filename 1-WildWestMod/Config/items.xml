@@ -2420,6 +2420,65 @@
 		
 <!-- Custom Content From Here / Can contain food specific to content -->
 
+<!-- Timed Dynamite -->
+
+<item name="thrownTimedDynamite"> <!-- T2 demolitions (perk 5) -->
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="CustomIcon" value="timertnt"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="62"/>
+	<property name="Meshfile" value="#@modfolder:Resources/TimedTNT.unity3d?TimedTNT"/>
+  <property name="ActivationTransformToHide" value="Armed"/>
+  <property name="DropScale" value="1.8"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="25"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.BlockTags" value="door,safes"/>
+	<property name="Explosion.DamageBonus.tags" value="38"/>
+	<property name="Explosion.ParticleIndex" value="12"/>
+	<property name="Explosion.RadiusBlocks" value=".65"/>
+	<property name="Explosion.RadiusEntities" value="1.2"/>
+	<property name="Explosion.DamageBonus.stone" value="1"/>
+	<property name="Explosion.DamageBonus.metal" value="1"/>
+	<property name="Explosion.DamageBonus.earth" value="1"/> <!-- should work? -->
+	<property name="Explosion.DamageBonus.wood" value="1"/>
+	<property name="Explosion.DamageBonus.water" value="0"/>
+	<property name="Explosion.BlastPower" value="75"/> <!-- (int,100) how far ragdolls and such are flung -->
+	<property name="FusePrimeOnActivate" value="true"/>
+	<property name="FuseTime" value="6"/> <!-- End: Needed for  time in sec, max 6 --> <!-- Default is 4 -->
+	<property name="StickPercent" value="1"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,bookGreatHeistTimedCharge"/>
+	<property name="Group" value="Ammo/Weapons,Ammo"/>
+	<property name="SoundUnholster" value="charge_unholster"/>
+	<property name="SoundStick" value="charge_stick"/>
+	<property name="SoundTick" value="charge_beep,.8"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<property name="Delay" value="1.2"/>
+		<property name="Throw_strength_default" value="15"/>
+		<property name="Max_strain_time" value="0"/>
+		<property name="Sound_start" value="charge_throw"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+  <property class="Action1">
+    <!-- UseAction -->
+    <property name="Class" value="Activate"/>
+    <property name="Delay" value="1"/>
+    <!-- obsolete if rounds per minute exists -->
+  </property>
+  <property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<passive_effect name="BlockDamage" operation="base_set" value="110" tags="perkDemolitionsExpert"/>
+			<display_value name="dExDamageBlock" value="3000"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="800" tags="perkDemolitionsExpert"/>
+		<display_value name="dExRadius" value="1"/>
+		<display_value name="dFuseTime" value="6"/>
+	</effect_group>
+</item>
+
 <!-- Oakraven's Bee Hives -->
 
 <item name="foodHoneyComb">

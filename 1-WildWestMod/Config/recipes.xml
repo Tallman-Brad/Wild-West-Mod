@@ -4253,6 +4253,16 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceForgedIron" count="20"/>		
 	</recipe>
 	
+<!-- Oakraven's Timed Dynamite Ammo -->
+
+	<recipe name="thrownTimedDynamite" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceGunPowder" count="50"/>
+		<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceForgedIron" count="1"/>		
+	</recipe>
+	
 <!-- Railroad Track and Parts -->
 
 	<recipe name="RailTrackVariantHelper" count="1" craft_area="workbench" tags="learnable">

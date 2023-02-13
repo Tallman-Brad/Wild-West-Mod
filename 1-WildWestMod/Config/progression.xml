@@ -93,6 +93,15 @@
 		</effect_group>		
 	</append>
 	
+	<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']">
+		<effect_group>		
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
+				tags="thrownTimedDynamite"/>
+		</effect_group>		
+	</append>
+	
+	<set xpath="/progression/perks/perk[@name='perkGreatHeistTimedCharge']/effect_group/passive_effect/@tags">thrownTimedDynamite</set>
+	
 <!-- Food and Drink -->
 	
 	<append xpath="/progression/perks/perk[@name='perkMasterChef']">
