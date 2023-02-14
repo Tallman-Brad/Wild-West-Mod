@@ -57,14 +57,18 @@
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage1v08']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonPrefab</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage2v08']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonPrefab</set>
 <!-- There are additional vehicles for flat bed trailers and buses, etc. They may need changing if they appear -->
-<!-- Quest Marker -->
-	<set xpath="/blocks/block[@name='questRallyMarker']/property[@name='Model']/@value">#@modfolder:Resources/rally_pointStar.unity3d?rally_pointStar</set>
 <!-- Car Box and Mo Power Box replacements for time period -->
 	<set xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']/property[@name='Model']/@value">#Entities/LootContainers?crate_storePrefab.prefab</set>
 	<set xpath="/blocks/block[@name='cntShippingCrateCarParts']/property[@name='Model']/@value">#Entities/LootContainers?crate_storePrefab.prefab</set>
 <!-- Hub Caps that are not explosive and tires to Wagon Wheels -->
 	<set xpath="/blocks/block[@name='decoCarTireSmallFlat']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonWheelFrontPrefab</set>
 	<set xpath="/blocks/block[@name='hubcapNoMine']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonWheelFrontPrefab</set>
+<!-- Weapons and T4/5 Loot -->
+    <set xpath="/blocks/block[@name='cntHardenedChestSecure']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
+    <set xpath="/blocks/block[@name='cntHardenedChestInsecure']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
+    <set xpath="/blocks/block[@name='cntHardenedChestSecureT5']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
+    <set xpath="/blocks/block[@name='cntHardenedChestInsecureT5']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
+    <set xpath="/blocks/block[@name='cntWeaponsBagLarge']/property[@name='Model']/@value">#Entities/LootContainers?weapon_bags_smallPrefab.prefab</set>
 <!-- Non vehicle deco wagon -->
  	<append xpath="/blocks/block[@name='decoWildWestWagon']">
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>	
@@ -81,6 +85,31 @@
 	<drop event="Harvest" name="drinkJarRiverWater" count="1" prob="0.3" tag="salvageHarvest"/>
 	<drop event="Destroy" name="resourceScrapIron" count="2,4"/>	
 	</append>
+<!-- Set for replacement custom features -->
+	<set xpath="/blocks/block[@name='cntCashRegisterEmpty']/property[@name='Model']/@value">#@modfolder:Resources/registernew.unity3d?cashRegisteropennew</set>
+	<set xpath="/blocks/block[@name='cntCashRegister']/property[@name='Model']/@value">#@modfolder:Resources/registernew.unity3d?cashRegisterClosednew</set>
+	<set xpath="/blocks/block[@name='cashRegisterScanner']/property[@name='Model']/@value">#@modfolder:Resources/registernew.unity3d?cashRegisterScannernew</set>
+
+	<set xpath="/blocks/block[@name='cntVendingMachine']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest</set>
+	<set xpath="/blocks/block[@name='cntVendingMachineTrader']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest2</set>
+	<set xpath="/blocks/block[@name='cntVendingMachine2Broken']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest2Broken</set>
+	<set xpath="/blocks/block[@name='cntVendingMachine2']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest</set>
+	
+	<set xpath="/blocks/block[@name='cntCoffeeMaker']/property[@name='Model']/@value">#@modfolder:Resources/coffeegrinder.unity3d?CoffeeGrinder3</set>
+    <set xpath="/blocks/block[@name='cntCoffeeMakerCommercial']/property[@name='Model']/@value">#@modfolder:Resources/coffeegrinder.unity3d?CoffeeGrinder2</set>
+
+    <set xpath="/blocks/block[@name='questGeneratorSmall']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
+    <set xpath="/blocks/block[@name='generatorbank']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
+    <set xpath="/blocks/block[@name='cntCollapsedGeneratorbank']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>	
+<!-- Quest Marker -->
+	<set xpath="/blocks/block[@name='questRallyMarker']/property[@name='Model']/@value">#@modfolder:Resources/rally_pointStar.unity3d?rally_pointStar</set>
+<!-- Wild West Coffins -->	
+	<set xpath="/blocks/block[@name='cntCoffinWildWestClosed']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestNew</set>
+	<set xpath="/blocks/block[@name='cntCoffinWildWestCracked']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestCrackedNew</set>
+	<set xpath="/blocks/block[@name='cntCoffinWildWestStack']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestStackNew</set>
+	<set xpath="/blocks/block[@name='cntCoffinWildWestLeaning']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestLeaningNew</set>
+	<set xpath="/blocks/block[@name='cntCoffinWildWestLidLeaning']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestLidLeaningNew</set>
+	<set xpath="/blocks/block[@name='cntCoffinWildWestOpen']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestOpenNew</set>
 
 	<!-- A19 Farming For A20 by Syco54645 -->
 
@@ -175,29 +204,6 @@
 	<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
 	
 <!-- Custom Content From Here -->
-<!-- Set for replacement custom features -->
-	<set xpath="/blocks/block[@name='cntCashRegisterEmpty']/property[@name='Model']/@value">#@modfolder:Resources/registernew.unity3d?cashRegisteropennew</set>
-	<set xpath="/blocks/block[@name='cntCashRegister']/property[@name='Model']/@value">#@modfolder:Resources/registernew.unity3d?cashRegisterClosednew</set>
-	<set xpath="/blocks/block[@name='cashRegisterScanner']/property[@name='Model']/@value">#@modfolder:Resources/registernew.unity3d?cashRegisterScannernew</set>
-
-	<set xpath="/blocks/block[@name='cntVendingMachine']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest</set>
-	<set xpath="/blocks/block[@name='cntVendingMachineTrader']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest2</set>
-	<set xpath="/blocks/block[@name='cntVendingMachine2Broken']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest2Broken</set>
-	<set xpath="/blocks/block[@name='cntVendingMachine2']/property[@name='Model']/@value">#@modfolder:Resources/VendingMachineOldWest.unity3d?VendingMachineOldWest</set>
-	
-	<set xpath="/blocks/block[@name='cntCoffeeMaker']/property[@name='Model']/@value">#@modfolder:Resources/coffeegrinder.unity3d?CoffeeGrinder3</set>
-    <set xpath="/blocks/block[@name='cntCoffeeMakerCommercial']/property[@name='Model']/@value">#@modfolder:Resources/coffeegrinder.unity3d?CoffeeGrinder2</set>
-
-    <set xpath="/blocks/block[@name='questGeneratorSmall']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
-    <set xpath="/blocks/block[@name='generatorbank']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
-    <set xpath="/blocks/block[@name='cntCollapsedGeneratorbank']/property[@name='Model']/@value">Entities/Furniture/woodBurningStovePrefab</set>
-
-<!-- Weapons and T4/5 Loot -->
-    <set xpath="/blocks/block[@name='cntHardenedChestSecure']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
-    <set xpath="/blocks/block[@name='cntHardenedChestInsecure']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
-    <set xpath="/blocks/block[@name='cntHardenedChestSecureT5']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
-    <set xpath="/blocks/block[@name='cntHardenedChestInsecureT5']/property[@name='Model']/@value">#Entities/LootContainers?tier3LootChestPrefab.prefab</set>
-    <set xpath="/blocks/block[@name='cntWeaponsBagLarge']/property[@name='Model']/@value">#Entities/LootContainers?weapon_bags_smallPrefab.prefab</set>
 	
 <!-- LazMan's Eliminate the Horde -->
 
