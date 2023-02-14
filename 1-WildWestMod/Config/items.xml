@@ -2454,7 +2454,7 @@
 	<property name="Group" value="Ammo/Weapons,Ammo"/>
 	<property name="SoundUnholster" value="charge_unholster"/>
 	<property name="SoundStick" value="charge_stick"/>
-	<property name="SoundTick" value="charge_beep,.8"/>
+	<property name="SoundTick" value="wrench_harvest,.8"/>
 	<property class="Action0">
 		<property name="Class" value="ThrowAway"/>
 		<property name="Delay" value="1.2"/>

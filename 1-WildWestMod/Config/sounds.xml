@@ -1,5 +1,9 @@
+<wildwestmod>
 
-<configs>
+<!-- Timed Dynamite -->
+<set xpath="/Sounds/SoundDataNode[@name='charge_keypress']/AudioClip/@ClipName">Sounds/Weapons/weapon_jam1</set>
+<set xpath="/Sounds/SoundDataNode[@name='charge_keypress_armed']/AudioClip/@ClipName">Sounds/Weapons/weapon_jam2</set>
+
   <append xpath="/Sounds">
   
 <!-- Gatling Gun - Thank you to Snufkin for base inspiration -->
@@ -70,7 +74,7 @@
   
   </append>
 
-</configs>
+</wildwestmod>
 
 
 
