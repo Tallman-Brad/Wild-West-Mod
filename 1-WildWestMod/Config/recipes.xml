@@ -4279,6 +4279,21 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceForgedIron" count="3"/>
 	</recipe>
 	
+<!-- Flags -->
+
+	<recipe name="flagPoleWhiteRiver" count="1" craft_area="workbench">
+		<ingredient name="resourceSewingKit" count="1"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceCloth" count="10"/>			
+	</recipe>
+	
+	<recipe name="flagPoleAmerican" count="1" craft_area="workbench">
+		<ingredient name="resourceSewingKit" count="1"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceCloth" count="10"/>			
+	</recipe>
+
+	
 <!-- Steam Horse -->	
 
 	<recipe name="vehicleSteamHorsePlaceable" count="1" craft_time="300" craft_area="workbench" tags="learnable">
