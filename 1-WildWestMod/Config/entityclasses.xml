@@ -3,7 +3,7 @@
 	<!-- Supply Drop -->
 
 		<set xpath="/entity_classes/entity_class[@name='supplyPlane']/property[@name='Mesh']/@value">#@modfolder:Resources/HotAirBalloon2.unity3d?HotAirBalloon2</set>
-		<set xpath="/entity_classes/entity_class[@name='sc_General']/property[@name='Mesh']/@value">Animals/Pig/PIG</set>
+		<set xpath="/entity_classes/entity_class[@name='sc_General']/property[@name='Mesh']/@value">#Entities/LootContainers?crate_storePrefab.prefab</set>
 		
 	<!-- KhaineGB's 60 Slot Backpack Mod -->
 	<!-- Edit player entity to increase inventory size -->
@@ -17,11 +17,36 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add'][@tags='running']/@value">-1.325</set><!-- Default is -1.45 -->
 
 	<!-- Demolition Model, Drop and Harvest -->
-		<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Mesh']/@value">#@modfolder:Resources/windigo2.unity3d?WendigoOld5</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Mesh']/@value">#@modfolder:Resources/windigo2.unity3d?WendigoOld5</set>
 
 	<append xpath="/entity_classes/entity_class[@name='zombieDemolition']">
 	<property name="DeadBodyHitPoints" value="100"/>	
 	<drop event="Harvest" name="resourceStagAntler" tag="butcherHarvest" count="1,2"/>
+	</append>
+	
+	<!-- Default Entities wearing Decorative Hats by Buff -->
+	<append xpath="/entity_classes/entity_class[@name='zombieBoe']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBoeHat1WildWestDeco"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieMoeHat2WildWestDeco"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='zombieBusinessMan']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBusinessManHat3WildWestDeco"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieYo']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieYoHat4WildWestDeco"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieDarlene']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieDarleneHat5WildWestDeco"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSoldier']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieSoldierHat6WildWestDeco"/>
 	</append>
 
 		<!-- Stag Antler Drop -->

@@ -7307,7 +7307,7 @@ If there is no hit the default quality is used.
 <lootgroup name="groupAirDropT1Bundles">
 	<item group="groupQuestFarmPlotsT1"/>
 	<item group="groupQuestAmmoCraftingBundle"/>
-	<item group="groupQuestT0Firearms"/>
+	<!-- item group="groupQuestT0Firearms"/ -->
 	<item group="groupQuestT0LightArmor"/>
 	<item group="groupQuestT0HeavyArmor"/>
 	<item group="groupQuestWoodShapes"/>
@@ -7321,7 +7321,7 @@ If there is no hit the default quality is used.
 
 <lootgroup name="groupAirDropT2Bundles">
 	<item group="groupQuestFarmPlotsT2"/>
-	<item group="groupQuestT1Firearms"/>
+	<!-- item group="groupQuestT1Firearms"/ -->
 	<!-- <item group="groupQuestWorkbench"/> -->
 	<!--item group="groupQuestNailgun"/-->
 	<item group="groupQuestT0LightArmorBonus"/>
@@ -7342,7 +7342,7 @@ If there is no hit the default quality is used.
 	<!-- <item group="groupQuestDartTrap"/> -->
 	<!-- <item group="groupQuestSecuritySystem"/> -->
 	<!-- <item group="groupQuestGeneratorBank"/> -->
-	<item group="groupQuestT2Firearms"/>
+	<!-- item group="groupQuestT2Firearms"/ -->
 	<!--item group="groupQuestTimedCharges"/-->
 	<!-- <item group="groupQuestChemistryStation"/> -->
 	<item group="groupQuestT3MeleeMods"/>
@@ -7353,7 +7353,7 @@ If there is no hit the default quality is used.
 	<!-- <item group="groupQuestBatteryBank"/> -->
 	<item group="groupQuestT2LightArmor"/>
 	<item group="groupQuestT2HeavyArmor"/>
-	<item group="groupQuestT3Firearms"/>
+	<!-- item group="groupQuestT3Firearms"/ -->
 	<item group="groupQuestConcreteShapes"/>
 	<!-- <item group="groupQuestBladeTrap"/> -->
 	<item group="groupQuestT4Food"/>

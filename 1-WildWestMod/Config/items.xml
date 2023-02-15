@@ -153,6 +153,11 @@
 			<property name="CustomIconTint" value="57,61,71"/>	
 	</append>
 	
+	<!-- Supply Drop Random Item Removal for Innapropriate Assets -->
+	<set xpath="/items/item[@name='questRewardT1RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']/@value">modGunBipod,modGunChoke,modGunDuckbill,modGunForegrip,modGunMeleeTheHunter,modGunMuzzleBrake,modGunScopeSmall,modShotgunSawedOffBarrel</set>	
+	<set xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']/@value">modGunBarrelExtender,modGunCrippleEm,modGunBowArrowRest,modGunRetractingStock,modGunScopeMedium,modGunSoundSuppressorSilencer,modGunShotgunTubeExtenderMagazine</set>
+	<set xpath="/items/item[@name='questRewardT3RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']/@value">modGunBowPolymerString,modGunScopeLarge,modGunDrumMagazineExtender</set>
+	
 	<!-- Bicycle Tags -->
 	<append xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">,vseat</append><!-- Hopefully adding the seat tag -->	
 	
