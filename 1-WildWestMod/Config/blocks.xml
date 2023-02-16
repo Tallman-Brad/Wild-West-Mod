@@ -3,6 +3,7 @@
 		<!-- Vanilla Tweaks for Road Replacement Car/Asset Models. -->
 <!-- Master -->
 <!-- 01 -->
+	<remove xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/property[@name='ParticleOnDeath']"/>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonPrefab</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@name='resourceHeadlight']/@count">0</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@name='resourceScrapIron']/@count">40,80</set> <!-- Default 10,20 -->
