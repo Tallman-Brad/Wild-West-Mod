@@ -33,6 +33,7 @@
 		<buff name="zombieMoeHat2WildWestDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/NewHats.unity3d?Hat2" local_offset="0,-1.55,0.01" local_rotation="0,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Commercial/wineBottlePrefab" local_offset="0.15,0.05,-0.4" local_rotation="-90,0,0" parent_transform="RightHand"/>
 			</effect_group>
 		</buff>
 		
