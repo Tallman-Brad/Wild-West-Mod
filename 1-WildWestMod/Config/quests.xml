@@ -3166,8 +3166,7 @@
 			<property name="icon" value="ui_game_symbol_zombie"/>
 			<property name="category_key" value="quest"/>
 			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="easy"/>
-			<property name="shareable" value="false"/>			
+			<property name="difficulty" value="easy"/>			
 			<property name="offer_key" value="challenge_eliminatehorde01_offer"/>
 			<property name="completiontype" value="TurnIn"/>
 			<property name="completion_key" value="challenge_eliminatehorde01_completion"/>
@@ -3198,8 +3197,7 @@
 			<property name="icon" value="ui_game_symbol_zombie"/>
 			<property name="category_key" value="quest"/>
 			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="medium"/>
-			<property name="shareable" value="false"/>			
+			<property name="difficulty" value="medium"/>			
 			<property name="offer_key" value="challenge_eliminatehorde02_description"/>
 			<property name="completiontype" value="TurnIn"/>
 			<property name="completion_key" value="challenge_eliminatehorde02_completion"/>
@@ -3276,8 +3274,7 @@
 			<property name="icon" value="ui_game_symbol_zombie"/>
 			<property name="category_key" value="quest"/>
 			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="hard"/>
-			<property name="shareable" value="false"/>			
+			<property name="difficulty" value="hard"/>			
 			<property name="offer_key" value="challenge_eliminatehorde03_description"/>
 			<property name="completiontype" value="TurnIn"/>
 			<property name="completion_key" value="challenge_eliminatehorde03_completion"/>
@@ -3351,8 +3348,7 @@
 			<property name="icon" value="ui_game_symbol_zombie"/>
 			<property name="category_key" value="quest"/>
 			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="insane"/>
-			<property name="shareable" value="false"/>			
+			<property name="difficulty" value="insane"/>			
 			<property name="offer_key" value="challenge_eliminatehorde04_description"/>
 			<property name="completiontype" value="TurnIn"/>
 			<property name="completion_key" value="challenge_eliminatehorde04_completion"/>
