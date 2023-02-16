@@ -678,8 +678,8 @@
 			<property name="AITarget-5" value=""/>			
             <property name="MaxViewAngle" value="360"/>
 			<property name="LookAtAngle" value="0"/>
-            <property name="MoveSpeed" value=".28"/>
-            <property name="MoveSpeedAggro" value="1.25, 1.25"/> 
+            <property name="MoveSpeed" value=".65"/>
+            <property name="MoveSpeedAggro" value="1.25, 1.45"/> 
             <property name="MoveSpeedPanic" value="1.5"/>
 			<property name="ParticleOnDeath" value="blood_death"/>
 			<property name="RotateToGround" value="true"/>
