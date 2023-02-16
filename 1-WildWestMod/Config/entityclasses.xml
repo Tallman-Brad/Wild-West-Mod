@@ -173,7 +173,7 @@
 			<property name="MaxOwnerDistance" value="25"/>
 
 			<property name="WakeUpSound" value="turret_windup"/>
-			<property name="FireSound" value="Weapons/Motorized/Auger/auger_fire_lp"/>
+			<property name="FireSound" value="junkturret_fire"/>
 
 			<property name="ParticlesMuzzleFire" value="nozzleflashuzi"/>
 			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
