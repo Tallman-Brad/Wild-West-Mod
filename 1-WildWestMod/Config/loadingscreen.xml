@@ -42,7 +42,10 @@
 		<tip key="loadingTipWildWestScopes"/>
 		<tip key="loadingTipWildWestWeather"/>
 		<tip key="loadingTipWildWestInvisibleDye"/>
-		<tip key="loadingTipWildWestHUD"/>		
+		<tip key="loadingTipWildWestHUD"/>
+		<tip key="loadingTipWildWestHivesCoops"/>
+		<tip key="loadingTipWildWestLights"/>
+		<tip key="loadingTipWildWestWells"/>
 	</append>
 
 </wildwestmod>
