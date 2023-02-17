@@ -41,9 +41,10 @@
 	</set>	
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="animalZombieWastelandCraterBear" prob="5"/>
-		<entity name="animalBossGrace" prob="3"/>
-		<entity name="guppyVultureBurnt" prob="15"/>		
+		<entity name="animalZombieWastelandCraterBear" prob="7"/>
+		<entity name="animalBossGrace" prob="5"/>
+		<entity name="guppyVultureBurnt" prob="12"/>
+		<entity name="guppyMommaVultureBurnt" prob="6"/>		
 	</append>
 	
 	<!-- Desert -->
@@ -52,7 +53,8 @@
 		<entity name="animalDesertHare" prob="7"/> <!-- A timid animal but desert enemy group is appropriate -->
 		<entity name="ZombieUndertakerWildWest" prob="2"/> <!-- An entity but desert specific -->
 		<entity name="ZombieHammerSpammerWildWest" prob="2"/> <!-- An entity but desert specific -->
-		<entity name="guppyVultureBurnt" prob="15"/>		
+		<entity name="guppyVultureBurnt" prob="15"/>
+		<entity name="guppyMommaVultureBurnt" prob="4"/>		
 	</append>
 	
 	<!-- Snow -->

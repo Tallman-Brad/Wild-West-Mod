@@ -1,7 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
 
 quest_WhiteRiverCitizen1_description_title,Journal Tip,,,,Wild West Settler,,,,,,,,,,,,,
-tutorialTipQuest01,Journal Tip,,,,"Welcome Settler!\n\nThe Wild West can be a dreadful place, and you seem to have been left for dead by a hostile raiding party. Enclosed is a short guide to help you survive. These will be your first small steps to redeem yourself.\n\nStay Safe, - The Frontier Fellowship",,,,,,,,,,,,,
+tutorialTipQuest01,Journal Tip,,,,"Welcome Settler!\n\nUnable to navigate through a heavy fog and a strange blood red sky, your ship has crashed into rocks and the vessel upturned. The island you have stumbled upon is fraught with danger. Prepare yourself for....\n\nThe Wild West. ",,,,,,,,,,,,,
 quest_WhiteRiverCitizen1,Quest,Quest Info,,,Wild West Settler 1/1,,,,,,,,,,,,,
 quest_WhiteRiverCitizen1_description,Quest,Quest Info,,,"Good Job Settler,\n\nYou have proved to be capable, and with much potential. We have marked your map with a Frontier Outpost location. There you will find a Trader where you can buy and sell goods, and trade stories with one of our friendly townsfolk.\n\nWelcome Aboard, - The Frontier Fellowship",,,,,,,,,,,,,
 questRewardT2HandgunBundle,items,item,,,.44 Bundle,,,,,,,,,,,,,
@@ -142,6 +142,7 @@ reqIntellectLevel09,progression,Attribute,,,Brainz Level 9,,,,,,,,,,,,,
 reqIntellectLevel10,progression,Attribute,,,Brainz Level 10,,,,,,,,,,,,,
 
 guppyVultureBurnt,entityclasses,Entity,,,Plague Fowl,,,,,,,,,,,,,
+guppyMommaVultureBurnt,entityclasses,Entity,,,Momma Plague Fowl,,,,,,,,,,,,,
 ZombieUndertakerWildWest,entityclasses,Entity,,,Settlement Undertaker,,,,,,,,,,,,,
 ZombieHammerSpammerWildWest,entityclasses,Entity,,,Railroad Hammer Spammer,,,,,,,,,,,,,
 zombieWendigo,entityclasses,Entity,,,Wendisnow,,,,,,,,,,,,,
