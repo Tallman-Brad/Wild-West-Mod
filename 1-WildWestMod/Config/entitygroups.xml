@@ -43,8 +43,9 @@
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
 		<entity name="animalZombieWastelandCraterBear" prob="7"/>
 		<entity name="animalBossGrace" prob="5"/>
-		<entity name="guppyVultureBurnt" prob="12"/>
-		<entity name="guppyMommaVultureBurnt" prob="6"/>		
+		<entity name="guppyVultureBurnt" prob="11"/>
+		<entity name="guppyMommaVultureBurnt" prob="5"/>
+		<entity name="animalZombieLargeVulture" prob="5"/>		
 	</append>
 	
 	<!-- Desert -->

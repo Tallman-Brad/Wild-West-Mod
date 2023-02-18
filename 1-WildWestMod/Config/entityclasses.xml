@@ -190,6 +190,47 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="gunBotT2JunkTurretWildWestDeco"/>		
 			</effect_group>
 		</entity_class>
+		
+		<!-- Custom Vulture - Large Mutated Vulture -->
+		
+<entity_class name="animalZombieLargeVulture" extends="animalZombieVulture">
+	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+	<property name="Class" value="EntityVulture"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="PhysicsBody" value="vulture"/>
+	<property name="Mass" value="70"/>
+	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+	<property name="SizeScale" value="1.65"/>
+
+	<!-- Gameplay  -->
+	<property name="MoveSpeed" value="1.2"/>
+	<property name="MoveSpeedAggro" value="2.1, 2.1"/> <!-- Used when player in vehicle -->
+	<property name="MaxTurnSpeed" value="190"/>
+
+	<property name="HandItem" value="meleeHandAnimalZombieVultureRadiated"/>
+	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
+	<property name="ExperienceGain" value="1500"/><!-- XP grunt radiated -->
+
+	<property name="DismemberMultiplierLegs" value="0"/>
+	<property name="PainResistPerHit" value="-1"/> <!-- no pain -->
+
+	<property name="DeadBodyHitPoints" value="200"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="10"/> <!-- animalZombieLargeVulture -->
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="35"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="10"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="200"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".4"/> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
 	
 		<!-- CUSTOM Bear - Snow Bear -->	
 	

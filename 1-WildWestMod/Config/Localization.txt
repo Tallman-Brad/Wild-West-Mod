@@ -141,6 +141,7 @@ reqIntellectLevel08,progression,Attribute,,,Brainz Level 8,,,,,,,,,,,,,
 reqIntellectLevel09,progression,Attribute,,,Brainz Level 9,,,,,,,,,,,,,
 reqIntellectLevel10,progression,Attribute,,,Brainz Level 10,,,,,,,,,,,,,
 
+animalZombieLargeVulture,entityclasses,Entity,,,Large Zombie Vulture,,,,,,,,,,,,,
 guppyVultureBurnt,entityclasses,Entity,,,Plague Fowl,,,,,,,,,,,,,
 guppyMommaVultureBurnt,entityclasses,Entity,,,Momma Plague Fowl,,,,,,,,,,,,,
 ZombieUndertakerWildWest,entityclasses,Entity,,,Settlement Undertaker,,,,,,,,,,,,,
