@@ -3841,13 +3841,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <!-- Oakraven's Water Wells -->
 
-<recipe name="WaterVariantHelper" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
-	<ingredient name="resourceClayLump" count="200"/>
-	<ingredient name="resourceForgedIron" count="20"/>
-	<ingredient name="resourceWood" count="60"/>
-	<ingredient name="resourceRockSmall" count="200"/>
-	<ingredient name="resourceNail" count="10"/>
-</recipe>
+	<recipe name="WaterVariantHelper" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
+		<ingredient name="resourceClayLump" count="200"/>
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceWood" count="60"/>
+		<ingredient name="resourceRockSmall" count="200"/>
+		<ingredient name="resourceNail" count="10"/>
+	</recipe>
 
 <!-- Oakraven's Bee Hives -->
 
@@ -4184,7 +4184,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <!-- Food and Drink -->
 
 	<recipe name="foodWildWestAcornFlour" count="1">
-		<ingredient name="treePlantedOak1m" count="10"/>
+		<ingredient name="treePlantedOak1m" count="6"/>
 	</recipe>
 
     <recipe name="foodWildWestAcornHardtack" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
@@ -4202,7 +4202,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     </recipe>
 	
     <recipe name="foodWildWestPineConeJam" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
-	    <ingredient name="treePlantedMountainPine1m" count="10"/>
+	    <ingredient name="treePlantedMountainPine1m" count="6"/>
 	    <ingredient name="foodHoney" count="1"/>
 	    <ingredient name="drinkJarBoiledWater" count="1"/>		
     </recipe>
@@ -4227,6 +4227,17 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	    <ingredient name="foodHoney" count="1"/>
 		<ingredient name="foodBoarMilk" count="1"/>
 		<ingredient name="foodEgg" count="1"/>		
+	</recipe>
+	
+	<recipe name="foodPineNuts" count="1">
+		<ingredient name="treePlantedMountainPine1m" count="6"/>
+	</recipe>
+	
+	<recipe name="foodBlueberryPemmican" count="2" craft_time="240" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<ingredient name="foodCropBlueberries" count="5"/>
+		<ingredient name="resourceAnimalFat" count="2"/>
+		<ingredient name="foodPineNuts" count="1"/>		
+		<ingredient name="foodRawMeat" count="5"/>
 	</recipe>
 	
 	<recipe name="drinkYuccaJuiceCooler" count="1" craft_area="campfire" tags="perkMasterChef">
