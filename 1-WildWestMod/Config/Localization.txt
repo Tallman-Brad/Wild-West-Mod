@@ -1,7 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
 
 quest_WhiteRiverCitizen1_description_title,Journal Tip,,,,Wild West Settler,,,,,,,,,,,,,
-tutorialTipQuest01,Journal Tip,,,,"Welcome Settler!\n\nUnable to navigate through a heavy fog and a strange blood red sky, your ship has crashed into rocks and the vessel upturned. The island you have stumbled upon is fraught with danger. Prepare yourself for....\n\nThe Wild West. ",,,,,,,,,,,,,
+tutorialTipQuest01,Journal Tip,,,,"Welcome Settler!\n\nUnable to navigate through a heavy fog and a strange blood red sky, your ship has crashed into rocks and the vessel upturned. The island you have stumbled upon is fraught with danger. Prepare yourself for....\n\nThe Wild West.",,,,,,,,,,,,,
 quest_WhiteRiverCitizen1,Quest,Quest Info,,,Wild West Settler 1/1,,,,,,,,,,,,,
 quest_WhiteRiverCitizen1_description,Quest,Quest Info,,,"Good Job Settler,\n\nYou have proved to be capable, and with much potential. We have marked your map with a Frontier Outpost location. There you will find a Trader where you can buy and sell goods, and trade stories with one of our friendly townsfolk.\n\nWelcome Aboard, - The Frontier Fellowship",,,,,,,,,,,,,
 questRewardT2HandgunBundle,items,item,,,.44 Bundle,,,,,,,,,,,,,
@@ -458,7 +458,7 @@ perkEnforcerHPAmmoLongDesc,progression,perk  book,,,The most powerful ammo in th
 perkGreatHeistAdrenalineFallLongDesc,progression,perk  book,,,"Adrenaline Fall: Use adrenaline to your full advantage. You can fall up to 15 meters without taking damage while carrying 5000 Liberty Coins or more.",,,,,,,,,,,,,
 perkGreatHeistMotionDetectionDesc,progression,perk  book,,,"Sneak past detection devices.",,,,,,,,,,,,,
 perkGreatHeistMotionDetectionLongDesc,progression,perk  book,,,"Motion Detection: The best loot typically has defense systems like tin cans on a string. Motion detection devices will not recognize you for 3 seconds when sneaking.",,,,,,,,,,,,,
-perkGreatHeistTimedChargeDesc,progression,perk  book,,,Learn how to craft timed dynamite.",,,,,,,,,,,,,
+perkGreatHeistTimedChargeDesc,progression,perk  book,,,"Learn how to craft timed dynamite.",,,,,,,,,,,,,
 perkGreatHeistTimedChargeLongDesc,progression,perk  book,,,"Timed Dynamite: No vault door or safe will stop a master thief armed with timed dynamite. Learn how to craft timed dynamite.",,,,,,,,,,,,,
 
 bookPistolPeteAPAmmo,items,perk  book,,,9mm Gunslinger Sam Vol 6,,,,,,,,,,,,,
