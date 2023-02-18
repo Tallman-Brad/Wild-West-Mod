@@ -1,5 +1,20 @@
 ﻿<wildwestmod>
 
+<!-- M1849 Prototype Revolver Rifle Mods are not visible as it gets tricky to position on an old format model -->
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']/effect_group[@name='external attachment prefab (old way)']">
+		<requirement name="!HoldingItemHasTags" tags="gunM1849"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']/effect_group[@name='external attachment prefab (old way)']">
+		<requirement name="!HoldingItemHasTags" tags="gunM1849"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']/effect_group[@name='external attachment prefab (old way)']">
+		<requirement name="!HoldingItemHasTags" tags="gunM1849"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/effect_group[@name='external attachment prefab (old way)']">
+		<requirement name="!HoldingItemHasTags" tags="gunM1849"/>
+	</append>	
+
 <!-- Stag Spear -->
 
 	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
@@ -164,7 +179,7 @@
 			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.5" tags="perkYeahScience,perkGunslinger,perkMachineGunner,perkBoomstick,perkDeadEye,perkSkullCrusher,perkDeepCuts,perkArchery,perkFlurryOfBlows,perkPummelPete,perkTheHuntsman,perkMiner69r,perkMotherLode,admin"/>
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
-	</item_modifier>	
+	</item_modifier>
 
 </append>
 

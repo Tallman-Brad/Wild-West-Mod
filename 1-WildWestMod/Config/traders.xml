@@ -609,7 +609,8 @@
 			<item name="foodEggSandwichSchematic"/>
 			<item name="foodChickenStewSchematic"/>
 			<item name="foodcottagebakeSchematic"/>
-			<item name="foodFriedCatfishSchematic"/>			
+			<item name="foodFriedCatfishSchematic"/>
+			<item name="foodRubabooSchematic"/>			
 		</trader_item_group>
 
 		<trader_item_group name="schematicsModsCommon">
@@ -1020,7 +1021,8 @@
 			<item name="foodEggSandwich" count="1,2"/>
 			<item name="foodChickenStew" count="1,2"/>
 			<item name="foodcottagebake" count="1,2"/>
-			<item name="foodFriedCatfish" count="1,2"/>			
+			<item name="foodFriedCatfish" count="1,2"/>
+			<item name="foodRubaboo" count="1,2"/>
 		</trader_item_group>
 
 		<trader_item_group name="preparedDrink">

@@ -1217,7 +1217,7 @@
 			<property name="TintColor" value="132,105,84"/>
 			<property name="DescriptionKey" value="gunM1849PrototypeRevolverRifleDesc"/>			
 			<!--property name="ItemTypeIcon" value="star"/-->
-			<property name="Tags" value="weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,noSilencer,stock,attPerception,perkDeadEye,canHaveCosmetic"/>
+			<property name="Tags" value="weapon,revolver,gunM1849,ranged,holdBreathAiming,reloadPenalty,gun,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 			<property name="DisplayType" value="rangedGun"/>
 			<property name="HoldType" value="30"/>
 			<property name="Meshfile" value="#@modfolder:Resources/HuntingRifle_Old.unity3d?HuntingRifle_Old.prefab"/>
@@ -2038,6 +2038,46 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-3"/>
+	</effect_group>
+</item>
+
+<item name="foodRubaboo">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodWater"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="50"/> <!-- STK food -->
+	<property name="EconomicValue" value="134"/>
+	<property name="UnlockedBy" value="perkMasterChef,foodRubabooSchematic"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 2">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="60"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="foodRubabooSchematic">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="foodRubaboo"/>
+	<property name="Unlocks" value="foodRubaboo"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodRubaboo" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
 

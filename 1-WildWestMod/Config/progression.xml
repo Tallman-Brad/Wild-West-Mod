@@ -109,7 +109,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
 				tags="foodWildWestBaconAndEggsAndAcornHardtack,foodWildWestPineConeJamPancakes,foodEggSandwich,foodFriedCatfish"/>		
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
-				tags="foodEggQuiche,foodChickenStew,foodcottagebake"/>
+				tags="foodEggQuiche,foodChickenStew,foodcottagebake,foodRubaboo"/>
 		</effect_group>		
 	</append>
 	

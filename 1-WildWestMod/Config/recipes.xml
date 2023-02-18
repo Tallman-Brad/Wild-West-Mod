@@ -2808,7 +2808,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedSteel" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="resourceElectricParts" count="4"/>
-	<ingredient name="resourceHeadlight" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="10"/> <!-- Default was headlights -->
 </recipe>
 
 <recipe name="modVehicleSuperCharger" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -4238,6 +4238,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceAnimalFat" count="2"/>
 		<ingredient name="foodPineNuts" count="1"/>		
 		<ingredient name="foodRawMeat" count="5"/>
+	</recipe>
+	
+	<recipe name="foodRubaboo" count="1" craft_time="90" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<ingredient name="foodBlueberryPemmican" count="2"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="foodCropCorn" count="2"/>
+		<ingredient name="foodCropMushrooms" count="2"/>
+		<ingredient name="foodCanStock" count="1"/>
 	</recipe>
 	
 	<recipe name="drinkYuccaJuiceCooler" count="1" craft_area="campfire" tags="perkMasterChef">

@@ -3509,6 +3509,7 @@ If there is no hit the default quality is used.
 	<item name="plantedGraceCorn1Schematic"/>
 	<item name="foodChickenStewSchematic"/>
 	<item name="foodcottagebakeSchematic"/>
+	<item name="foodRubabooSchematic"/>
 </lootgroup>
 
 <!-- *** T2_Farming_Food_Schematics -->
@@ -5245,7 +5246,8 @@ If there is no hit the default quality is used.
 	<item name="foodShamChowder"/>
 	<item name="foodHoboStew"/>
 	<item name="foodChickenStew"/>
-	<item name="foodcottagebake"/>	
+	<item name="foodcottagebake"/>
+	<item name="foodRubaboo"/>	
 </lootgroup>
 
 <!-- *** A20_Drink_Groups -->
@@ -8140,6 +8142,7 @@ If there is no hit the default quality is used.
 	<item name="foodSteakAndPotato" count="2,3"/>
 	<item name="foodChickenStew" count="2,3"/>
 	<item name="foodcottagebake" count="2,3"/>	
+	<item name="foodRubaboo" count="2,3"/>
 </lootgroup>
 
 <lootgroup name="twitch_foodT3" count="1">
@@ -8149,7 +8152,8 @@ If there is no hit the default quality is used.
 	<item name="foodGumboStew" count="2,3"/>
 	<item name="foodShepardsPie" count="2,3"/>
 	<item name="foodChickenStew" count="2,3"/>
-	<item name="foodcottagebake" count="2,3"/>	
+	<item name="foodcottagebake" count="2,3"/>
+	<item name="foodRubaboo" count="2,3"/>	
 </lootgroup>
 
 <lootgroup name="twitch_drink" count="1">
