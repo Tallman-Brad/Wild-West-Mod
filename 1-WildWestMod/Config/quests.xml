@@ -3092,7 +3092,7 @@
     <!-- Animals Part 2 -->
 	<quest id="hunterquest_eliminateanimals02">
 	<property name="offer_key" value="Accept this hunter achievement quest to hunt a variety of animals through different stages of progression. You will receive rewards for completing each progression stage and 2 Skill upon full completion." />       
-    <property name="name_key" value="Thrill of the KIll" />
+    <property name="name_key" value="Thrill of the Kill" />
 	<property name="subtitle_key" value="Hunter Achievement Quest" />
 	<property name="description_key" value="Track down a Wolf, Doe, Boar, and Mountain Lion." />
 	<property name="icon" value="ui_game_symbol_animal_tracker"/>
