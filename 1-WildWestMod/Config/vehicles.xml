@@ -302,7 +302,7 @@
 			<property name="mesh" value="engine_small"/>
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
-			<property name="fuelKmPerL" value=".05"/>
+			<property name="fuelKmPerL" value=".014"/>
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -388,7 +388,7 @@
 			<property name="mesh" value="engine_small"/>
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
-			<property name="fuelKmPerL" value=".05"/>
+			<property name="fuelKmPerL" value=".014"/>
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -474,7 +474,7 @@
 			<property name="mesh" value="engine_small"/>
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
-			<property name="fuelKmPerL" value=".05"/>
+			<property name="fuelKmPerL" value=".014"/>
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -560,7 +560,7 @@
 			<property name="mesh" value="engine_small"/>
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
-			<property name="fuelKmPerL" value=".05"/>
+			<property name="fuelKmPerL" value=".014"/>
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
