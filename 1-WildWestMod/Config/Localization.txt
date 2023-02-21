@@ -784,5 +784,7 @@ loadingTipWildWestLights,UI,Loading Screen,x,,"If you fully break Wild West pian
 loadingTipWildWestLights_title,UI,Loading Screen,x,,Wild West Lights,,,,,,,,,,,,,
 loadingTipWildWestWells,UI,Loading Screen,x,,"There are a variety of Wild West crafting options, including wells and water stands. These provide a water source for jars and buckets.",,,,,,,,,,,,,
 loadingTipWildWestWells_title,UI,Loading Screen,x,,Wells and Water Stands,,,,,,,,,,,,,
+loadingTipWildWestWaterPOIs,UI,Loading Screen,x,,"The developers cannot be held responsible for any deaths caused by venturing under POIs located on water. Such actions are solely at your own risk.",,,,,,,,,,,,,
+loadingTipWildWestWaterPOIs_title,UI,Loading Screen,x,,POIs on Water,,,,,,,,,,,,,
 
 jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,

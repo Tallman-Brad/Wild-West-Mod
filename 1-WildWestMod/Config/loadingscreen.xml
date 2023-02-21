@@ -46,6 +46,7 @@
 		<tip key="loadingTipWildWestHivesCoops"/>
 		<tip key="loadingTipWildWestLights"/>
 		<tip key="loadingTipWildWestWells"/>
+		<tip key="loadingTipWildWestWaterPOIs"/>		
 	</append>
 
 </wildwestmod>
