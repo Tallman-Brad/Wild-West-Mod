@@ -4256,6 +4256,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="drinkJarEmpty" count="1"/>
 	</recipe>
 	
+	<recipe name="drinkCanMegaCrush" count="1" craft_area="campfire" tags="perkMasterChef">
+		<ingredient name="resourceTestosteroneExtract" count="1"/>
+		<ingredient name="drinkJarBeer" count="1"/>
+		<ingredient name="foodCropYuccaFruit" count="2"/>
+		<ingredient name="treePlantedMountainPine1m" count="2"/>
+		<ingredient name="treePlantedOak1m" count="2"/>
+	</recipe>
+	
 <!-- Oakraven's Wild West Traps -->
 	
 	<recipe name="CactusTrap" count="1">

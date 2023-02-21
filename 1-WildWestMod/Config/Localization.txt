@@ -294,7 +294,7 @@ resourceScrapPolymersDesc,items,Item,,,"An organic plant resin used in a viscous
 drugSteroids,items,Medical,,,Grizzly Gain,,,,,,,,,,,,,
 drugSteroidsDesc,items,Medical,,,"Grizzly Gain decreases encumbrance, allowing you to carry more items, and allow you to run faster. It also allows you to move and perform actions normally when you have a sprained or broken limb.",,,,,,,,,,,,,
 drinkCanMegaCrush,items,Food,,,Wild West Sarsaparilla,,,,,,,,,,,,,
-drinkCanMegaCrushDesc,items,Food,,,"Remedial and energizing. Helps you pick up the pace!",,,,,,,,,,,,,
+drinkCanMegaCrushDesc,items,Food,,,"Remedial and energizing. Helps you pick up the pace. Run 50% faster.",,,,,,,,,,,,,
 
 modVehicleSuperCharger,item_modifiers,Mod,,,Horse Sugar Cubes Mod,,,,,,,,,,,,,
 modVehicleSuperChargerDesc,item_modifiers,Mod,,,"This horse sugar cubes mod increases acceleration and top speed.",,,,,,,,,,,,,
