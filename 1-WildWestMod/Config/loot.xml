@@ -2203,7 +2203,7 @@ If there is no hit the default quality is used.
 	<item name="modArmorSkullCap" loot_prob_template="low"/>
 	<item name="modArmorPressboyCap" loot_prob_template="low"/>
 	<item name="modArmorBallCap" loot_prob_template="low"/>
-	<item name="modArmorCowboyHat" loot_prob_template="med"/> <!-- Default is low but this is the Wild West -->
+	<item name="modArmorCowboyHat" loot_prob_template="medHigh"/> <!-- Default is low but this is the Wild West -->
 	<item name="armorClothHat"/>
 	<!--item name="armorFootballHelmet"/-->
 </lootgroup>
