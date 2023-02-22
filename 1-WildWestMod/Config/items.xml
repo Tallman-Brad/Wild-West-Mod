@@ -1564,7 +1564,8 @@
 			</property>
 			<effect_group name="Deco">
 				<!--triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="AmmoDrum1" prefab="Entities/Decor/wineBarrelPrefab" parentTransform="Spine1" localPos="0.1,0,-.6" localRot="0,90,270"/-->
-				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="AmmoDrum2" prefab="#Entities/LootContainers?munitionsBox_01Prefab.prefab" parentTransform="Spine1" localPos="0.1,0,-.6" localRot="0,90,270"/>
+				<!--triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="AmmoDrum2" prefab="#Entities/LootContainers?munitionsBox_01Prefab.prefab" parentTransform="Spine1" localPos="0.1,0,-.6" localRot="0,90,270"/-->
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="AmmoDrum2" prefab="#Entities/LootContainers?duffle01Prefab.prefab" parentTransform="Spine1" localPos="0.15,0,-0.05" localRot="0,90,270"/>
 				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Body1" prefab="Entities/Plumbing/fireHydrantPrefab" parentTransform="Handle" localPos="0,0,0" localRot="90,180,0"/>
 				<!--triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Body2" prefab="Entities/Traps/hubcapPrefab" parentTransform="Handle" localPos="0,0,-0.3" localRot="90,180,0"/-->
 				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Body3" prefab="Entities/Electrical/power_switchPrefab" parentTransform="Handle" localPos="0,-0.44,0.25" localRot="90,0,0"/>		
