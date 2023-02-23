@@ -6509,9 +6509,9 @@ If there is no hit the default quality is used.
 <lootgroup name="groupHuntingRanged">
 	<item name="gunBowT0PrimitiveBow" loot_prob_template="ProbT0"/>
 	<item name="gunBowT1WoodenBow" loot_prob_template="ProbT1"/>
-	<item name="gunBowT3CompoundBow" loot_prob_template="ProbT3"/>
+	<!--item name="gunBowT3CompoundBow" loot_prob_template="ProbT3"/-->
 	<item name="gunBowT1IronCrossbow" loot_prob_template="ProbT0"/>
-	<item name="gunBowT3CompoundCrossbow" loot_prob_template="ProbT3"/>
+	<!--item name="gunBowT3CompoundCrossbow" loot_prob_template="ProbT3"/-->
 	<item name="gunRifleT1HuntingRifle" loot_prob_template="ProbT1"/>
 	<!--item name="gunM1849PrototypeRevolverRifle" loot_prob_template="ProbT2"/-->	
 </lootgroup>
