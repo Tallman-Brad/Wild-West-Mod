@@ -37,6 +37,8 @@ perkMiner69rRank4LongDesc,progression,perk Str,,,"You can crack rock with the be
 perkMiner69rRank5LongDesc,progression,perk Str,,,"You are the legendary Miner 69'r and can find the juicy center of any rock faster than a horny bullfrog. Craft quality 6 ultimate Tomahawks. Increase damage by 50% and block damage by 150% with any axe, pick, or shovel.",,,,,,,,,,,,,
 perkPackMuleRank1LongDesc,progression,perk Str,,,"Who has time to organize their stuff perfectly? Carry four more items without being encumbered.",,,,,,,,,,,,,
 perkPackMuleRank2LongDesc,progression,perk Str,,,"You know it's in there somewhere. Carry an additional four more items without being encumbered.",,,,,,,,,,,,,
+perkWasteTreasuresAcidDesc,progression,perk  book,,,"Adds a chance to harvest acid from wagons and medical equipment.",,,,,,,,,,,,,
+perkWasteTreasuresAcidLongDesc,progression,perk  book,,,"Acid: Acid is an extremely rare and powerful crafting agent. I figured out this tip to sometimes harvest a little from wagons and medical equipment. Adds a chance to harvest acid from wagons, medical equipment and acid barrels.",,,,,,,,,,,,,
 perkArcheryRank1Desc,progression,perk Agi,,,Hunter,,,,,,,,,,,,,
 perkArcheryRank1LongDesc,progression,perk Agi,,,"Many start on the path of the supreme warrior but few can reach it. Craft quality 2 poor bows, deal 10% more damage, 10% faster aim, draw and reload with bows. Unlocks warrior bow and iron crossbow crafting.",,,,,,,,,,,,,
 perkArcheryRank2Desc,progression,perk Agi,,,Good Hunter,,,,,,,,,,,,,
@@ -355,6 +357,8 @@ apparelToughGuySunglasses,items,Clothes,,,Rancher Sunglasses,,,,,,,,,,,,,
 apparelToughGuySunglassesDesc,items,Clothes,,,"Look like a badass action hero in these cool rancher sunglasses and boost your fortitude!",,,,,,,,,,,,,
 apparelTShirtPlain,items,Clothes,,,Under Shirt,,,,,,,,,,,,,
 apparelTShirtZU,items,Clothes,,,Fancy Under Shirt,,,,,,,,,,,,,
+
+drugNerdTatsDesc,items,Medical,,,"Channel your inner nerd powers!\nStun weapons and mods impact nearby enemies.",,,,,,,,,,,,,
 
 meleeToolRepairT2Tomahawk1,items,Tool,,,Tomahawk (Spike),,,,,,,,,,,,,
 meleeToolRepairT2Tomahawk1Desc,items,Tool,,,"The Long Tomahawk is great for repairing and upgrading base walls and effective for chopping and as a weapon.\n\nRepair with a Repair Kit.\nScrap to Iron.",,,,,,,,,,,,,
