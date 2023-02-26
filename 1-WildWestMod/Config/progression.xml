@@ -5,6 +5,7 @@
 	<remove xpath="/progression/perks/perk[@name='perkElectrocutioner']"/>	
 	
 	<set xpath="/progression/level/@max_level">1000</set> <!-- Default max level is 300 -->
+	<set xpath="/progression/skills/skill[@name='skillPistolPete']/@icon">ui_game_symbol_gunslinger</set>
 	
 	<insertAfter xpath="/progression/perks/perk[@name='perkGreaseMonkey']">
 

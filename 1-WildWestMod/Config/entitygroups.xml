@@ -18,7 +18,11 @@
 		<entity name="zombieSpider" prob="2"/>	
 		<entity name="zombieSpiderFeral" prob="1.5"/>
 		<entity name="zombieSpiderRadiated" prob="1"/>
-		<entity name="zombieDemolition" prob="0.8"/>		
+		<entity name="zombieDemolition" prob="0.8"/>
+		<entity name="zombieWightFeralGunslinger" prob="0.8"/>
+		<entity name="zombieWightRadiatedGunslinger" prob="0.5"/>
+		<entity name="zombieFemaleFatBarker" prob="0.8"/>
+		<entity name="zombieFemaleBigFatBarker" prob="0.5"/>		
 	</set>
 
 	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
@@ -37,7 +41,11 @@
 		<entity name="zombieSpider" prob="2"/>	
 		<entity name="zombieSpiderFeral" prob="1.5"/>
 		<entity name="zombieSpiderRadiated" prob="1"/>
-		<entity name="zombieDemolition" prob="0.8"/>		
+		<entity name="zombieDemolition" prob="0.8"/>
+		<entity name="zombieWightFeralGunslinger" prob="0.8"/>
+		<entity name="zombieWightRadiatedGunslinger" prob="0.5"/>
+		<entity name="zombieFemaleFatBarker" prob="0.8"/>
+		<entity name="zombieFemaleBigFatBarker" prob="0.5"/>		
 	</set>	
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
