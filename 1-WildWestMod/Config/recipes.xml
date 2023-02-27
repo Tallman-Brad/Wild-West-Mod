@@ -920,11 +920,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceAcid" count="5"/>
 </recipe>
 
-<!--recipe name="cntBeerCooler" count="1" craft_area="workbench" tags="workbenchCrafting">
+<recipe name="cntBeerCooler" count="1" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="4"/>
 	<ingredient name="resourceMetalPipe" count="3"/>
 	<ingredient name="resourceElectricParts" count="6"/>
-</recipe-->
+</recipe>
 
 <!--recipe name="cntCoolerClosed" count="1" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceScrapPolymers" count="8"/>

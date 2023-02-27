@@ -9578,6 +9578,8 @@ If there is no hit the default quality is used.
 	<lootcontainer id="771" name="Honey" count="1" size="7,2" destroy_on_close="true" sound_open="UseActions/BeeHiveOpen" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="foodHoneyComb" count="2,3" prob="1" />
 	</lootcontainer>
+	
+	<!-- CHICKEN COOPS -->	
 
 	<lootcontainer id="772" name="EggsReady" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/Chicken6Sounds" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="foodEgg" count="3,5" prob="1"/>
