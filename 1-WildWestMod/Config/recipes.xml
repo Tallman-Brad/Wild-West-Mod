@@ -4121,14 +4121,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 			<ingredient name="resourceMetalPipe" count="12"/>
 			<ingredient name="resourceZombieWastelandCraterBearTooth" count="1"/>
 			<ingredient name="resourceOil" count="6"/>			
-			<ingredient name="gunRifleT1HuntingRifle" count="3"/>
+			<ingredient name="gunRifleT1HuntingRifleParts" count="5"/>
 		</recipe>	
 	
 <!-- A19 Hunting Rifle Conversion for Revolver Rifle -->	
 	
 		<recipe name="gunM1849PrototypeRevolverRifle" count="1" craft_area="workbench" craft_time="240" tags="learnable">
-			<ingredient name="gunRifleT1HuntingRifle" count="1"/>
-			<ingredient name="gunHandgunT0PipePistol" count="1"/>
+			<ingredient name="gunRifleT1HuntingRifleParts" count="5"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
 			<ingredient name="resourceWood" count="150"/>
 			<ingredient name="resourceSnowBall" count="100"/>
 			<ingredient name="resourceMetalPipe" count="6"/>		
