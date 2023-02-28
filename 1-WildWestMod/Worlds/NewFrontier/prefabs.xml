@@ -1241,7 +1241,7 @@
   <decoration type="model" name="wildwest_docks_03" position="2052,23,691" rotation="2" />
   <decoration type="model" name="wildwest_docks_01" position="1988,18,720" rotation="2" />
   <decoration type="model" name="trader_travelling_tmb" position="2657,34,1247" rotation="3" />
-  <decoration type="model" name="wildwest_capsized_arramus" position="2748,21,1047" rotation="0" />
+  <decoration type="model" name="wildwest_capsized_arramus" position="2748,21,1062" rotation="0" />
   <decoration type="model" name="wildwest_church" position="-1737,44,103" rotation="2" />
   <decoration type="model" name="wildwest_stables_01_arramus" position="2507,33,1666" rotation="0" />
   <decoration type="model" name="wildwest_stables_01_arramus" position="1477,34,863" rotation="2" />
