@@ -103,15 +103,21 @@
 	
 	<set xpath="/progression/perks/perk[@name='perkGreatHeistTimedCharge']/effect_group/passive_effect/@tags">thrownTimedDynamite</set>
 	
-<!-- Food and Drink -->
+<!-- Food and Drink and Farming -->
 	
 	<append xpath="/progression/perks/perk[@name='perkMasterChef']">
 		<effect_group>		
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
 				tags="foodWildWestBaconAndEggsAndAcornHardtack,foodWildWestPineConeJamPancakes,foodEggSandwich,foodFriedCatfish"/>		
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
-				tags="foodEggQuiche,foodChickenStew,foodcottagebake,foodRubaboo"/>
+				tags="foodEggQuiche,foodChickenStew,foodcottagebake,foodRubaboo,foodCampfireBeans,foodChowder,foodCrawfishGumbo"/>
 		</effect_group>		
+	</append>
+	
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,3" tags="FishTrapEmpty"/>
+		</effect_group>
 	</append>
 	
 <!-- Vehicles and Railroad -->

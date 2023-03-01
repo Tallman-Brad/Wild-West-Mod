@@ -4324,6 +4324,67 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceForgedIron" count="5"/>
 		<ingredient name="resourceCloth" count="10"/>			
 	</recipe>
+	
+<!-- Oakraven Fish Traps -->
+
+	<recipe name="resourceRope" count="1">
+		<ingredient name="resourceYuccaFibers" count="10"/>
+	</recipe>
+	
+	<recipe name="resourceHook" count="1" material_based="true" craft_area="forge">
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="3"/>
+	</recipe>
+
+	<recipe name="FishTrapEmpty" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+		<ingredient name="resourceRockSmall" count="5"/>
+		<ingredient name="resourceScrapIron" count="25"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceRope" count="3"/>
+	</recipe>
+	
+	<recipe name="resourceFishBait" count="1">
+		<ingredient name="foodRawMeat" count="1"/>
+		<ingredient name="resourceRope" count="1"/>
+		<ingredient name="resourceHook" count="2"/>
+	</recipe>
+	
+<recipe name="foodCampfireBeans" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodPintoBeans" count="16"/>
+	<ingredient name="foodCanChili" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="foodWildWestAcornHardtack" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodBoarMilk" count="2"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="foodPintoBeans" count="10"/>
+</recipe>
+
+<recipe name="foodCrawfishGumbo" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodWildWestAcornFlour" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="foodOkra" count="16"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="foodCrawfish" count="16"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="drugVitamins" count="1" craft_area="campfire" craft_tool="toolBeaker">
+	<ingredient name="foodOkra" count="6"/>
+	<ingredient name="foodCrawfish" count="6"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
 
 	
 <!-- Steam Horse -->	
@@ -4337,11 +4398,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</recipe>
 	
 <!-- EXPERIMENTAL -->
-	
-	<!--recipe name="ammoSteamHorse" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
-		<ingredient name="drinkJarBoiledWater" count="1"/>
-		<ingredient name="ammoGasCan" count="1"/>
-	</recipe-->
 	
 <!-- Track Pedal Car -->	
 <!-- Bicycle Base -->

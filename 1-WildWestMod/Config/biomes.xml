@@ -113,7 +113,7 @@
 	<set xpath="//biome[@name='wasteland']/decorations[1]/decoration[@blockname='cinderBlocks02']/@prob">.0005</set>
 	<set xpath="//biome[@name='wasteland']/decorations[1]/decoration[@blockname='cinderBlocks03']/@prob">.0005</set>
 	<!-- Adding Biome deco POIs for aesthetics, signs of life and simple loot -->
-	
+
 	<!-- Decorations Main: Wasteland -->
 	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
 			<decoration type="block" blockname="emberPileDeco1" prob="0.00025" rotatemax="7"/>
@@ -125,6 +125,18 @@
 			<decoration type="prefab" name="deco_wildwest_smokeriser3000" prob=".003" rotatemax="3"/>
 			<decoration type="prefab" name="deco_wasteland_tradersmoke_white" prob=".003" rotatemax="3"/>
 			<decoration type="prefab" name="deco_wasteland_tradersmoke_black" prob=".0035" rotatemax="3"/>			
+	</append>
+	
+	<!-- BURNT FOREST CUSTOMISATION -->
+	<!-- Removing plastic trash from Burnt Forest -->
+	<remove xpath="//biome[@name='burnt_forest']/subbiome/decorations/decoration[@blockname='cntTrashPile01']"/>
+	
+	<!-- Decorations Main: Burnt Forest -->
+	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+			<decoration type="block" blockname="bluerock22" prob="0.0002" rotatemax="7"/>
+			<decoration type="block" blockname="bluerock33" prob="0.0002" rotatemax="7"/>
+			<decoration type="block" blockname="lightblueRock" prob="0.0002" rotatemax="7"/>
+			<decoration type="block" blockname="greenrock" prob="0.0002" rotatemax="7"/>			
 	</append>
 
 	<!-- Pine Forest -->
