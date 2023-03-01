@@ -22,11 +22,11 @@
   <property name="YOffset" value="-1" />
   <property name="PrefabSize" value="70, 36, 60" />
   <property class="Stats">
-    <property name="TotalVertices" value="467301" />
-    <property name="TotalTriangles" value="567101" />
+    <property name="TotalVertices" value="544721" />
+    <property name="TotalTriangles" value="692829" />
     <property class="BlockEntities">
-      <property name="Vertices" value="380374" />
-      <property name="Triangles" value="487918" />
+      <property name="Vertices" value="457744" />
+      <property name="Triangles" value="613514" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="480" />
@@ -57,8 +57,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="22704" />
-      <property name="Triangles" value="37316" />
+      <property name="Vertices" value="22754" />
+      <property name="Triangles" value="37448" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
