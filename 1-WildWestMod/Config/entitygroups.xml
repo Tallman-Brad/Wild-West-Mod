@@ -52,35 +52,7 @@
 		<entity name="guppyVultureBurnt" prob="1.2"/>		
 		<entity name="guppyMommaVultureBurnt" prob="0.8"/>
 		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>		
-	</set>
-	
-	<!-- Burnt Hybrid -->
-	
-	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
-		<entity name="zombieWendigoRadiatedShower" prob="0.8"/>
-		<entity name="zombieBurnt" prob="3"/>
-		<entity name="zombieBurntFeral" prob="2"/>
-		<entity name="zombieBurntRadiated" prob="1"/>		
-		<entity name="zombieWightFeral" prob="1.5"/>
-		<entity name="zombieWightRadiated" prob="1"/>
-		<entity name="zombieSoldier" prob="2"/>
-		<entity name="zombieSoldierFeral" prob="1.5"/>
-		<entity name="zombieSoldierRadiated" prob="1"/>
-		<entity name="zombieMutated" prob="2"/>
-		<entity name="zombieMutatedFeral" prob="1.5"/>
-		<entity name="zombieMutatedRadiated" prob="1.5"/>
-		<entity name="zombieSpider" prob="2"/>	
-		<entity name="zombieSpiderFeral" prob="1.5"/>
-		<entity name="zombieSpiderRadiated" prob="1"/>
-		<entity name="zombieDemolition" prob="0.8"/>
-		<entity name="zombieWightFeralGunslinger" prob="0.8"/>
-		<entity name="zombieWightRadiatedGunslinger" prob="0.5"/>
-		<entity name="zombieFemaleFatBarker" prob="0.8"/>
-		<entity name="zombieFemaleBigFatBarker" prob="0.5"/>
-		<entity name="guppyVultureBurnt" prob="1.2"/>		
-		<entity name="guppyMommaVultureBurnt" prob="0.8"/>
-		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
-	</append>	
+	</set>	
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
 		<entity name="animalZombieWastelandCraterBear" prob="7"/>
