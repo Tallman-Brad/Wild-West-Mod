@@ -2229,7 +2229,7 @@
 	<property name="Model" value="#@modfolder:Resources/FishTrapsCone.unity3d?TubeFishTrapBate"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.1"/> 
+			<property name="PlantGrowing.GrowthRate" value="60"/> 
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="FishTrapLoot"/>
