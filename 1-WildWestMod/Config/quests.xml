@@ -83,7 +83,8 @@
 		<property name="difficulty" value="veryeasy"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="resourceYuccaFibers" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="15" phase="1"/>
+		<objective type="Craft" id="apparelPlantFiberHat" value="1" phase="2"/>		
 		<objective type="Craft" id="apparelPlantFiberPants" value="1" phase="2"/>
 		<objective type="Craft" id="apparelPlantFiberShirt" value="1" phase="2"/>
 		<reward type="Exp" value="50"/>
@@ -101,6 +102,7 @@
 		<property name="difficulty" value="veryeasy"/>
 		<property name="shareable" value="false"/>
 
+		<objective type="Wear" id="apparelPlantFiberHat"/>
 		<objective type="Wear" id="apparelPlantFiberPants"/>
 		<objective type="Wear" id="apparelPlantFiberShirt"/>
 
