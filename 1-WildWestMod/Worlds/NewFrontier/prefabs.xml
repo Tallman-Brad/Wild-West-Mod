@@ -1213,7 +1213,6 @@
   <decoration type="model" name="wildwest_remnant_oldwest_02" position="-1676,47,168" rotation="0" />
   <decoration type="model" name="wildwest_stables" position="-1726,47,191" rotation="0" />
   <decoration type="model" name="wildwest_fort_01_arramus" position="-983,33,246" rotation="0" />
-  <decoration type="model" name="wildwest_Stagecoach_Medusa" position="-406,31,1287" rotation="1" />
   <decoration type="model" name="wildwest_Stagecoach_Medusa" position="1106,31,913" rotation="1" />
   <decoration type="model" name="wildwest_Stagecoach_Medusa" position="129,55,-1531" rotation="0" />
   <decoration type="model" name="wildwest_Stagecoach_Medusa" position="-1446,31,2070" rotation="1" />
@@ -1325,7 +1324,6 @@
   <decoration type="model" name="deco_wasteland_tradersmoke_white" position="-2328,68,-2409" rotation="1" />
   <decoration type="model" name="deco_wasteland_tradersmoke_white" position="-2166,26,-2523" rotation="2" />
   <decoration type="model" name="deco_wasteland_tradersmoke_white" position="-2128,23,-2504" rotation="3" />
-  <decoration type="model" name="wildwest_remnant_oldwest_05" position="-1872,133,-2372" rotation="2" />
   <decoration type="model" name="deco_wasteland_tradersmoke_black" position="-1866,104,-2402" rotation="3" />
   <decoration type="model" name="deco_wasteland_tradersmoke_black" position="-1810,122,-2425" rotation="3" />
   <decoration type="model" name="deco_wasteland_tradersmoke_black" position="-2278,90,-2576" rotation="3" />
@@ -1396,8 +1394,8 @@
   <decoration type="model" name="wildwest_remnant_oldwest_09" position="-1908,36,657" rotation="2" />
   <decoration type="model" name="wildwest_remnant_oldwest_07" position="-2027,36,655" rotation="2" />
   <decoration type="model" name="wildwest_TMB_Bandit_Loot" position="-2600,31,1544" rotation="3" />
-  <decoration type="model" name="deco_wilderness_pineforestlogging_04" position="-1640,36,1203" rotation="2" />
-  <decoration type="model" name="wildwest_felledforest_TMB" position="-1695,35,1184" rotation="0" />
+  <decoration type="model" name="deco_wilderness_pineforestlogging_04" position="-1703,36,1218" rotation="2" />
+  <decoration type="model" name="wildwest_felledforest_TMB" position="-1674,35,1182" rotation="0" />
   <decoration type="model" name="wildwest_remnant_oldwest_08" position="-2034,32,891" rotation="0" />
   <decoration type="model" name="wildwest_remnant_business_03" position="-1999,36,886" rotation="0" />
   <decoration type="model" name="wildwest_remnant_oldwest_06" position="-2148,36,983" rotation="1" />
@@ -1559,19 +1557,15 @@
   <decoration type="model" name="wildwest_cabin_08" position="178,35,2251" rotation="3" />
   <decoration type="model" name="wildwest_cabin_05" position="170,32,2067" rotation="2" />
   <decoration type="model" name="wildwest_cabin_04" position="175,35,2170" rotation="1" />
-  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="1986,32,1562" rotation="0" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="1586,32,2267" rotation="0" />
   <decoration type="model" name="wildwest_cabin_11" position="1372,25,2289" rotation="3" />
   <decoration type="model" name="wildwest_cabin_11" position="699,26,2090" rotation="0" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-201,31,2409" rotation="1" />
-  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-2602,31,2055" rotation="2" />
-  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-1588,32,1205" rotation="0" />
   <decoration type="model" name="wildwest_cabin_11" position="-981,25,1292" rotation="2" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-2549,160,348" rotation="3" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="2733,32,-1234" rotation="2" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="1634,32,-1914" rotation="3" />
   <decoration type="model" name="wildwest_cabin_11" position="2542,24,-2490" rotation="2" />
-  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="1525,31,-2405" rotation="0" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="220,31,-2399" rotation="0" />
   <decoration type="model" name="deco_wildwest_prospector_dig_01_TMB" position="69,31,-2366" rotation="3" />
   <decoration type="model" name="wildwest_cabin_11" position="-313,24,-1984" rotation="0" />
@@ -1584,7 +1578,6 @@
   <decoration type="model" name="wildwest_cabin_11" position="-1278,23,-1532" rotation="3" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-1251,31,-2610" rotation="0" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-2481,32,-327" rotation="0" />
-  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-2411,32,1002" rotation="2" />
   <decoration type="model" name="wildwest_cabin_07" position="-2604,35,1913" rotation="2" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-1083,32,1685" rotation="2" />
   <decoration type="model" name="wildwest_felledforest_TMB" position="-1028,35,1747" rotation="3" />
@@ -1720,6 +1713,7 @@
   <decoration type="model" name="wildwest_schoolfix_01_arramus" position="2295,32,1634" rotation="2" />
   <decoration type="model" name="wildwest_shipwreckage_TMB" position="2592,21,1793" rotation="3" />
   <decoration type="model" name="wildwest_Boat_Scrap_tug_sub_TMB" position="2604,17,1770" rotation="2" />
+  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-2192,32,1266" rotation="0" />
   <decoration type="model" name="wildwest_mountain_shack_01_TMB" position="-2323,41,1763" rotation="0" />
   <decoration type="model" name="wildwest_cathouse_Medusa" position="-2531,36,1022" rotation="2" />
   <decoration type="model" name="wildwest_Courthouse_Medusa" position="2443,36,1665" rotation="3" />
@@ -1732,4 +1726,11 @@
   <decoration type="model" name="wildwest_treasure_01_TMB" position="-1737,96,1837" rotation="0" />
   <decoration type="model" name="wildwest_mountain_shack_01_TMB" position="-1757,80,1991" rotation="2" />
   <decoration type="model" name="wildwest_apothecary_Medusa" position="-2195,31,1195" rotation="3" />
+  <decoration type="model" name="wildwest_cabin_01" position="1986,36,1562" rotation="0" />
+  <decoration type="model" name="wildwest_cabin_02" position="-2602,32,2055" rotation="2" />
+  <decoration type="model" name="wildwest_cabin_04" position="-1588,36,1205" rotation="0" />
+  <decoration type="model" name="wildwest_stables_02_arramus" position="1525,35,-2405" rotation="0" />
+  <decoration type="model" name="deco_wilderness_pineforestlogging_01" position="-2411,36,1002" rotation="2" />
+  <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-1872,130,-2372" rotation="2" />
+  <decoration type="model" name="wildwest_apothecary_Medusa" position="-388,31,1295" rotation="1" />
 </prefabs>
