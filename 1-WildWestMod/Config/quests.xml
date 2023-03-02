@@ -170,8 +170,8 @@
 		<objective type="Craft" id="gunBowT0PrimitiveBow" value="1" phase="2"/>
 		<objective type="Craft" id="ammoArrowStone" value="5" phase="2"/>
 
-		<!--reward type="Exp" value="50"/>
-		<reward type="Quest" id="quest_BasicSurvival7"/-->
+		<reward type="Exp" value="50"/>
+		<!--reward type="Quest" id="quest_BasicSurvival7"/-->
 		<reward type="Quest" id="quest_whiteRiverCitizen1">
 			<property name="chainquest" value="false"/>
 		</reward>
@@ -2768,6 +2768,83 @@
 	</quest_tier_rewards>
 	
 	<!-- CUSTOM QUESTS -->
+	
+	<!-- Adds the "Homestead Challenges" -->
+	<!-- 250 Frames Place and Upgrade -->	
+		<quest id="quest_homestead01">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.1. Begin by constructing your cabin." />
+		<property name="name_key" value="Home is where the hearth is: 1"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.1"/>
+		<property name="description_key" value="Collect 1800 wood, craft and place 150 frames, and then upgrade them. Leave room for doors but don't add them yet."/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceWood" value="1800" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="frameShapes:VariantHelper"/>
+			<property name="count" value="150"/>
+		</objective>
+
+		<objective type="BlockPlace" id="frameShapes:VariantHelper" value="150" phase="2"/>
+		<objective type="BlockUpgrade" id="frameShapes" value="150" phase="2"/>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Quest" id="quest_homestead02"/>
+	</quest>
+	
+	<!-- 2 Doors -->	
+		<quest id="quest_homestead02">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.1. Begin by constructing your cabin." />
+		<property name="name_key" value="Home is where the hearth is: 2"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.1"/>
+		<property name="description_key" value="Collect 18 wood. Craft and place 2 doors, and upgrade them."/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceWood" value="16" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="secureDoorWooden"/>
+			<property name="count" value="2"/>
+		</objective>
+
+		<objective type="BlockPlace" id="secureDoorWooden" value="2" phase="2"/>
+		<objective type="BlockUpgrade" id="secureDoorWooden" value="2" phase="2"/>		
+
+		<reward type="Exp" value="250"/>
+		<reward type="Quest" id="quest_homestead03"/>
+	</quest>
+	
+	<!-- Stones and Campfire -->	
+		<quest id="quest_homestead03">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.1. Begin by constructing your cabin." />
+		<property name="name_key" value="Home is where the hearth is: 3"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.1"/>
+		<property name="description_key" value="Collect 5 stones. Craft and place a campfire. You will be rewarded 1000 cobblestones, some scrap iron, and a Wild West Cooler for completing a simple cabin. Homestead Challenge Pt.2 is given after Tier 1 Quest completion."/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="campfire"/>
+			<property name="count" value="1"/>
+		</objective>
+		
+		<objective type="BlockPlace" id="campfire" value="1" phase="2"/>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="resourceCobblestones" value="1000"/>
+		<reward type="Item" id="resourceScrapIron" value="24"/>
+		<reward type="Item" id="cntBeerCooler" value="1"/>
+	</quest>
 	
 	<!-- Adds the "Zombie Looping" Bounty Quest -->
 	<quest id="quest_eliminatezombies25">
