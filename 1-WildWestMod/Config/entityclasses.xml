@@ -10,9 +10,9 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity'][@value='27']/@value">40</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">60</set>	
     <!-- PLAYER STARTING ITEMS -->	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvival')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals</set>	
-	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals</set>
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvival')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals,qc_homestead01</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals,qc_homestead01</set>	
+	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals,qc_homestead01</set>
 	<!-- PLAYER RUNNING STAMINA -->
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add'][@tags='running']/@value">-1.325</set><!-- Default is -1.45 -->
 

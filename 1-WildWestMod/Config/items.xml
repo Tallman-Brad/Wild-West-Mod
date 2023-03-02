@@ -2496,6 +2496,18 @@
 	<!-- Wild West Quests -->
 	
 		<!-- Admin item to restart automatic qc_eliminatezombies quest if removed/bugging out  -->
+		<item name="qc_homestead01">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="qc_homestead01Desc"/>
+			<property name="CustomIcon" value="qc_homestead01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_homestead01"/>
+			</property>
+		</item>
+	
+		<!-- Admin item to restart automatic qc_eliminatezombies quest if removed/bugging out  -->
 		<item name="qc_eliminatezombies">
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="CreativeMode" value="Dev"/>
