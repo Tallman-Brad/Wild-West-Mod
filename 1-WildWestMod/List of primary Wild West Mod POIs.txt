@@ -8,7 +8,7 @@ Summary
 Decorative POIs for Town and Wilderness = 28
 Tier 1 = 40
 Tier 2 = 25
-Tier 3 = 11
+Tier 3 = 12
 Tier 4 = 9
 Tier 5 = 10
 
@@ -78,8 +78,9 @@ wildwest_strip_01 (TFP)
 wildwest_strip_02 (TFP)
 wildwest_sweeney_01_arramus
 
-- Tier 3 - Total = 9
+- Tier 3 - Total = 10
 wildwest_apper_01_arramus
+wildwest_bank_01_arramus
 wildwest_bubbles_01_arramus
 wildwest_dukepatrol_01_arramus
 wildwest_lyttletrippers_01_arramus
