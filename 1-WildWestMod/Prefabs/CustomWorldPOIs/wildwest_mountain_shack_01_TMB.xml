@@ -20,19 +20,19 @@
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-3" />
   <property class="Stats">
-    <property name="TotalVertices" value="69499" />
-    <property name="TotalTriangles" value="71746" />
+    <property name="TotalVertices" value="75069" />
+    <property name="TotalTriangles" value="77230" />
     <property class="BlockEntities">
-      <property name="Vertices" value="57670" />
-      <property name="Triangles" value="60574" />
+      <property name="Vertices" value="62934" />
+      <property name="Triangles" value="66070" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="5454" />
       <property name="Triangles" value="2924" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="1536" />
-      <property name="Triangles" value="768" />
+      <property name="Vertices" value="2048" />
+      <property name="Triangles" value="1024" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="0" />
@@ -59,8 +59,8 @@
       <property name="Triangles" value="5360" />
     </property>
     <property class="ChunkMeshes8">
-      <property name="Vertices" value="1442" />
-      <property name="Triangles" value="1876" />
+      <property name="Vertices" value="1236" />
+      <property name="Triangles" value="1608" />
     </property>
     <property class="ChunkMeshes9">
       <property name="Vertices" value="0" />
@@ -69,8 +69,11 @@
   </property>
   <property class="IndexedBlockOffsets">
     <property class="quest_stone">
-      <property name="0" value="19, 9, 12" />
-      <property name="1" value="18, 9, 14" />
+      <property name="0" value="15, 5, 3" />
+      <property name="1" value="13, 8, 4" />
+      <property name="2" value="19, 6, 5" />
+      <property name="3" value="17, 7, 6" />
+      <property name="4" value="16, 9, 8" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="17, 5, 12" />
