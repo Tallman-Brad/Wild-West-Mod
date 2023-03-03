@@ -2770,6 +2770,7 @@
 	<!-- CUSTOM QUESTS -->
 	
 	<!-- Adds the "Homestead Challenges" -->
+	<!-- PART 1 - Home is where the hearth is -->	
 	<!-- 250 Frames Place and Upgrade -->	
 		<quest id="quest_homestead01">
 		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.1. Begin by constructing your cabin." />
@@ -2825,7 +2826,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.1. Begin by constructing your cabin." />
 		<property name="name_key" value="Home is where the hearth is: 3"/>
 		<property name="subtitle_key" value="Homestead Challenge Pt.1"/>
-		<property name="description_key" value="Collect 5 stones. Craft and place a campfire. You will be rewarded 1000 cobblestones, some scrap iron, and a Wild West Cooler for completing a simple cabin. Homestead Challenge Pt.2 is given after Tier 1 Quest completion."/>
+		<property name="description_key" value="Collect 5 stones. Craft and place a campfire. You will be rewarded a pot stove, 250 cobblestones, some scrap iron, and a Wild West Cooler for completing a simple cabin. This completes Pt.1. Homestead Challenge Pt.2 begins automatically after completion."/>
 		<property name="icon" value="ui_game_symbol_map_house"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
@@ -2841,9 +2842,86 @@
 		<objective type="BlockPlace" id="campfire" value="1" phase="2"/>
 
 		<reward type="Exp" value="2500"/>
-		<reward type="Item" id="resourceCobblestones" value="1000"/>
+		<reward type="Item" id="PotStove" value="1"/>
+		<reward type="Item" id="resourceCobblestones" value="250"/>
 		<reward type="Item" id="resourceScrapIron" value="24"/>
 		<reward type="Item" id="cntBeerCooler" value="1"/>
+		<reward type="Quest" id="quest_homestead04"/>
+	</quest>
+	
+	<!-- PART 2 - From tiny seeds -->
+	<!-- Water Wells -->	
+		<quest id="quest_homestead04">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.2. Add farming features around your cabin." />
+		<property name="name_key" value="From tiny seeds: 1"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.2"/>
+		<property name="description_key" value="Craft a Water Wells and Stands helper on the Workbench. Select the Rustic Water Well, and place it near your cabin. It can fill up your jars and buckets with water."/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="WaterWell" value="1" phase="1"/>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Quest" id="quest_homestead05"/>		
+	</quest>
+	
+	<!-- Farm Plots -->	
+		<quest id="quest_homestead05">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.2. Add farming features around your cabin." />
+		<property name="name_key" value="From tiny seeds: 2"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.2"/>
+		<property name="description_key" value="Craft 6 Farm Plot Blocks. Select the basic Farm Plot, and place it near your cabin. You will be ready to plant seeds and reap the rewards."/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="farmPlotBlockPlayer" value="6" phase="1"/>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Quest" id="quest_homestead06"/>		
+	</quest>
+	
+	<!-- Bee Hive -->	
+		<quest id="quest_homestead06">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.2. Add farming features around your cabin." />
+		<property name="name_key" value="From tiny seeds: 3"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.2"/>
+		<property name="description_key" value="Craft a Bee Hives (Needs a Queen Bee) helper on the Workbench. Select the very first Bee Hive, and place it near your cabin. You can find a Queen Bee by harvesting trees. Add the Queen Bee to the Bee Hive to start honey comb production."/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="SquareHiveEmpty" value="1" phase="1"/>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Quest" id="quest_homestead07"/>	
+	</quest>
+	
+	<!-- Chicken Coop -->	
+		<quest id="quest_homestead07">
+		<property name="offer_key" value="Accept this Quest to begin the Homestead Challenge Pt.2. Add farming features around your cabin." />
+		<property name="name_key" value="From tiny seeds: 4"/>
+		<property name="subtitle_key" value="Homestead Challenge Pt.2"/>
+		<property name="description_key" value="Craft a Chicken Coops helper on the Workbench. Select the Chicken Coop - Wooden (Needs 2 Caught Chicks) and place it near your cabin. You can find Caught Chicks in birds' nests. Add 2 Caught Chicks to the Chicken Coop to start egg, feather, and domesticated chicken production. You will be rewarded with 6 seeds to populate the Farm Plots, and apples for feeding to your horse, or cooking. This completes Pt.2. "/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="BlockPlace" id="WoodCoopEmpty" value="1" phase="1"/>
+
+		<reward type="Exp" value="2500"/>
+		<reward type="Item" id="plantedPotato1" value="1"/>
+		<reward type="Item" id="plantedCorn1" value="1"/>
+		<reward type="Item" id="plantedPumpkin1" value="1"/>
+		<reward type="Item" id="plantedCoffee1" value="1"/>
+		<reward type="Item" id="plantedBlueberry1" value="1"/>
+		<reward type="Item" id="plantedChrysanthemum1" value="1"/>
+		<reward type="Item" id="foodApple" value="5"/>		
 	</quest>
 	
 	<!-- Adds the "Zombie Looping" Bounty Quest -->
