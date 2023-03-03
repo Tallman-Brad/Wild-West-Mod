@@ -2920,7 +2920,8 @@
 		<reward type="Item" id="plantedPumpkin1" value="1"/>
 		<reward type="Item" id="plantedCoffee1" value="1"/>
 		<reward type="Item" id="plantedBlueberry1" value="1"/>
-		<reward type="Item" id="plantedChrysanthemum1" value="1"/>		
+		<reward type="Item" id="plantedChrysanthemum1" value="1"/>
+		<reward type="Quest" id="quest_homestead08"/>		
 	</quest>
 	
 	<!-- PART 3 - Hay neigh hay -->
