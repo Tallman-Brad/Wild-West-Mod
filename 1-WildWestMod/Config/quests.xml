@@ -2930,7 +2930,7 @@
 		<property name="name_key" value="Hay neigh hay: 1"/>
 		<property name="subtitle_key" value="Homestead Challenge Pt.3"/>
 		<property name="description_key" value="Collect 1200 wood, craft and place 100 frames for your stable, and then upgrade them."/>
-		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="icon" value="ui_game_symbol_horse_stamina"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
 		<property name="shareable" value="false"/>
@@ -2955,7 +2955,7 @@
 		<property name="name_key" value="Hay neigh hay: 2"/>
 		<property name="subtitle_key" value="Homestead Challenge Pt.3"/>
 		<property name="description_key" value="Collect 40 Fibers to craft and place 4 Hay Bales for the stable."/>
-		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="icon" value="ui_game_symbol_horse_stamina"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
 		<property name="shareable" value="false"/>
@@ -2979,7 +2979,7 @@
 		<property name="name_key" value="Hay neigh hay: 3"/>
 		<property name="subtitle_key" value="Homestead Challenge Pt.3"/>
 		<property name="description_key" value="Craft a Wild West Lights helper on the Workbench. Select the Wild West Lantern 1, and place it near your stable. You will be rewarded with some apples for your horse, or for making apple pie. This completes Pt.3."/>
-		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="icon" value="ui_game_symbol_horse_stamina"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
 		<property name="shareable" value="false"/>
