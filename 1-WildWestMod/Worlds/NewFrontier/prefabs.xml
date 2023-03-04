@@ -1697,10 +1697,10 @@
   <decoration type="model" name="wildwest_bridgeandladdersstart_TMB" position="974,54,-201" rotation="0" />
   <decoration type="model" name="deco_wasteland_tradersmoke_black" position="-2836,16,1405" rotation="3" />
   <decoration type="model" name="deco_wasteland_tradersmoke_black" position="2750,16,1097" rotation="1" />
-  <decoration type="model" name="wildwest_shipwreckage_TMB" position="-2833,21,1362" rotation="0" />
-  <decoration type="model" name="wildwest_shipwreckage_TMB" position="2736,21,1137" rotation="3" />
-  <decoration type="model" name="wildwest_shipwreckage_TMB" position="1410,21,2572" rotation="2" />
-  <decoration type="model" name="wildwest_shipwreckage_TMB" position="2603,21,-159" rotation="0" />
+  <decoration type="model" name="wildwest_shipwreckage_TMB" position="-2833,20,1362" rotation="0" />
+  <decoration type="model" name="wildwest_shipwreckage_TMB" position="2736,20,1137" rotation="3" />
+  <decoration type="model" name="wildwest_shipwreckage_TMB" position="1410,20,2572" rotation="2" />
+  <decoration type="model" name="wildwest_shipwreckage_TMB" position="2603,20,-159" rotation="0" />
   <decoration type="model" name="wildwest_bank_01_arramus" position="1227,27,1463" rotation="2" />
   <decoration type="model" name="wildwest_bank_01_arramus" position="1799,27,-504" rotation="1" />
   <decoration type="model" name="wildwest_bank_01_arramus" position="446,51,-1535" rotation="3" />
@@ -1711,7 +1711,7 @@
   <decoration type="model" name="wildwest_stables_01_arramus" position="2599,34,1227" rotation="1" />
   <decoration type="model" name="wildwest_picturehouse_Medusa" position="2503,35,1623" rotation="2" />
   <decoration type="model" name="wildwest_schoolfix_01_arramus" position="2295,32,1634" rotation="2" />
-  <decoration type="model" name="wildwest_shipwreckage_TMB" position="2592,21,1793" rotation="3" />
+  <decoration type="model" name="wildwest_shipwreckage_TMB" position="2592,20,1793" rotation="3" />
   <decoration type="model" name="wildwest_Boat_Scrap_tug_sub_TMB" position="2604,17,1770" rotation="2" />
   <decoration type="model" name="wildwest_MambaHomestead_Medusa" position="-2192,32,1266" rotation="0" />
   <decoration type="model" name="wildwest_mountain_shack_01_TMB" position="-2323,41,1763" rotation="0" />
