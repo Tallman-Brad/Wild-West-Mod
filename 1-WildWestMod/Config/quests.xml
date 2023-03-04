@@ -2988,7 +2988,8 @@
 		<objective type="BlockPlace" id="lantern1" value="1" phase="1"/>
 
 		<reward type="Exp" value="2500"/>
-		<reward type="Item" id="foodApple" value="20"/>		
+		<reward type="Item" id="foodApple" value="20"/>
+		<reward type="SkillPoints" value="2" chainreward="true"/>	
 	</quest>
 	
 	<!-- Adds the "Zombie Looping" Bounty Quest -->
