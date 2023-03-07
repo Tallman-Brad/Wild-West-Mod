@@ -6,6 +6,7 @@
 	
 	<set xpath="/progression/level/@max_level">1000</set> <!-- Default max level is 300 -->
 	<set xpath="/progression/skills/skill[@name='skillPistolPete']/@icon">ui_game_symbol_gunslinger</set>
+	<set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='ReloadSpeedMultiplier'][@value='.1,.30']/@value">.2,.60</set>
 	
 	<insertAfter xpath="/progression/perks/perk[@name='perkGreaseMonkey']">
 
