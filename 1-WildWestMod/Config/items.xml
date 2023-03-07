@@ -1046,7 +1046,7 @@
 	</effect_group>	
 </item>
 
-<!-- Wild West Steam Spitter -->
+<!-- Wild West Steam Scrap Spitter -->
 
 <item name="gunBotT2JunkTurretWildWest">
 	<property name="Tags" value="turretRanged,weapon,ranged,reloadPenalty,drumMagazine,attIntellect,perkTurrets,canHaveCosmetic"/>
@@ -2504,6 +2504,18 @@
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_homestead01"/>
+			</property>
+		</item>
+		
+		<!-- Admin item to restart automatic qc_eliminatezombies quest if removed/bugging out  -->
+		<item name="qc_fort01">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="qc_fort01Desc"/>
+			<property name="CustomIcon" value="qc_fort01"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_fort01"/>
 			</property>
 		</item>
 	

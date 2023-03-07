@@ -1,5 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
 
+cobblestoneShapes,blocks,Block,,,Cobblestone Shapes,,,,,,,,,,,,,
+woodShapes,blocks,Block,,,Wood Shapes,,,,,,,,,,,,,
 quest_WhiteRiverCitizen1_description_title,Journal Tip,,,,Wild West Settler,,,,,,,,,,,,,
 tutorialTipQuest01,Journal Tip,,,,"Welcome Settler!\n\nUnable to navigate through a heavy fog and a strange blood red sky, your ship has crashed into rocks and the vessel upturned. The island you have stumbled upon is fraught with danger. Prepare yourself for....\n\nThe Wild West.",,,,,,,,,,,,,
 tutorialTipQuest01_title,Journal Tip,,,,Started Wild West Survival,,„Das 1x1 des Überlebens“ begonnen,Supervivencia básica empezada,Bases de la survie (en cours),È iniziata la missione di sopravvivenza di base,サバイバルの基本を始めました,생존의 기본 시작,Podstawy przetrwania — początek zadania,Iniciando o Básico da Sobrevivência,Запущены основы выживания,Temel Hayatta Kalma Başladı,开始基础生存技巧,開始學習生存基本知識,Supervivencia básica empezada
@@ -792,7 +794,9 @@ BarberShopChair,blocks,Block,,,Barber Shop Chair,,,,,,,,,,,,,
 Rockingchair,blocks,Block,,,Rocking Chair,,,,,,,,,,,,,
 
 qc_homestead01,items,Quest - Challenge,,,"Homestead Challenge",,,,,,,,,,,,,
-qc_homestead01Desc,items,Quest - Challenge,,,"The Homestead Challenge is an optional quest. It introduces players to some of the homestead features in the Wild West Mod, as part of a 2 part multi-stage quest. Follow the instructions to complete required tasks. Pick up some XP and completion rewards along the way.",,,,,,,,,,,,,
+qc_homestead01Desc,items,Quest - Challenge,,,"The Homestead Challenge is an optional quest. It introduces players to some of the homestead features in the Wild West Mod, as part of a 3 part multi-stage quest. Follow the instructions to complete required tasks. Pick up some XP and completion rewards along the way.",,,,,,,,,,,,,
+qc_fort01,items,Quest - Challenge,,,"Fort Challenge",,,,,,,,,,,,,
+qc_fort01Desc,items,Quest - Challenge,,,"The Fort Challenge is an optional quest. It introduces players to some of the horde night base features in the Wild West Mod, as part of a 2 part multi-stage quest. Follow the instructions to complete required tasks. Pick up some XP and completion rewards along the way.",,,,,,,,,,,,,
 
 qc_tier5_bartertrade01,items,Quest - Challenge,,,"Contract: Barter and Trade Gold",,,,,,,,,,,,,
 qc_tier5_bartertrade01Desc,items,Quest - Challenge,,,"A contract issued by the Wild West Settlement. Barter and Trade Gold.",,,,,,,,,,,,,
