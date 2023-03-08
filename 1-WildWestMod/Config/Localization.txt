@@ -796,7 +796,7 @@ Rockingchair,blocks,Block,,,Rocking Chair,,,,,,,,,,,,,
 qc_homestead01,items,Quest - Challenge,,,"Homestead Challenge",,,,,,,,,,,,,
 qc_homestead01Desc,items,Quest - Challenge,,,"The Homestead Challenge is an optional quest. It introduces players to some of the homestead features in the Wild West Mod, as part of a 3 part multi-stage quest. Follow the instructions to complete required tasks. Pick up some XP and completion rewards along the way.",,,,,,,,,,,,,
 qc_fort01,items,Quest - Challenge,,,"Fort Challenge",,,,,,,,,,,,,
-qc_fort01Desc,items,Quest - Challenge,,,"The Fort Challenge is an optional quest. It introduces players to some of the horde night base features in the Wild West Mod, as part of a 2 part multi-stage quest. Follow the instructions to complete required tasks. Pick up some XP and completion rewards along the way.",,,,,,,,,,,,,
+qc_fort01Desc,items,Quest - Challenge,,,"The Fort Challenge is an optional quest. It introduces players to some of the horde night base features in the Wild West Mod, as part of a 2 part multi-stage quest. First lay a 25 block foundation, then expand with another 25 blocks. Leave room for expansion. Finally, fortify with defences. Follow the instructions to complete required tasks. Pick up some XP and completion rewards along the way.",,,,,,,,,,,,,
 
 qc_tier5_bartertrade01,items,Quest - Challenge,,,"Contract: Barter and Trade Gold",,,,,,,,,,,,,
 qc_tier5_bartertrade01Desc,items,Quest - Challenge,,,"A contract issued by the Wild West Settlement. Barter and Trade Gold.",,,,,,,,,,,,,

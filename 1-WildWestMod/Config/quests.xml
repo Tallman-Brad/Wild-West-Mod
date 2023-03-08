@@ -2997,10 +2997,10 @@
 	<!-- PART 1 - Upon the rocks -->	
 	<!-- 25 Frames Place and Upgrade from Wood to Cobblestone -->
 		<quest id="quest_fort01">
-		<property name="offer_key" value="Accept this Quest to begin the Fort Challenge Pt.1. Begin by constructing your horde night base." />
+		<property name="offer_key" value="Accept this Quest to begin the Fort Challenge Pt.1. Begin by constructing your horde night base. First lay a 25 block foundation, then expand with another 25 blocks. Leave room for expansion. Finally, fortify with defences." />
 		<property name="name_key" value="Upon the rocks: 1"/>
 		<property name="subtitle_key" value="Fort Challenge Pt.1"/>
-		<property name="description_key" value="Collect 250 wood, stone, and clay. Craft and place 25 frames for your horde night base, and then upgrade them to wood and cobblestones."/>
+		<property name="description_key" value="Collect 250 wood, stone, and clay. Craft and place 25 frames for your horde night base foundation, and then upgrade them to wood and cobblestones. Leave room for another 25 blocks for expansion."/>
 		<property name="icon" value="ui_game_symbol_map_fort"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
