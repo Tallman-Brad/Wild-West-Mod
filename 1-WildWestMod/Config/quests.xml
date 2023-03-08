@@ -3033,7 +3033,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Fort Challenge Pt.1. Begin by constructing your horde night base." />
 		<property name="name_key" value="Upon the rocks: 2"/>
 		<property name="subtitle_key" value="Fort Challenge Pt.1"/>
-		<property name="description_key" value="Collect 250 stone and 250 clay. Craft them into cobblestone shapes. Place the shapes to further expand the horde night base."/>
+		<property name="description_key" value="Collect 250 stone and 250 clay. Craft them into cobblestone shapes. Place the shapes to further expand the horde night base. The next step is an iron ladder and iron bars. You will need access to a forge for the bars."/>
 		<property name="icon" value="ui_game_symbol_map_fort"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
@@ -3063,7 +3063,7 @@
 		<property name="offer_key" value="Accept this Quest to begin the Fort Challenge Pt.1. Begin by constructing your horde night base." />
 		<property name="name_key" value="Upon the rocks: 3"/>
 		<property name="subtitle_key" value="Fort Challenge Pt.1"/>
-		<property name="description_key" value="Craft 13 iron bars on the forge. Craft 3 iron ladders. Place them on your horde night base for access and line of sight. You will be rewarded with 50 concrete mix to strengthen your base. This completes Pt.1. Fort Challenge Pt.2 begins automatically after completion."/>
+		<property name="description_key" value="Craft 13 iron bars in the forge. Craft 3 iron ladders. Place them on your horde night base for access and line of sight. You will be rewarded with 50 concrete mix to strengthen your base. This completes Pt.1. Fort Challenge Pt.2 begins automatically after completion."/>
 		<property name="icon" value="ui_game_symbol_map_fort"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
