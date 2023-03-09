@@ -1428,6 +1428,11 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="resourceRockSmall" count="4,20" tag="allHarvest"/>
 		<drop event="Harvest" name="resourceRockSmall" count="55" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="4,20" tag="allHarvest"/>		
+		<drop event="Harvest" name="resourceScrapIron" count="55" tag="oreWoodHarvest"/>		
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 	</block>	
   
     <block name="lightblueRock">
@@ -1451,6 +1456,11 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="resourceRockSmall" count="4,20" tag="allHarvest"/>
 		<drop event="Harvest" name="resourceRockSmall" count="55" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="4,20" tag="allHarvest"/>		
+		<drop event="Harvest" name="resourceScrapIron" count="55" tag="oreWoodHarvest"/>		
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 	</block>
 
     <block name="bluerock33">
@@ -1473,6 +1483,11 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="resourceRockSmall" count="4,20" tag="allHarvest"/>
 		<drop event="Harvest" name="resourceRockSmall" count="55" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="4,20" tag="allHarvest"/>		
+		<drop event="Harvest" name="resourceScrapIron" count="55" tag="oreWoodHarvest"/>		
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 	</block>	
 
     <block name="bluerock22">
@@ -1495,6 +1510,11 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="resourceRockSmall" count="4,20" tag="allHarvest"/>
 		<drop event="Harvest" name="resourceRockSmall" count="55" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="4,20" tag="allHarvest"/>		
+		<drop event="Harvest" name="resourceScrapIron" count="55" tag="oreWoodHarvest"/>		
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 	</block>
 
 	<block name="BarberShopChair">
