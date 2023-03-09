@@ -243,6 +243,7 @@
 		<trader_item_group name="cowboyHatAll">
 			<item name="apparelCowboyHat"/>
 			<item name="modArmorCowboyHat" prob="0.2"/>
+			<item name="modArmorCowboyBoots" prob="0.2"/> <!-- An appropriate home as this group is hooked up to Fish Trap and boosted in loot -->			
 		</trader_item_group>
 
 		<trader_item_group name="overallsAll">

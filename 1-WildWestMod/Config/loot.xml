@@ -2204,6 +2204,7 @@ If there is no hit the default quality is used.
 	<item name="modArmorPressboyCap" loot_prob_template="low"/>
 	<item name="modArmorBallCap" loot_prob_template="low"/>
 	<item name="modArmorCowboyHat" loot_prob_template="medHigh"/> <!-- Default is low but this is the Wild West -->
+	<item name="modArmorCowboyBoots" loot_prob_template="medHigh"/> <!-- Additon for the Wild West -->
 	<item name="armorClothHat"/>
 	<!--item name="armorFootballHelmet"/-->
 </lootgroup>
@@ -9654,7 +9655,8 @@ If there is no hit the default quality is used.
 		<item name="resourceCatfish" count="1" prob="0.05"/>		
 		<item name="apparelCowboyBoots" count="1" prob="0.035"/>
 		<item name="apparelCowboyHat" count="1" prob="0.035"/>
-		<item name="modArmorCowboyHat" count="1" prob="0.03"/>		
+		<item name="modArmorCowboyHat" count="1" prob="0.03"/>
+		<item name="modArmorCowboyBoots" count="1" prob="0.03"/>		
 	</lootcontainer>	
 	
 </set>

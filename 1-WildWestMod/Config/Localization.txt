@@ -343,6 +343,8 @@ modGunBowArrowHandleGripDesc,item_modifiers,mod,,,"Attaching this mod to a bow g
 modGunBowArrowHandleGripSchematic,item_modifiers,Mod,,,Antler Bow Handle Grip Mod Schematic,,,,,,,,,,,,,
 modArmorHelmetLight,item_modifiers,mod,,,Miner's Headlamp Mod,,,,,,,,,,,,,
 modArmorHelmetLightSchematic,item_modifiers,mod,,,Miner's Headlamp Mod Schematic,,,,,,,,,,,,,
+modArmorCowboyBoots,item_modifiers,mod,,,Cowboy Boots Mod,,,,,,,,,,,,,
+modArmorCowboyBootsDesc,item_modifiers,mod,,,"This cowboy boots modification makes any armored footwear look like cowboy boots, and offers insulation against the elements.",,,,,,,,,,,,,
 modArmorDesertHareHelmetPelt,item_modifiers,mod,,,Desert Hare Hat Mod,,,,,,,,,,,,,
 modArmorDesertHareHelmetPeltDesc,item_modifiers,mod,,,"This mod can be added to the dye slot in a hat or helmet. It greatly increases resistance to the cold (+15) and offers moderate protection against the heat (+5). The Desert Biome can go below freezing point at night when the Desert Hare is most active.",,,,,,,,,,,,,
 modArmorSnowHareShoeWarmer,item_modifiers,mod,,,Snow Hare Shoe Warmer,,,,,,,,,,,,,
