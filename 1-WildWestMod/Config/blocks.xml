@@ -111,6 +111,10 @@
 	<set xpath="/blocks/block[@name='cntCoffinWildWestLeaning']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestLeaningNew</set>
 	<set xpath="/blocks/block[@name='cntCoffinWildWestLidLeaning']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestLidLeaningNew</set>
 	<set xpath="/blocks/block[@name='cntCoffinWildWestOpen']/property[@name='Model']/@value">#@modfolder:Resources/NewCoffins.unity3d?coffinWildWestOpenNew</set>
+<!-- Deco and POI spawning Sports Bags/Rucksacks -->
+	<set xpath="/blocks/block[@name='cntBackpack01']/property[@name='Model']/@value">#Entities/LootContainers?duffle01Prefab.prefab</set>
+	<set xpath="/blocks/block[@name='cntBackpack03']/property[@name='Model']/@value">#Entities/LootContainers?duffle01Prefab.prefab</set>
+	<set xpath="/blocks/block[@name='cntSportsBag01']/property[@name='Model']/@value">#Entities/LootContainers?sports_bag02Prefab.prefab</set>	
 
 	<!-- A19 Farming For A20 by Syco54645 -->
 
