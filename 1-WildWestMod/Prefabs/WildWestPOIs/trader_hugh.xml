@@ -29,15 +29,15 @@
   <property name="ThemeTags" value="trader" />
   <property name="PrefabSize" value="45, 28, 49" />
   <property class="Stats">
-    <property name="TotalVertices" value="923916" />
-    <property name="TotalTriangles" value="1041787" />
+    <property name="TotalVertices" value="900037" />
+    <property name="TotalTriangles" value="1097324" />
     <property class="BlockEntities">
-      <property name="Vertices" value="736676" />
-      <property name="Triangles" value="919695" />
+      <property name="Vertices" value="711677" />
+      <property name="Triangles" value="974624" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="177030" />
-      <property name="Triangles" value="106348" />
+      <property name="Vertices" value="178150" />
+      <property name="Triangles" value="106956" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -80,11 +80,11 @@
     <property class="Trader">
       <property name="0" value="10, 9, 37" />
     </property>
-    <property class="POILight">
-      <property name="0" value="40, 16, 43" />
-    </property>
     <property class="TraderOnOff">
       <property name="0" value="22, 8, 2" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="40, 16, 43" />
     </property>
   </property>
 </prefab>
