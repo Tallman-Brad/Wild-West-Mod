@@ -4386,6 +4386,55 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 </recipe>
 
+<!-- Decorations -->
+
+	<recipe name="modularFireWoodStackA" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+	
+	<recipe name="modularFireWoodStackB" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+	
+	<recipe name="modularFireWoodStackC" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+	
+	<recipe name="decoWildWestWagon" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="50"/>
+		<ingredient name="resourceWood" count="500"/>
+		<ingredient name="resourceNail" count="50"/>
+	</recipe>
+	
+	<recipe name="decoWildWestWagonWheelFront" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="10"/>
+	</recipe>
+	
+	<recipe name="decoWildWestWagonWheelBack" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="10"/>
+	</recipe>
+
+	<recipe name="decoCowSkull" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBone" count="10"/>
+		<ingredient name="resourceRope" count="1"/>
+		<ingredient name="resourceDuctTape" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
+		<ingredient name="resourceNail" count="6"/>
+	</recipe>
+	
+	<recipe name="palletEmpty" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="6"/>
+	</recipe>
+	
+	<recipe name="palletEmptyStack" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="6"/>
+	</recipe>
 	
 <!-- Steam Horse -->	
 
