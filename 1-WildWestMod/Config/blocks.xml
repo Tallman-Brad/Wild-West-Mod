@@ -1546,7 +1546,6 @@
 	<property name="Group" value="Decor/Miscellaneous"/>
 	</block>
 
-<!-- Brown -->
 	<block name="Rockingchair">
 	<property name="Extends" value="BarberShopChair"/>
     <property name="CustomIcon" value="Rockingchair" />	
@@ -1731,6 +1730,36 @@
 	<property name="ModelOffset" value="0,0.05,0"/>
 	<property name="CustomIcon" value="laundryPileLong"/>	
 </block>
+
+	<block name="decoMountedLeverActionLookRight"> <!-- Pallet Cans Template -->
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="Weight" value="16"/>
+	<property name="Model" value="#Other/Items?Weapons/Ranged/LeverActionRifle/leverActionRiflePrefab.prefab"/>
+	<property name="ModelOffset" value="-0.49,0.5,-0.1"/>
+	<drop event="Harvest" name="resourceScrapIron" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="MC_building,SC_commercial,SC_construction,SC_decor"/>
+	</block>
+
+	<block name="decoMountedLeverActionLookLeft"> <!-- Pallet Cans Template -->
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="Weight" value="16"/>
+	<property name="Model" value="#Other/Items?Weapons/Ranged/LeverActionRifle/leverActionRiflePrefab.prefab"/>
+	<property name="ModelOffset" value="0.49,0.5,-0.1"/>	
+	<drop event="Harvest" name="resourceScrapIron" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="MC_building,SC_commercial,SC_construction,SC_decor"/>
+	</block>
+	
+	<block name="decoMountedLeverActionLookLeft"> <!-- Pallet Cans Template -->
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="Weight" value="16"/>
+	<property name="Model" value="#Other/Items?Weapons/Ranged/LeverActionRifle/leverActionRiflePrefab.prefab"/>
+	<property name="ModelOffset" value="0.49,0.5,-0.1"/>	
+	<drop event="Harvest" name="resourceScrapIron" count="25" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="MC_building,SC_commercial,SC_construction,SC_decor"/>
+	</block>
 
 <!-- TMB Custom Blocks / Offset Blocks -->
 
@@ -2272,7 +2301,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<drop event="Destroy" count="0" />
 	<property name="DowngradeBlock" value="FishTrapEmpty"/>
-	</block>	
+	</block>
 
 </append>
 

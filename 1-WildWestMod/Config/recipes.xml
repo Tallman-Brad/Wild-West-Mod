@@ -4436,6 +4436,22 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceNail" count="6"/>
 	</recipe>
 	
+<!-- Custom Decorations -->
+
+	<!--recipe name="decoMountedLeverActionLookRight" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="25"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceRope" count="1"/>
+	</recipe>
+	
+	<recipe name="decoMountedLeverActionLookLeft" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="25"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceRope" count="1"/>
+	</recipe-->
+	
 <!-- Steam Horse -->	
 
 	<recipe name="vehicleSteamHorsePlaceable" count="1" craft_time="300" craft_area="workbench" tags="learnable">
