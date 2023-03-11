@@ -130,7 +130,7 @@
 	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
 
-	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">1000</set>
 	<!-- Gold and Diamond governed by silver -->
 	<!-- Bundle Stacking -->
 	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">25</set><!-- x5 of default -->
