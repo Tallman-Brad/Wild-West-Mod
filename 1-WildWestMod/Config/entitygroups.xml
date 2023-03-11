@@ -84,9 +84,12 @@
 	
 	<!-- Forest -->
 	
-	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalRabbit']/@prob">36</set><!-- default 48 -->
-	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalChicken']/@prob">36</set><!-- default 48 -->
-
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalRabbit']/@prob">30</set><!-- default 48 -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalChicken']/@prob">30</set><!-- default 48 -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalBoar']/@prob">2</set><!-- default 1 -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalStag']/@prob">3</set><!-- default 1 -->
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalDoe']/@prob">4</set><!-- default 1 -->
+	
 	<!-- Custom Groups -->
 
 	<append xpath="/entitygroups">	
