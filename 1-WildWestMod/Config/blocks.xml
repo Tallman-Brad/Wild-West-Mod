@@ -264,6 +264,7 @@
 	    </property>
 	     <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	     <drop event="Harvest" name="resourceMetalPipe" count="1,2" tag="salvageHarvest"/>
+	     <drop event="Harvest" name="resourceScrapBrass" count="75,100" tag="salvageHarvest"/>
 	     <drop event="Destroy" name="resourceScrapIron" count="1,12"/>
 	     <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	    <property name="Group" value="Decor/Miscellaneous"/>

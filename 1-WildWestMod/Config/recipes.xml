@@ -924,6 +924,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedIron" count="4"/>
 	<ingredient name="resourceMetalPipe" count="3"/>
 	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceScrapBrass" count="250"/> <!-- Offsetting new harvest addition to avoid exploitation -->
 </recipe>
 
 <!--recipe name="cntCoolerClosed" count="1" craft_area="workbench" tags="workbenchCrafting">
