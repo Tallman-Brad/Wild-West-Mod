@@ -1,5 +1,14 @@
 <wildwestmod>
 
+	<!-- Escape Menu World Map -->
+	<append xpath="/windows" >
+		<window name="newfrontierworldwindow" anchor="CenterTop" pos="-650,-50" width="900" height="900" cursor_area="true">
+		<panel name="header" pos="0,0" height="43" depth="1" disableautobackground="true" >
+			<texture depth="1" pos="660,-500" width="900" height="900" pivot="center" texture="@modfolder:UIAtlases/ItemIconAtlas/NewFrontier.png"/>
+		</panel>
+		</window>
+	</append>
+
 	<!-- KhaineGB's 60 Slot Backpack Mod -->
 
     <!-- update the overall backpack size -->
