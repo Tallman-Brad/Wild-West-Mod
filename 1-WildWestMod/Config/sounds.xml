@@ -3,6 +3,9 @@
 <!-- Timed Dynamite -->
 <set xpath="/Sounds/SoundDataNode[@name='charge_keypress']/AudioClip/@ClipName">Sounds/Weapons/weapon_jam1</set>
 <set xpath="/Sounds/SoundDataNode[@name='charge_keypress_armed']/AudioClip/@ClipName">Sounds/Weapons/weapon_jam2</set>
+<set xpath="/Sounds/SoundDataNode[@name='Supply_Crate_Plane_lp']/AudioClip/@ClipName">#@modfolder:Resources/Steamsounds.unity3d?SteamTrainChug Away</set>
+
+
 
   <append xpath="/Sounds">
   
