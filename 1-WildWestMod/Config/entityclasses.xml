@@ -21,7 +21,7 @@
 	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals,qc_homestead01</set>	
 	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">drinkJarBoiledWater,foodWildWestPineConeJamPancakes,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,qc_eliminateferalgunslingerwight,qc_hunterquest_eliminateanimals,qc_homestead01</set>
 	<!-- PLAYER RUNNING STAMINA -->
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add'][@tags='running']/@value">-1.325</set><!-- Default is -1.45 -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add'][@value='-1.45'][@tags='running']/@value">-1.325</set><!-- Default is -1.45 -->
 
 	<!-- Demolition Model, Drop and Harvest -->
 	<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Mesh']/@value">#@modfolder:Resources/windigo2.unity3d?WendigoOld5</set>
