@@ -1812,7 +1812,7 @@
 	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true"/>
-	<property name="PlaceAltBlockValue" value="RailTrack1X2,RailTrack2X2Cross,RailTrack1X2Gravel,CoalCart,RopeCartSide,RopeCartUp,TrainWaterFeed,BridgeTopprop,BridgeTopplane,BridgeStrut,BridgeStrut1x3"/>
+	<property name="PlaceAltBlockValue" value="RailTrack1X2,RailTrack2X2Cross,RailTrack1X2Gravel,CoalCart,CoalCartTrack,RopeCartSide,RopeCartUp,TrainWaterFeed,BridgeTopprop,BridgeTopplane,BridgeStrut,BridgeStrut1x3"/>
 </block>
 
  <block name="RailTrack2X2Cross">
@@ -1866,6 +1866,28 @@
 	<property name="Model" value="#@modfolder:Resources/RailRoadParts.unity3d?CoalCart"/>
 	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
 	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="5"/>
+	</property>		
+</block>
+
+ <block name="CoalCartTrack">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="CoalCart"/>	
+	<property name="Model" value="#@modfolder:Resources/RailRoadParts.unity3d?CoalCart"/>
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+	<property name="ModelOffset" value="0,-0.25,0"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="1,1,1"/>
 	<property name="ImposterDontBlock" value="true"/>
