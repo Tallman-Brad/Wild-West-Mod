@@ -91,6 +91,8 @@
 	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalDoe']/@prob">4</set><!-- default 1 -->
 	
 	<!-- Custom Groups -->
+	
+	<!-- Wasteland Crater Single -->
 
 	<append xpath="/entitygroups">	
 	<entitygroup name="animalZombieWastelandCraterBear">
@@ -100,6 +102,38 @@
 	<entitygroup name="WastelandCraterBearGroup">
 		<entity name="animalZombieWastelandCraterBear"/>
 	</entitygroup>
+	
+	<!-- Guppy Vulture Group -->
+	
+	<entitygroup name="CripsyVariantsGroupGS01">
+		<entity name="guppyVultureBurnt"/>
+        <entity name="guppyMommaVultureBurnt" prob="0.1"/>	
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS50">
+		<entity name="guppyVultureBurnt"/>
+        <entity name="guppyMommaVultureBurnt" prob="0.25"/>	
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS100">
+		<entity name="guppyVultureBurnt"/>
+        <entity name="guppyMommaVultureBurnt" prob="0.35"/>
+        <entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/>
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS200">
+		<entity name="guppyVultureBurnt"/>
+        <entity name="guppyMommaVultureBurnt" prob="0.5"/>
+        <entity name="guppyRadiatedMommaVultureBurnt" prob="0.25"/>		
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS400">
+		<entity name="guppyVultureBurnt"/>
+        <entity name="guppyMommaVultureBurnt" prob="0.5"/>
+        <entity name="guppyRadiatedMommaVultureBurnt" prob="0.25"/>	
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS800">
+		<entity name="guppyVultureBurnt"/>
+        <entity name="guppyMommaVultureBurnt" prob="0.75"/>
+        <entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
+	</entitygroup>
+	
 	</append>	
 
 </wildwestmod>

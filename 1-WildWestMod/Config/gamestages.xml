@@ -55,14 +55,41 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='50']/spawn[@group='ZombieBearsGroup' 			and @num='02']/@num">03</set>
 
 	<append xpath="/gamestages">
+	<!-- Crater Bear although also added as a block type sleeper --> 
 	<group name="animalZombieWastelandCraterBear" emptyChance="0" decoyChance="0" decoy1hpChance="0">
 		<spawner name="animalZombieWastelandCraterBear" count="1"/>
 	</group>
+		<!-- Guppy Vulture Group -->
+		<group name="Crispy_Family" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+			<spawner name="CripsyVariants" count="5,6" />
+		</group>	
+	
 	<spawner name="animalZombieWastelandCraterBear">
 		<gamestage stage="1">
 			<spawn group="animalZombieWastelandCraterBear" num="1" maxAlive="1" duration="10"/>
 		</gamestage>
 	</spawner>
+		<!-- Guppy Vulture Group with GS attribute for the family -->
+		<spawner name="CripsyVariants">
+			<gamestage stage="1">
+				<spawn group="CripsyVariantsGroupGS01" num="1" maxAlive="1" duration="1" />
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="CripsyVariantsGroupGS50" num="1" maxAlive="1" duration="1" />
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="CripsyVariantsGroupGS100" num="1" maxAlive="1" duration="1" />
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="CripsyVariantsGroupGS200" num="1" maxAlive="1" duration="1" />
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="CripsyVariantsGroupGS400" num="1" maxAlive="1" duration="1" />
+			</gamestage>
+			<gamestage stage="800">
+				<spawn group="CripsyVariantsGroupGS800" num="1" maxAlive="1" duration="1" />
+			</gamestage>
+		</spawner>
 	</append>	
 
 </wildwestmod>
