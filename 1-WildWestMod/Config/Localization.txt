@@ -632,6 +632,8 @@ IronStove,blocks,Block,,,Iron Stove,,,,,,,,,,,,,
 IronStoveDesc,blocks,Block,,,"The Iron Stove allows players to combine recipe ingredients into meals, beverages, and resources.",,,,,,,,,,,,,
 StoneStove,blocks,Block,,,Stone Stove,,,,,,,,,,,,,
 StoneStoveDesc,blocks,Block,,,"The Stone Stove allows players to combine recipe ingredients into meals, beverages, and resources.",,,,,,,,,,,,,
+playerWoodBurningStove,blocks,Block,,,Wood Burning Player Stove,,,,,,,,,,,,,
+playerWoodBurningStoveDesc,blocks,Block,,,"The Wood Burning Player Stove allows players to combine recipe ingredients into meals, beverages, and resources.",,,,,,,,,,,,,
 CookerVariantHelper,blocks,Block,,,Stoves,,,,,,,,,,,,,
 
 StoneStandPipe,blocks,Block,,,Marble Standpipe,,,,,,,,,,,,,
