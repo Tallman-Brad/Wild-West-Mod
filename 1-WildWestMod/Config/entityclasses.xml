@@ -811,7 +811,7 @@
             <property name="IsEnemyEntity" value="true"/>             
             <property name="AvatarController" value="AvatarAnimalController"/> 
             <property name="Mesh" value="#@modfolder:Resources/a20burntvulture.unity3d?gupBurnedVultureHumanoid"/>
-			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
+			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
             <property name="ExperienceGain" value="1200"/>
             <property name="DeadBodyHitPoints" value="200"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
