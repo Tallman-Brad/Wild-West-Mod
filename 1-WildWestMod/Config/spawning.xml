@@ -14,5 +14,27 @@
 
 		<spawn maxcount="1" respawndelay="0.3" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
 	</set>
+	
+	<append xpath="/spawning/biome[@name='pine_forest'][@entitygroup='ZombiesAll']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='pine_forest'][@entitygroup='ZombiesNight']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='pine_forest'][@entitygroup='ZombiesForestDowntown']/@tags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='pine_forest'][@entitygroup='ZombiesForestDowntownNight']/@tags">,oldwest</append>
+	
+	<append xpath="/spawning/biome[@name='burnt_forest'][@entitygroup='ZombiesAll']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='burnt_forest'][@entitygroup='ZombiesNight']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='burnt_forest'][@entitygroup='ZombiesDowntown']/@tags">,oldwest</append>
+	
+	<append xpath="/spawning/biome[@name='desert'][@entitygroup='ZombiesAll']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='desert'][@entitygroup='ZombiesNight']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='desert'][@entitygroup='ZombiesDowntown']/@tags">,oldwest</append>
+	
+	<append xpath="/spawning/biome[@name='snow'][@entitygroup='SnowZombies']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='snow'][@entitygroup='ZombiesNight']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='snow'][@entitygroup='ZombiesAll']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='snow'][@entitygroup='ZombiesDowntown']/@tags">,oldwest</append>
+	
+	<append xpath="/spawning/biome[@name='wasteland'][@entitygroup='ZombiesWasteland']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='wasteland'][@entitygroup='ZombiesWastelandNight']/@notags">,oldwest</append>
+	<append xpath="/spawning/biome[@name='snow'][@entitygroup='ZombiesWastelandDowntown']/@tags">,oldwest</append>	
 
 </wildwestmod>
