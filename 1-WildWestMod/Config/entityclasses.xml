@@ -747,7 +747,7 @@
 		
 		<entity_class name="guppyMommaVultureBurnt" extends="zombieTemplateMale">
             <property name="HideInSpawnMenu" value="false"/>    
-            <property name="SizeScale" value="1.1"/> 
+            <property name="SizeScale" value="1"/> 
 			<property name="Tags" value="entity,animal,zombie,hostile,vulture,UMA2,feral"/>
             <property name="HasRagdoll" value="false"/>
             <property name="HasDeathAnim" value="true"/>
@@ -803,14 +803,14 @@
 		
 		<entity_class name="guppyRadiatedMommaVultureBurnt" extends="zombieWightRadiated">
             <property name="HideInSpawnMenu" value="false"/>    
-            <property name="SizeScale" value="1.1"/> 
+            <property name="SizeScale" value="1"/> 
 			<property name="Tags" value="entity,animal,zombie,hostile,vulture,UMA2,feral,radiated"/>
             <property name="HasRagdoll" value="false"/>
             <property name="HasDeathAnim" value="true"/>
             <property name="RootMotion" value="true"/>
             <property name="IsEnemyEntity" value="true"/>             
             <property name="AvatarController" value="AvatarAnimalController"/> 
-            <property name="Mesh" value="#@modfolder:Resources/a20burntvulture.unity3d?gupBurnedVultureHumanoid"/>
+            <property name="Mesh" value="#@modfolder:Resources/gupBurntVultureRad.unity3d?gupburnedvulturehumanoidrad"/>
 			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
             <property name="ExperienceGain" value="1200"/>
             <property name="DeadBodyHitPoints" value="200"/>

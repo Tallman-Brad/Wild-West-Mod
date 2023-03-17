@@ -63,7 +63,6 @@
 	<!-- Desert -->
 
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']">
-		<entity name="guppyMommaVultureBurnt" prob="4"/>	
 		<entity name="animalDesertHare" prob="7"/> <!-- A timid animal but desert enemy group is appropriate -->
 		<entity name="ZombieUndertakerWildWest" prob="2"/> <!-- An entity but desert specific -->
 		<entity name="ZombieHammerSpammerWildWest" prob="2"/> <!-- An entity but desert specific -->
