@@ -19,19 +19,19 @@
   <property name="Zoning" value="none" />
   <property name="Tags" value="wilderness" />
   <property class="Stats">
-    <property name="TotalVertices" value="258100" />
-    <property name="TotalTriangles" value="293480" />
+    <property name="TotalVertices" value="313269" />
+    <property name="TotalTriangles" value="360733" />
     <property class="BlockEntities">
-      <property name="Vertices" value="256264" />
-      <property name="Triangles" value="291392" />
+      <property name="Vertices" value="310885" />
+      <property name="Triangles" value="358345" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="48" />
-      <property name="Triangles" value="28" />
+      <property name="Vertices" value="600" />
+      <property name="Triangles" value="308" />
     </property>
     <property class="ChunkMeshes1">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="64" />
+      <property name="Triangles" value="32" />
     </property>
     <property class="ChunkMeshes2">
       <property name="Vertices" value="0" />
@@ -42,8 +42,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="1052" />
-      <property name="Triangles" value="868" />
+      <property name="Vertices" value="964" />
+      <property name="Triangles" value="824" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -54,8 +54,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes7">
-      <property name="Vertices" value="736" />
-      <property name="Triangles" value="1192" />
+      <property name="Vertices" value="756" />
+      <property name="Triangles" value="1224" />
     </property>
     <property class="ChunkMeshes8">
       <property name="Vertices" value="0" />
