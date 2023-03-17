@@ -1146,7 +1146,7 @@
 <!-- Winchester Rifle -->
 
 <item name="gunRifleT2LeverActionRifleWinchester">
-	<property name="Tags" value="weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,revolver,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="85"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/LeverActionRifle/leverActionRiflePrefab.prefab"/>
