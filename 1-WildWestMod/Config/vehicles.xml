@@ -334,22 +334,28 @@
 		</property>
 
 		<property class="seat0">
-			<property name="position" value="0, .7, -0.15"/>
+			<property name="position" value="0, .35, 0.55"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="-2,0,0 ~ 2,0,0 ~ 0,0,-4 ~ 0,0,4 ~ 0,3,0"/>
 		</property>
 		
 		 <property class="seat1">
-            <property name="position" value="0, 0.7, 0.15"/>
-            <property name="rotation" value="-25, 180, 0"/>
+            <property name="position" value="0.45, .35, -0.3"/>
+            <property name="rotation" value="-15, 0, 0"/>
+            <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+        </property>
+		
+		 <property class="seat2">
+            <property name="position" value="-0.45, .35, -0.3"/>
+            <property name="rotation" value="-15, 0, 0"/>
             <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
         </property>
 		
 		<property class="headlight">
-				<property name="class" value="Headlight"/>
-				<property name="parent_part" value="handlebars"/>
-				<property name="transform" value="Origin/handlebar_joint/headlight"/>
-				<property name="bright" value=".75"/></property>
+			<property name="class" value="Headlight"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/>
+		</property>
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
@@ -420,22 +426,28 @@
 		</property>
 
 		<property class="seat0">
-			<property name="position" value="0, .7, -0.15"/>
+			<property name="position" value="0, .4, 0.55"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="-2,0,0 ~ 2,0,0 ~ 0,0,-4 ~ 0,0,4 ~ 0,3,0"/>
 		</property>
 		
 		 <property class="seat1">
-            <property name="position" value="0, 0.7, 0.15"/>
-            <property name="rotation" value="-25, 180, 0"/>
+            <property name="position" value="0.45, .4, -0.3"/>
+            <property name="rotation" value="-15, 0, 0"/>
+            <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+        </property>
+		
+		 <property class="seat2">
+            <property name="position" value="-0.45, .4, -0.3"/>
+            <property name="rotation" value="-15, 0, 0"/>
             <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
         </property>
 		
 		<property class="headlight">
-				<property name="class" value="Headlight"/>
-				<property name="parent_part" value="handlebars"/>
-				<property name="transform" value="Origin/handlebar_joint/headlight"/>
-				<property name="bright" value=".75"/></property>
+			<property name="class" value="Headlight"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/>
+		</property>
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
@@ -506,22 +518,28 @@
 		</property>
 
 		<property class="seat0">
-			<property name="position" value="0, .7, -0.15"/>
+			<property name="position" value="0, .7, 0.55"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="-2,0,0 ~ 2,0,0 ~ 0,0,-4 ~ 0,0,4 ~ 0,3,0"/>
 		</property>
 		
 		 <property class="seat1">
-            <property name="position" value="0, 0.7, 0.15"/>
-            <property name="rotation" value="-25, 180, 0"/>
+            <property name="position" value="0.45, .7, -0.11"/>
+            <property name="rotation" value="-15, 0, 0"/>
+            <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+        </property>
+		
+		 <property class="seat2">
+            <property name="position" value="-0.43, .7, -0.11"/>
+            <property name="rotation" value="-15, 0, 0"/>
             <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
         </property>
 		
 		<property class="headlight">
-				<property name="class" value="Headlight"/>
-				<property name="parent_part" value="handlebars"/>
-				<property name="transform" value="Origin/handlebar_joint/headlight"/>
-				<property name="bright" value=".75"/></property>
+			<property name="class" value="Headlight"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/>
+		</property>
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
@@ -592,22 +610,28 @@
 		</property>
 
 		<property class="seat0">
-			<property name="position" value="0, 0.2, -0.15"/>
+			<property name="position" value="0, -0.2, 0.85"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="-2,0,0 ~ 2,0,0 ~ 0,0,-4 ~ 0,0,4 ~ 0,3,0"/>
 		</property>
 		
 		 <property class="seat1">
-            <property name="position" value="0, 0.2, 0.15"/>
-            <property name="rotation" value="-25, 180, 0"/>
+            <property name="position" value="0.3, -0.2, -0.15"/>
+            <property name="rotation" value="-15, 0, 0"/>
+            <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+        </property>
+		
+		 <property class="seat2">
+            <property name="position" value="-0.3, -0.2, -0.15"/>
+            <property name="rotation" value="-15, 0, 0"/>
             <property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
         </property>
 		
 		<property class="headlight">
-				<property name="class" value="Headlight"/>
-				<property name="parent_part" value="handlebars"/>
-				<property name="transform" value="Origin/handlebar_joint/headlight"/>
-				<property name="bright" value=".75"/></property>
+			<property name="class" value="Headlight"/>
+			<property name="transform" value="Origin/headlight"/>
+			<property name="bright" value=".75"/>
+		</property>
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
