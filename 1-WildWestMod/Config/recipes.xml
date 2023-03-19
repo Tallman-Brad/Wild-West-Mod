@@ -4195,8 +4195,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
     <recipe name="foodWildWestBaconAndEggsAndAcornHardtack" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
 	    <ingredient name="foodWildWestAcornHardtack" count="1"/>
-	<ingredient name="foodRawMeat" count="5"/>
-	<ingredient name="foodEgg" count="2"/>
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodEgg" count="2"/>
 	<effect_group>
 		<passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="foodRawMeat"/>
 	</effect_group>
@@ -4452,6 +4452,16 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceNail" count="10"/>
 		<ingredient name="resourceRope" count="1"/>
 	</recipe-->
+	
+<!-- Clucking Bells Screamer Dinner Bell -->
+
+	<recipe name="cluckingbellsTrap" count="1" craft_time="1200" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="150"/>
+		<ingredient name="resourceScrapBrass" count="2500"/>
+		<ingredient name="resourceMetalPipe" count="20"/>
+		<ingredient name="medicalBloodBag" count="10"/>
+		<ingredient name="resourceCatfish" count="1"/>
+	</recipe>
 	
 <!-- Steam Horse -->	
 

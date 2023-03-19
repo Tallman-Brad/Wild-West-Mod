@@ -2498,7 +2498,7 @@
 	
 	<!-- Wild West Quests -->
 	
-		<!-- Admin item to restart automatic qc_eliminatezombies quest if removed/bugging out  -->
+		<!-- Admin item to restart qc_homestead01 quest if removed/bugging out  -->
 		<item name="qc_homestead01">
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="CreativeMode" value="Dev"/>
@@ -2510,7 +2510,7 @@
 			</property>
 		</item>
 		
-		<!-- Admin item to restart automatic qc_eliminatezombies quest if removed/bugging out  -->
+		<!-- Admin item to restart qc_fort01 quest if removed/bugging out  -->
 		<item name="qc_fort01">
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="CreativeMode" value="Dev"/>
@@ -2519,6 +2519,18 @@
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_fort01"/>
+			</property>
+		</item>
+		
+		<!-- Admin item to restart automatic qc_eliminatezombies quest if removed/bugging out  -->
+		<item name="qc_chuckwagondinnerbell01">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="qc_chuckwagondinnerbell01Desc"/>
+			<property name="CustomIcon" value="churchBell"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_chuckwagondinnerbell01"/>
 			</property>
 		</item>
 	
