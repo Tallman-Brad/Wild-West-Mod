@@ -2390,6 +2390,38 @@
 	<drop event="Destroy" name="resourceScrapBrass" count="10"/>
 </block>
 
+	<!-- Oakraven Kerosene Boom Barrel -->
+	
+<block name="cntKeroseneBarrel">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="cntKeroseneBarrel"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/TNTBarrel.unity3d?TNTBarrel"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="CarExplodeLoot"/>
+	<property name="LootList" value="gasBarrel"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="Material" value="Mwood_regular"/>
+	<property name="Group" value="Ammo/Weapons,Ammo"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert"/>
+	<property name="Path" value="solid"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CanDecorateOnSlopes" value="false"/>
+	<property name="Stacknumber" value="25"/> <!-- STK explosives -->
+	<property name="MaxDamage" value="1"/>
+	<property class="Explosion">
+		<property name="ParticleIndex" value="13"/>
+		<property name="RadiusBlocks" value="5"/>
+		<property name="BlockDamage" value="2"/>
+		<property name="RadiusEntities" value="5"/>
+		<property name="EntityDamage" value="250"/>
+	</property>
+	<drop event="Destroy" name="resourceWood" count="4,8"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.25" stick_chance="1"/>
+	<property name="FilterTags" value="MC_building,SC_traps"/>
+</block>
+
 </append>
 
 </wildwestmod>

@@ -4463,6 +4463,16 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="resourceCatfish" count="1"/>
 	</recipe>
 	
+<!-- Oakraven Kerosene Boom Barrel -->
+
+	<recipe name="cntKeroseneBarrel" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="ammoGasCan" count="100"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceScrapIron" count="20"/>
+		<ingredient name="resourceRope" count="1"/>
+		<ingredient name="resourceGunPowder" count="20"/>
+	</recipe>
+	
 <!-- Steam Horse -->	
 
 	<recipe name="vehicleSteamHorsePlaceable" count="1" craft_time="300" craft_area="workbench" tags="learnable">

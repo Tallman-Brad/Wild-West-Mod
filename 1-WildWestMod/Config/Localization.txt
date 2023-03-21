@@ -149,7 +149,7 @@ perkWildWestExperienceRank4LongDesc,progression,perk Int,,,"Everything you touch
 perkWildWestExperienceRank5Desc,progression,perk Int,,,Legendary Innovator,,,,,,,,,,,,,
 perkWildWestExperienceRank5LongDesc,progression,perk Int,,,"Your experience is of great benefit to the community. Gain +100% XP.",,,,,,,,,,,,,
 perkDemolitionsExpertRank1LongDesc,progression,perk Per,,,"You are now a grenadier initiate. Increase damage 10% and have a chance to stun.",,,,,,,,,,,,,
-perkDemolitionsExpertRank2LongDesc,progression,perk Per,,,"Increase damage by 20% and have a chance to stun.",,,,,,,,,,,,,
+perkDemolitionsExpertRank2LongDesc,progression,perk Per,,,"Increase damage by 20% and have a chance to stun. You can craft Kerosene Boom Barrels.",,,,,,,,,,,,,
 perkDemolitionsExpertRank3LongDesc,progression,perk Per,,,"You are now an explosives handler. Increase damage 30%, have a 33% chance to cripple enemies and a 20% greater chance to dismember. You can craft Timed Dynamite.",,,,,,,,,,,,,
 perkDemolitionsExpertRank4Desc,progression,perk Per,,,Short Fuse,,,,,,,,,,,,,
 perkDemolitionsExpertRank4LongDesc,progression,perk Per,,,"Increase damage 40%, have a 66% chance to cripple enemies and a 30% greater chance to dismember.",,,,,,,,,,,,,
@@ -270,6 +270,8 @@ cntVendingMachineGroupDesc,blocks,Container,,,"Buy goods at vending machines wit
 cntVendingMachineTrader,blocks,Container,,,Wild West Vending Machine Rental,,,,,,,,,,,,,
 cntBeerCooler,blocks,Container,,,Wild West Cooler,,,,,,,,,,,,,
 cntCabinetOldSinkSluiceBox,blocks,Container,,,Sluice Box
+cntKeroseneBarrel,blocks,Block,,,Kerosene Boom Barrel,,,,,,,,,,,,,
+cntKeroseneBarrelDesc,blocks,Block,,,"The Wild West Kerosene Boom Barrel can be placed gently but is too volatile to be picked up again. Shoot or hit to explode. Causes high entity damage but very low block damage. Can be lined up to trigger a domino effect.",,,,,,,,,,,,,
 
 cntCollapsedGeneratorbank,blocks,Container,,,Destroyed Steam Power Stove,,,,,,,,,,,,,
 generatorbank,blocks,Electricity,,,Stove Steam Power,,,,,,,,,,,,,

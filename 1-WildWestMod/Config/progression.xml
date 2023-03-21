@@ -97,7 +97,9 @@
 	</append>
 	
 	<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']">
-		<effect_group>		
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
+				tags="cntKeroseneBarrel"/>		
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
 				tags="thrownTimedDynamite"/>
 		</effect_group>		
