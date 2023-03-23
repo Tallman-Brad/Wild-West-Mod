@@ -2527,7 +2527,7 @@
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="DescriptionKey" value="qc_chuckwagondinnerbell01Desc"/>
-			<property name="CustomIcon" value="churchBell"/>
+			<property name="CustomIcon" value="bellquest"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="quest_chuckwagondinnerbell01"/>

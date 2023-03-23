@@ -2364,27 +2364,52 @@
 	
 	<!-- Clucking Bells Screamer Bell -->
 	
+
+	
 <block name="cluckingbellsTrap">
 	<property name="Material" value="Mbrass"/>
-	<property name="CustomIcon" value="churchBell"/>
+	<property name="CustomIcon" value="bellquest"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="MaxDamage" value="5000"/>
+    <property name="MaxDamage" value="2"/>
+    <property name="Path" value="solid"/>
 	<property name="StabilitySupport" value="false"/>
-	<property name="Model" value="Entities/OutdoorDecor/churchBellPrefab"/>
+	<property name="Model" value="#@modfolder:Resources/BellQuest.unity3d?BellQuestOff"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="MultiBlockDim" value="2,2,2"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="ModelOffset" value=".5,0,0"/>
 	<property name="Weight" value="63"/>
 	<property name="Group" value="Tools/Traps,Science"/>	
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Stacknumber" value="1"/>
+    <property name="Place" value="TowardsPlacerInverted"/>
+	<property class="RepairItems"> <property name="resourceScrapBrass" value="25"/> </property>
+	<drop event="Destroy" name="resourceScrapBrass" count="10"/>
+    <property name="FilterTags" value="floot,fdecor,fother,ffurniture"/>
+	<property name="DowngradeBlock" value="cluckingbellsTrapOn"/>
+</block>
+
+<block name="cluckingbellsTrapOn">
+	<property name="Material" value="Mbrass"/>
+	<property name="CustomIcon" value="bellquest"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MaxDamage" value="5000"/>
+    <property name="Path" value="solid"/>	
+	<property name="StabilitySupport" value="false"/>
+    <property name="Model" value="#@modfolder:Resources/BellQuest.unity3d?BellQuest"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Weight" value="63"/>
+	<property name="Group" value="Tools/Traps,Science"/>	
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Stacknumber" value="1"/>
+    <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="HeatMapStrength" value="1000"/>
 	<property name="HeatMapTime" value="1000000"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; -->
 	<!--property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/-->
 	<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->
-	<property name="CanPickup" value="true"/>
+	<property name="CanPickup" value="true" param1="cluckingbellsTrap"/>
 	<property class="RepairItems"> <property name="resourceScrapBrass" value="25"/> </property>
 	<drop event="Destroy" name="resourceScrapBrass" count="10"/>
 </block>

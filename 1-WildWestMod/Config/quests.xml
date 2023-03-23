@@ -3142,10 +3142,10 @@
 	<!-- Adds the "Chuckwagon Dinner Bell Challenge" -->	
 	<!-- Chuckwagon Dinner Bell Craft and Place -->
 		<quest id="quest_chuckwagondinnerbell01">
-		<property name="offer_key" value="Accept this Quest to begin the Chuckwagon Dinner Bell Challenge. Craft a Chuckwagon Dinner Bell and place it on a flat surface. Placing the Chuckwagon Dinner Bell announces that dinner has been served. A Screamer Scout will pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing. Receive 1 Skill Point for eliminating 250 Screamer Scouts. This quest continually loops." />
+		<property name="offer_key" value="Accept this Quest to begin the Chuckwagon Dinner Bell Challenge. Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing. Receive 1 Skill Point for eliminating 250 Screamer Scouts. This quest continually loops." />
 		<property name="name_key" value="Chuckwagon Dinner Bell"/>
 		<property name="subtitle_key" value="Chuckwagon Dinner Bell"/>
-		<property name="description_key" value="Craft a Chuckwagon Dinner Bell on the Workbench. Place it in a suitable location on a flat surface to begin attracting Screamer Scouts and her friends."/>
+		<property name="description_key" value="Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing."/>
 		<property name="icon" value="ui_game_symbol_zombie"/>
 		<property name="category_key" value="quest"/>
 		<property name="difficulty" value="veryeasy"/>
@@ -3159,10 +3159,10 @@
 	
 	<!-- Adds the "Zombie Looping" Bounty Quest -->
 	<quest id="quest_chuckwagondinnerbell02">
-	<property name="offer_key" value="Accept this Quest to begin the Chuckwagon Dinner Bell Challenge. Craft a Chuckwagon Dinner Bell and place it on a flat surface. Placing the Chuckwagon Dinner Bell announces that dinner has been served. A Screamer Scout will pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing. Receive 1 Skill Point for eliminating 250 Screamer Scouts. This quest continually loops." />       
+	<property name="offer_key" value="Accept this Quest to begin the Chuckwagon Dinner Bell Challenge. Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing. Receive 1 Skill Point for eliminating 250 Screamer Scouts. This quest continually loops." />       
     <property name="name_key" value="Screamer Scouts" />
 	<property name="subtitle_key" value="Screamer Scouts" />
-	<property name="description_key" value="Craft a Chuckwagon Dinner Bell on the Workbench. Place it in a suitable location on a flat surface to begin attracting Screamer Scouts and her friends. Receive 1 Skill Point for eliminating 250 Screamer Scouts. This quest continually loops." />
+	<property name="description_key" value="Craft a Chuckwagon Dinner Bell and place it on a flat surface. Strike it to announce that dinner has been served. A Screamer Scout will hear the sound, pick up the scent, and invite her friends to the feast. Pick up the Chuckwagon Dinner Bell to stop any more Screamer Scouts from appearing." />
 	<property name="icon" value="ui_game_symbol_zombie"/>
 	<property name="repeatable" value="true"/>
 	<property name="category_key" value="quest"/>
