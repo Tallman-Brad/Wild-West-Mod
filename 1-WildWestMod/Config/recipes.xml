@@ -4148,38 +4148,38 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <!-- Default -->
     <recipe name="modDyeBlack" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyeBlue" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyeBrown" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyeGreen" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyePink" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyePurple" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyeRed" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>	
     <recipe name="modDyeYellow" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
 <!-- Extras -->
     <recipe name="modInvisible" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyeTan" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>
     <recipe name="modDyeSandyTan" count="1">
-      <ingredient name="resourcePaint" count="10" craft_area="workbench" tags="workbenchCrafting"/>
+      <ingredient name="resourcePaint" count="20" craft_area="workbench" tags="workbenchCrafting"/>
     </recipe>	
 
 <!-- Food and Drink -->
