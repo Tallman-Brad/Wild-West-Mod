@@ -2385,7 +2385,6 @@
 	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/-->
 	<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->
 	<property name="CanPickup" value="true"/>
-	<property name="BuffChance" value="1"/>	
 	<property class="RepairItems"> <property name="resourceScrapBrass" value="25"/> </property>
 	<drop event="Destroy" name="resourceScrapBrass" count="10"/>
 </block>
