@@ -7073,13 +7073,16 @@ If there is no hit the default quality is used.
 	<item name="resourceRawDiamond" count="2,3" loot_prob_template="low"/>
 </lootgroup>
 
-<lootgroup name="groupHardenedChestT5_08">
+<lootgroup name="groupHardenedChestT5_08"> <!-- Adding Extra Ammo -->
 	<!--item name="questRewardDartTrapBundle" count="1"/-->
 	<!--item name="questRewardBladeTrapBundle" count="1"/-->
 	<!--item name="questRewardSecuritySystemBundle" count="1"/-->
 	<!--item name="questRewardShotgunTurretBundle" count="1"/-->
 	<!--item name="questRewardAutoTurretBundle" count="1"/-->
-	<item name="questRewardT4FoodBundle" count="1"/>
+	<!--item name="questRewardT4FoodBundle" count="1"/-->
+	<item group="groupHardenedChestT4_01" count="1"/> <!-- Ammo -->
+	<item group="groupHardenedChestT4_02" count="1"/> <!-- Ammo -->
+	<item group="groupHardenedChestT4_03" count="1"/> <!-- Ammo -->
 </lootgroup>
 
 <lootgroup name="groupHardenedChestT5" count="all">
@@ -7090,7 +7093,7 @@ If there is no hit the default quality is used.
 	<item group="groupHardenedChestT5_05" count="2"/> <!-- Books/Schematics -->
 	<item group="groupHardenedChestT5_06" count="2"/> <!-- Bonus Items -->
 	<item group="groupHardenedChestT5_07" count="1"/> <!-- Cash-n-Prizes -->
-	<item group="groupHardenedChestT5_08" count="1"/> <!-- T5 Bonus Items -->
+	<item group="groupHardenedChestT5_08" count="2"/> <!-- T5 Bonus Items --> <!-- From 1 to 2 to replace modern and innappropriate items with ammo -->
 </lootgroup>
 
 <!-- *** Laundry_Loot -->
@@ -9343,13 +9346,13 @@ If there is no hit the default quality is used.
 	<item group="groupReinforcedChestT3"/>
 </lootcontainer>
 
-<!-- cntLootChestHero, small, Hardened Chest T4 -->
-<lootcontainer id="152" name="hardenedChestT4" count="1" size="8,9" sound_open="UseActions/chest_tier4_open" sound_close="UseActions/chest_tier4_close" loot_quality_template="qualPlus1Template">
+<!-- cntLootChestHero, small, Hardened Chest T4 --> <!-- Changed electronic open/close sounds to T3 -->
+<lootcontainer id="152" name="hardenedChestT4" count="1" size="8,9" sound_open="UseActions/chest_tier3_open" sound_close="UseActions/chest_tier3_close" loot_quality_template="qualPlus1Template">
 	<item group="groupHardenedChestT4"/>
 </lootcontainer>
 
-<!-- cntLootChestHero, small, Hardened Chest T5 -->
-<lootcontainer id="153" name="hardenedChestT5" count="1" size="8,9" sound_open="UseActions/chest_tier5_open" sound_close="UseActions/chest_tier5_close" loot_quality_template="qualPlus1Template">
+<!-- cntLootChestHero, small, Hardened Chest T5 --> <!-- Changed electronic open/close sounds to T3 -->
+<lootcontainer id="153" name="hardenedChestT5" count="1" size="8,9" sound_open="UseActions/chest_tier3_open" sound_close="UseActions/chest_tier3_close" loot_quality_template="qualPlus1Template">
 	<item group="groupHardenedChestT5"/>
 </lootcontainer>
 
