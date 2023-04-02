@@ -1,0 +1,10 @@
+<configs>
+<append xpath="/spawning/biome[@name='burnt_forest']">
+		<spawn maxcount="0" respawndelay="0" time="Day"	entitygroup="TelricsHorses" />
+		<spawn maxcount="0" respawndelay="0" time="Night" entitygroup="TelricsHorses" />
+</append>
+<append xpath="/spawning/biome[@name='wasteland']">
+		<spawn maxcount="0" respawndelay="0" time="Day"	entitygroup="TelricsHorses" />
+		<spawn maxcount="0" respawndelay="0" time="Night" entitygroup="TelricsHorses" />
+</append>
+</configs>
