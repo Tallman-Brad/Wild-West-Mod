@@ -7,19 +7,27 @@ By following these instructions, your World will provide total Wild West Mod imm
 
 1.It is necessary to use '0-SphereII Legacy Distant Terrain' Mod when loading/joining an in game RWG World.
 This is because it removes 'Asphalt' and replaces it with 'Gravel' for the tracks and paths.
+If you are able to modify the roads manually from asphalt to gravel manually using a mod like MapToolz, then this step can be skipped. 
 It is added to the clientside Mods folder. It is not necessary to add it to the server.
 It can be downloaded here: https://github.com/SphereII/SphereII.Mods
 
 2. Telrics Horses Mod (TelricsHorses2.0A20) is necessary for the Wild West Mod as it provides immersive transporation.
-It is bundled into the Wild West Mod package witout any change to its original release.
-A patch will load after Telrics Horses Mod to make a few changes.
+It is bundled into the Wild West Mod package without any change to its original release.
+A patch will load after Telrics Horses Mod to make a few other changes to speed, apple drops from trees, and a few additional features.
 Telrics Horses Mod contains 1 POI called MaybellsFarm which will be innapropriate for players who want total immersion.
-It is necessary to remove this POI (6 individual files named MaybellsFarm) from the TelricsHorses2.0A20 Prefabs folder.
-This will ensure it doesn't get placed on the World when using RWG.
-For players who would like to see this POI, it is not necessary to remove it.
+This POI has also been bundled into the 1-WildWestMod Prefabs folders with its 'wilderness' tag removed.
+This will ensure it doesn't get placed on the World when using RWG since only the first instance of the POI is recognised.
+
+NOTE:
+
+Choice A) For players who would like to see this POI, it is necessary to remove the Mods\1-WildWestMod\Prefabs\MaybellsFarm (Delete folder to add in RWG) folder.
+It is also necessary to remove the Mods\TelricsHorses2.0A20-WildWestMod-Patch folder because it removes 'Notes' that are necessary when visiting Maybelle Farm.
+Removing this folder will revert to default Telrics Horses 2.0 features.
+
+Choice B) For players who would not like to see this POI, there is no need to do anything.
 
 3. Default 7D2D POIs are not necessary for the Wild West Mod due to modern features.
-Go to your default 7D2D main directory. In the Data / Prefabs folder, delete the POIs folder (after making a backup).
+Go to your default 7D2D main directory. In the Data / Prefabs folder, delete the POIs folder (after making a backup that is placed elsewhere).
 This will ensure no regular POIs are placed into the World when using RWG.
 Any necesssary POIs such as iron ore 'nuggets' or decorative POIs have already been bundled into the Wild West Mod. 
 
@@ -27,16 +35,19 @@ Any necesssary POIs such as iron ore 'nuggets' or decorative POIs have already b
 It is recommended to set 50% Desert Biome, and share the remainder between Pine Forest, Snow, and Wasteland.
 It is necessary to have all Biomes on a World since certain game features require visiting them for resources and quests.
 It is recommended to set Towns to many and leave Wilderness at Default or Few.
+It is also recommended to set Plains at 40, Hills at 40, and Mountains at 20.
 
 ======================================================
 = What to expect from a Wild West Mod World from RWG =
 ======================================================
-The RWG will only spawn the Old West Tiling system. However, it has been specifically modified for the Wild West Mod.
+The RWG will only spawn the Old West Tiling system and Wilderness POIs. However, it has been specifically modified for the Wild West Mod.
 The 'Wild West Towns' will be populated by an abundance of custom POIs from Tier 1 to Tier 3 with the odd placement for Tier 4 and 5.
 You may recognise some of the POIs as they are conversions of TFP Old West and Cabin type POIs. These have all been stripped of modern assets and given replacements.
 You will see a variety of custom POIs in the Wilderness. These range from Tier 1 to Tier 5. Tier 4 and 5 will be in greater abundance in the Wilderness.
 There will be Trader Hugh or Joel in every 'Wild West Town' at the Gateway area.
 There will also be a customised Travelling Trader Hugh POI and Rekt POI in the Wilderness.
 You will also find some custom decorative POIs spawning in the Wilderness that provide a cosmetic update and access to resources.
+
+If you understand how to use the World Editor or prefabs.xml folder (or any third party tools providing a similar function) you will be able to manually place POIs at your leisure.
 
 By following Steps 1, 2, 3 and 4, the Wild West Mod will offer a highly immersive addition to the collection of Overhauls and Mods available to enhance the 7D2D experience.
