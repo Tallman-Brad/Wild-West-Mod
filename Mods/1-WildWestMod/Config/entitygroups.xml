@@ -135,12 +135,31 @@
 	
 	</append>
 	
+	<!-- Burnt and Mutated pegged to Moe spawns -->
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoe']">
+		<entity name="zombieBurnt" prob="0.5"/>
+		<entity name="zombieMutated" prob="0.5"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoeFeral']">
+		<entity name="zombieBurntFeral" prob="0.35"/>
+		<entity name="zombieMutatedFeral" prob="0.35"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoeRadiated']">
+		<entity name="zombieBurntRadiated" prob="0.2"/>
+		<entity name="zombieMutatedRadiated" prob="0.2"/>
+	</insertAfter>
+	
 	<!-- Crispy and Friends Horde Night Generic after Demolition stage -->
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieDemolition']">
-		<entity name="guppyVultureBurnt" prob="0.3"/>
-		<entity name="guppyMommaVultureBurnt" prob="0.2"/>
-		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/>
+		<entity name="guppyVultureBurnt" prob="0.35"/>
+		<entity name="guppyMommaVultureBurnt" prob="0.25"/>
+		<entity name="zombieSoldierRadiated" prob="0.25"/>
+		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.15"/>
+		<entity name="animalZombieBear" prob="0.15"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Own Horde Night -->
