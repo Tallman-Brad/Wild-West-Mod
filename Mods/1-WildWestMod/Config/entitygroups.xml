@@ -25,7 +25,9 @@
 		<entity name="zombieFemaleBigFatBarker" prob="0.5"/>
 		<entity name="guppyVultureBurnt" prob="1.2"/>		
 		<entity name="guppyMommaVultureBurnt" prob="0.8"/>
-		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>		
+		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
+		<entity name="zombieMolotovSoldierFeral" prob="0.5"/>
+		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.5"/>		
 	</set>
 
 	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
@@ -51,7 +53,9 @@
 		<entity name="zombieFemaleBigFatBarker" prob="0.5"/>
 		<entity name="guppyVultureBurnt" prob="1.2"/>		
 		<entity name="guppyMommaVultureBurnt" prob="0.8"/>
-		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>		
+		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
+		<entity name="zombieMolotovSoldierFeral" prob="0.5"/>
+		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.5"/>		
 	</set>	
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
@@ -155,11 +159,13 @@
 	<!-- Crispy and Friends Horde Night Generic after Demolition stage -->
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieDemolition']">
-		<entity name="guppyVultureBurnt" prob="0.35"/>
+		<entity name="guppyVultureBurnt" prob="0.25"/>
 		<entity name="guppyMommaVultureBurnt" prob="0.25"/>
 		<entity name="zombieSoldierRadiated" prob="0.25"/>
-		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.15"/>
-		<entity name="animalZombieBear" prob="0.15"/>
+		<entity name="zombieMolotovSoldierFeral" prob="0.25"/>
+		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.25"/>
+		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.25"/>
+		<entity name="animalZombieBear" prob="0.25"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Own Horde Night -->

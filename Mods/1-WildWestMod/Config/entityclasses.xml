@@ -690,6 +690,36 @@
 	</effect_group>
 </entity_class>
 
+<!-- Molotov Soldier -->
+
+<entity_class name="zombieMolotovSoldierFeral" extends="zombieSoldier">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="#Entities/Zombies?Prefabs/ZSoldierFeral.prefab"/>
+	<!-- Gameplay zombieSoldierFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- fit, feral -->
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+	<property name="HandItem" value="meleeHandZombieMolotovFeral"/>
+	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+    <property name="SizeScale" value="1.15"/>
+	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="285"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+	</effect_group>
+</entity_class>
+
 		<!-- Guppycur - Burnt Vulture Entity Variants -->		
 
 		<entity_class name="guppyVultureBurnt" extends="zombieTemplateMale">
@@ -841,6 +871,62 @@
             <property name="MaxViewAngle" value="360"/>
 			<property name="LookAtAngle" value="0"/>
 			<property name="HandItem" value="meleeHandZombieStrong"/>			
+            <property name="MoveSpeed" value=".85"/>
+            <property name="MoveSpeedAggro" value="1.25, 1.45"/> 
+            <property name="MoveSpeedPanic" value="1.5"/>
+			<property name="ParticleOnDeath" value="blood_death"/>
+			<property name="RotateToGround" value="true"/>
+  
+			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1050"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>				
+			</effect_group>  
+        </entity_class>
+		
+		<entity_class name="guppyRadiatedFireMommaVultureBurnt" extends="zombieWightRadiated">
+            <property name="HideInSpawnMenu" value="false"/>    
+            <property name="SizeScale" value="1.1"/> 
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture,UMA2,feral,radiated"/>
+            <property name="HasRagdoll" value="false"/>
+            <property name="HasDeathAnim" value="true"/>
+            <property name="RootMotion" value="true"/>
+            <property name="IsEnemyEntity" value="true"/>             
+            <property name="AvatarController" value="AvatarAnimalController"/> 
+            <property name="Mesh" value="#@modfolder:Resources/gupBurntVultureRad.unity3d?gupburnedvulturehumanoidrad"/>
+			<property name="ReplaceMaterial0" value="Entities/Animals/Boar/Materials/GRACE"/>
+            <property name="ExperienceGain" value="1200"/>
+            <property name="DeadBodyHitPoints" value="200"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+			<property name="LootDropProb" value=".5"/>
+			<property name="PhysicsBody" value="zombieStandard"/>			
+            <property name="Mass" value="70"/>
+            <property name="Weight" value="80"/>
+			<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
+			<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
+			<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
+			<property name="SoundDeath" value="Animals/Vulture/vulturedeath"/>
+			<property name="SoundAttack" value="Animals/Vulture/vultureattack"/>
+			<property name="SoundSense" value="Animals/Vulture/vulturesense"/>
+			<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>	
+			<property name="AIFeralSense" value=".1"/> <!-- 1.6 -->
+			<property name="WalkType" value="7"/>			
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
+			<property name="AITask-4" value="ApproachSpot"/>
+			<property name="AITask-5" value="Look"/>
+			<property name="AITask-6" value="Wander"/>
+			<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->			
+            <property name="MaxViewAngle" value="360"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="HandItem" value="meleeHandZombieFire"/>			
             <property name="MoveSpeed" value=".85"/>
             <property name="MoveSpeedAggro" value="1.25, 1.45"/> 
             <property name="MoveSpeedPanic" value="1.5"/>
