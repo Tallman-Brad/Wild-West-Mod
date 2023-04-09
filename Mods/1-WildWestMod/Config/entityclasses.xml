@@ -703,7 +703,6 @@
 	<property name="HandItem" value="meleeHandZombieMolotovFeral"/>
 	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
 	<property name="LootDropProb" value=".03"/> <!-- Feral -->
-    <property name="SizeScale" value="1.15"/>
 	
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
