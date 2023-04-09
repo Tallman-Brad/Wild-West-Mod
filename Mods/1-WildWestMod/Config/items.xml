@@ -78,15 +78,15 @@
 	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">50</set>
 	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">2500</set>
 	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">2500</set>
-	<set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropBlueberries']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropCorn']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropBlueberries']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropCorn']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">1000</set>
 	<!--set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">250</set-->
 	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">250</set>
 	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">250</set>
@@ -124,7 +124,7 @@
 	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">25</set><!-- x5 of default -->	
 	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">50</set><!-- x50 of default -->	
 	<set xpath="/items/item[@name='resourceHeadlight']/property[@name='Stacknumber']/@value">250</set><!-- x5 of default -->
-	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set><!-- x1.25 of default -->
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">30000</set><!-- x1.25 of default -->
 	<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">50</set><!-- x5 of default -->
 	<set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
 	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
@@ -1572,7 +1572,7 @@
 				<!--triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Body2" prefab="Entities/Traps/hubcapPrefab" parentTransform="Handle" localPos="0,0,-0.3" localRot="90,180,0"/-->
 				<!--triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Body3" prefab="Entities/Electrical/power_switchPrefab" parentTransform="Handle" localPos="0,-0.44,0.25" localRot="90,0,0"/-->		
 				<!--triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="AmmoDrum1"/-->
-				<!--triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="AmmoDrum2"/-->				
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="AmmoDrum2"/>				
 				<!--triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Body1"/-->
 				<!--triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Body2"/-->
 				<!--triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Body3"/-->				
