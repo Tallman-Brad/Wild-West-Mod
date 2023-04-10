@@ -613,7 +613,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
 	<property name="Meshfile" value="#@modfolder:Resources/666revolver.unity3d?666revolver"/>
-	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
+	<property name="Material" value="Mmetal"/> <property name="Weight" value="100"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
@@ -715,7 +715,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
 	<property name="Meshfile" value="#@modfolder:Resources/revolver1875.unity3d?revolver1875"/>
-	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
+	<property name="Material" value="Mmetal"/> <property name="Weight" value="200"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
@@ -820,7 +820,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
 	<property name="Meshfile" value="#@modfolder:Resources/schofieldrevolver.unity3d?schofieldrevolver"/>
-	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
+	<property name="Material" value="Mmetal"/> <property name="Weight" value="200"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
@@ -1524,7 +1524,7 @@
 
 		<item name="gunGatling">			
 			<property name="DescriptionKey" value="gunGatlingDesc"/>			
-			<property name="Tags" value="weapon,ranged,reloadPenalty,gun,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+			<property name="Tags" value="weapon,ranged,reloadPenalty,gun,magazine,drumMagazine,bottomAttachments,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 			<property name="DisplayType" value="rangedGun"/>
 			<property name="HoldType" value="60"/>
 			<property name="Meshfile" value="#@modfolder:Resources/m60MiniGun.unity3d?BradM60MiniGun"/>
