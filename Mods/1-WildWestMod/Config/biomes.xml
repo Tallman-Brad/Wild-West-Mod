@@ -4,36 +4,36 @@
 
 	<!-- Snow Biome Environmental Customisations --> <!-- More frequent fog and snow, heavier fog in storms -->
 	<!-- default --> 
-		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='default']/@prob">40</set> <!-- default 44 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='default']/@prob">30</set> <!-- default 44 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='default']/Fog/@min">.02</set> <!-- default 0 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='default']/Fog/@max">2</set> <!-- default 2 -->	
 	<!-- fog -->
-		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/@prob">20</set> <!-- default 8 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/Fog/@min">10</set> <!-- default 7 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/@prob">10</set> <!-- default 8 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/Fog/@min">7</set> <!-- default 7 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='fog']/Fog/@max">20</set> <!-- default 18 -->	
 	<!-- snow -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/@prob">50</set> <!-- default 40 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/Fog/@min">1</set> <!-- default 1 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/Fog/@max">15</set> <!-- default 5 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/Fog/@max">10</set> <!-- default 5 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='snow']/Precipitation/@min">50</set> <!-- default 30 -->	
 	<!-- storm -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']/@prob">10</set> <!-- default 8 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']/Fog/@min">8</set> <!--default 5 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']/Fog/@max">30</set> <!-- default 15 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather[@name='storm']/Fog/@max">20</set> <!-- default 15 -->
 		
 	<!-- Pine Forest Environmental Customisations -->	
 	<!-- default -->
-		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='default']/@prob">80</set> <!-- default 83 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='default']/@prob">83</set> <!-- default 83 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='default']/Fog/@min">.05</set> <!-- default 0 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='default']/Fog/@max">2</set> <!-- default 2 -->					
 	<!-- fog --> <!-- Raised chance of fog and made much colder and much foggier -->
-		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/@prob">10</set> <!-- default 7 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/@prob">7</set> <!-- default 7 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Temperature/@min">26</set> <!-- default 65 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Temperature/@max">50</set> <!-- default 70 -->
 		<!-- Could thickness left at default 35, 70-->
 		<!-- Precipitation left at default 0, 0 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Fog/@min">20</set> <!-- default 16 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Fog/@max">35</set> <!-- default 27 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Fog/@min">16</set> <!-- default 16 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='fog']/Fog/@max">27</set> <!-- default 27 -->
 		<!-- Wind left at default 0 -->
 	<!-- rain -->	<!-- Lowered chance of rain, but made colder, foggier and wetter -->
 		<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather[@name='rain']/@prob">5</set> <!-- default 7 -->
@@ -54,22 +54,22 @@
 
 	<!-- Desert Environmental Customisations --> <!-- More chance of storms, hotter in normal weather, colder in storms -->
 	<!-- default -->	
-		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='default']/@prob">70</set> <!-- default 87 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='default']/@prob">80</set> <!-- default 87 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='default']/Temperature/@min">100</set> <!-- default 95 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='default']/Temperature/@max">115</set> <!-- default 105 -->	
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='default']/CloudThickness[1]/@prob">33</set> <!-- default 33 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='default']/CloudThickness[2]/@prob">66</set> <!-- default 66 -->
 	<!-- rain -->				
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/@prob">5</set> <!-- default 8 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Fog/@min">3</set> <!-- default 1 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Fog/@max">10</set> <!-- default 4 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Fog/@min">1</set> <!-- default 1 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Fog/@max">8</set> <!-- default 4 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='rain']/Precipitation/@min">40</set> <!-- default 25 -->
 	<!-- storm -->		
-		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/@prob">25</set> <!-- default 5 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/@prob">15</set> <!-- default 5 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Temperature/@min">40</set> <!-- default 95 -->
 		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Temperature/@max">60</set> <!-- default 105 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Fog/@min">5</set> <!-- default 3 -->
-		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Fog/@max">30</set> <!-- default 15 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Fog/@min">3</set> <!-- default 3 -->
+		<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather[@name='storm']/Fog/@max">20</set> <!-- default 15 -->
 
 	<!-- COSMETIC CHANGES -->
 
