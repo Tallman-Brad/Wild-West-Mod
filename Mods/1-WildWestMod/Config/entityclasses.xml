@@ -525,8 +525,9 @@
 		</effect_group>
 	</entity_class>
 	
-		<!-- CUSTOM Gunslinger -->
-
+		<!-- CUSTOM Gunslingers -->
+		
+		<!-- Feral Gunslinger Wight -->
 	<entity_class name="zombieWightFeralGunslinger" extends="zombieWightFeral">
 		<property name="Tags" value="entity,zombie,walker,feral"/>
 
@@ -553,7 +554,8 @@
 			<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 		</effect_group>
 	</entity_class>
-	
+
+		<!-- Radiated Gunslinger Wight -->	
 	<entity_class name="zombieWightRadiatedGunslinger" extends="zombieWightFeralGunslinger">
 		<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
 		<property name="Mesh" value="#Entities/Zombies?Prefabs/ZWightRadiated.prefab"/>
@@ -599,6 +601,38 @@
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 		</effect_group>
 	</entity_class>
+	
+		<!-- Business Bandit -->	
+<entity_class name="zombieBusinessManRadiatedGunslinger" extends="zombieBusinessManRadiated">
+	<property name="HideInSpawnMenu" value="false"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<!-- <property name="Buffs" value="buffLegendaryBoss"/> -->
+	<property name="Mesh" value="#Entities/Zombies?Prefabs/ZSuitFeral.prefab"/>
+
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1350"/><!-- XP grunt radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".25"/>
+	<property name="HandItem" value="meleeHandzombieBusinessManRadiatedGunslinger"/>
+	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->
+
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBusinessManRadiatedGunslingerDeco"/>	
+		<passive_effect name="HealthMax" operation="base_set" value="1350"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>-->
+		<!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
 	
 		<!-- Wendigo Variants -->
 		

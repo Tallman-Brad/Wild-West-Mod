@@ -139,6 +139,24 @@
 	
 	</append>
 	
+	<!-- Sleeper Volume Gunslingers pegged to Big Momma Radiated -->
+
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'sleeperHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 181 or about Level 75 -->
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'badassHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 194 or about Level 80 -->
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'badassOnlyHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 65 or about Level 30 -->
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'scoutHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 140 or about Level 60 -->
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+	</insertAfter>
+	
 	<!-- Burnt and Mutated pegged to Moe spawns -->
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoe']">
@@ -151,21 +169,22 @@
 		<entity name="zombieMutatedFeral" prob="0.35"/>
 	</insertAfter>
 	
-	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoeRadiated']">
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoeRadiated']"> <!-- GS 133 or about Level 55 -->
 		<entity name="zombieBurntRadiated" prob="0.2"/>
 		<entity name="zombieMutatedRadiated" prob="0.2"/>
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.75"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Horde Night Generic after Demolition stage -->
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieDemolition']">
-		<entity name="guppyVultureBurnt" prob="0.25"/>
-		<entity name="guppyMommaVultureBurnt" prob="0.25"/>
-		<entity name="zombieSoldierRadiated" prob="0.25"/>
-		<entity name="zombieMolotovSoldierFeral" prob="0.25"/>
-		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.25"/>
-		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.25"/>
-		<entity name="animalZombieBear" prob="0.25"/>
+		<entity name="guppyVultureBurnt" prob="0.35"/>
+		<entity name="guppyMommaVultureBurnt" prob="0.35"/>
+		<entity name="zombieSoldierRadiated" prob="0.35"/>
+		<entity name="zombieMolotovSoldierFeral" prob="0.35"/>
+		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.35"/>
+		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.35"/>
+		<entity name="animalZombieBear" prob="0.35"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Own Horde Night -->
