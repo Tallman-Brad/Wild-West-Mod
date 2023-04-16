@@ -141,12 +141,20 @@
 			</effect_group>
 		</buff>
 		
-<!-- Business Bandit -->
+<!-- Business Bandit - Monsignor -->
 		
 		<buff name="zombieBusinessManRadiatedGunslingerDeco" hidden="true">
 			<effect_group>								
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/schofieldrevolver.unity3d?schofieldrevolver" local_offset="0.1,0.02,0.0" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Left-Right/Front-Back -->
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/schofieldrevolver.unity3d?schofieldrevolver" local_offset="-0.1,-0.02,0.0" local_rotation="7,-80,-90" parent_transform="LeftHand"/> <!-- Local Offset Up-Down/Left-Right/Front-Back --> <!-- Local Rotation Exorcist Spin/Nodding/Thinking -->
+			</effect_group>
+		</buff>
+		
+<!-- Business Bandit - Monsignor -->
+		
+		<buff name="zombieLumberjackRadiatedAxeDeco" hidden="true">
+			<effect_group>								
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/newfireaxe.unity3d?newfireaxe" local_offset="0.1,0.02,0.0" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Left-Right/Front-Back -->
 			</effect_group>
 		</buff>
 		

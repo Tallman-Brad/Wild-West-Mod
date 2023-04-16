@@ -602,7 +602,7 @@
 		</effect_group>
 	</entity_class>
 	
-		<!-- Business Bandit -->	
+		<!-- Business Bandit - Monsignor -->	
 <entity_class name="zombieBusinessManRadiatedGunslinger" extends="zombieBusinessManRadiated">
 	<property name="HideInSpawnMenu" value="false"/>
 	<property name="Tags" value="entity,zombie,walker,feral"/>
@@ -630,6 +630,27 @@
 		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>-->
 		<!-- Feral damage -->
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+		<!-- Texas Red -->
+<entity_class name="zombieLumberjackRadiatedAxe" extends="zombieLumberjackFeral">
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieLumberjackRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1650"/><!-- XP strong radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".25"/>
+
+	<effect_group name="Base Effects">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieLumberjackRadiatedAxeDeco"/>
+		<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="9"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>
 </entity_class>

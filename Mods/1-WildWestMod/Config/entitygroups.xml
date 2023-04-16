@@ -142,22 +142,59 @@
 	<!-- Sleeper Volume Gunslingers pegged to Big Momma Radiated -->
 
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'sleeperHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 181 or about Level 75 -->
-		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.9"/>
+	</insertAfter>
+
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'ZombieGhostTownGroupGS')]/entity[@name='zombieFemaleFatRadiated' and not(@prob='0')]"> <!-- Stops spawning at 0 prob stages -->
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.2"/>
 	</insertAfter>
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'badassHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 194 or about Level 80 -->
-		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.9"/>
 	</insertAfter>
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'badassOnlyHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 65 or about Level 30 -->
-		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.9"/>
 	</insertAfter>
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'scoutHordeStageGS')]/entity[@name='zombieFemaleFatRadiated']"> <!-- GS 140 or about Level 60 -->
-		<entity name="zombieBusinessManRadiatedGunslinger" prob="1.1"/>
+		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.9"/>
 	</insertAfter>
 	
-	<!-- Burnt and Mutated pegged to Moe spawns -->
+	<!-- Sleeper Volume Axe pegged to Lumberjack Radiated -->
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'sleeperHordeStageGS')]/entity[@name='zombieLumberjackRadiated']"> <!-- GS 181 or about Level 75 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.9"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'badassHordeStageGS')]/entity[@name='zombieLumberjackRadiated']"> <!-- GS 112 or about Level 50 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.9"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'badassOnlyHordeStageGS')]/entity[@name='zombieLumberjackRadiated']"> <!-- GS 171 or about Level 70 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.9"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'scoutHordeStageGS')]/entity[@name='zombieLumberjackRadiated']"> <!-- GS 207 or about Level 85 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.9"/>
+	</insertAfter>
+	
+	<!-- Lumberjack Groups -->
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'zombieLumberjackGroupGS')]/entity[@name='zombieLumberjackRadiated' and @prob='0.07']"> <!-- GS 100 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.05"/>
+	</insertAfter>	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'zombieLumberjackGroupGS')]/entity[@name='zombieLumberjackRadiated' and @prob='0.1']"> <!-- GS 200 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.07"/>
+	</insertAfter>
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'zombieLumberjackGroupGS')]/entity[@name='zombieLumberjackRadiated' and @prob='0.2']"> <!-- GS 400 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.1"/>
+	</insertAfter>
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'zombieLumberjackGroupGS')]/entity[@name='zombieLumberjackRadiated' and @prob='0.3']"> <!-- GS 800 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.2"/>
+	</insertAfter>
+	
+	<!-- Burnt, Mutated, and Gunslinger pegged to Moe spawns -->
 	
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoe']">
 		<entity name="zombieBurnt" prob="0.5"/>
@@ -173,6 +210,12 @@
 		<entity name="zombieBurntRadiated" prob="0.2"/>
 		<entity name="zombieMutatedRadiated" prob="0.2"/>
 		<entity name="zombieBusinessManRadiatedGunslinger" prob="0.75"/>
+	</insertAfter>
+	
+	<!-- Lumberjack Axe pegged to Lumberjack Radiated -->
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieLumberjackRadiated']"> <!-- GS 188 or about Level 80 -->
+		<entity name="zombieLumberjackRadiatedAxe" prob="0.75"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Horde Night Generic after Demolition stage -->
