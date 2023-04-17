@@ -108,6 +108,12 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="-0.06,0.4,-.04" local_rotation="0,0,0" parent_transform="RightHand"/>
 			</effect_group>
 		</buff>
+		
+		<buff name="ZombieFeralChickenDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="-0.1,-0.04,0" local_rotation="235,90,0" parent_transform="CHICKEN_ Head"/> <!-- -0.1,-0.02,0 -->
+			</effect_group>
+		</buff>
 	
 <!-- Wild West Steam Spitter -->
 

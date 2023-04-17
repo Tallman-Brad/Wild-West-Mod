@@ -182,6 +182,7 @@ reqIntellectLevel08,progression,Attribute,,,Brainz Level 8,,,,,,,,,,,,,
 reqIntellectLevel09,progression,Attribute,,,Brainz Level 9,,,,,,,,,,,,,
 reqIntellectLevel10,progression,Attribute,,,Brainz Level 10,,,,,,,,,,,,,
 
+animalZombieFeralChicken,entityclasses,Entity,,,Feral Zombie Chicken,,,,,,,,,,,,,
 animalZombieLargeVulture,entityclasses,Entity,,,Large Zombie Vulture,,,,,,,,,,,,,
 zombieMolotovSoldierFeral,entityclasses,Entity,,,Feral Molotov Soldier,,,,,,,,,,,,,
 guppyVultureBurnt,entityclasses,Entity,,,Crispy,,,,,,,,,,,,,

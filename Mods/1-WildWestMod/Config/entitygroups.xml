@@ -59,9 +59,10 @@
 	</set>	
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="animalZombieWastelandCraterBear" prob="7"/>
-		<entity name="animalBossGrace" prob="5"/>
-		<entity name="animalZombieLargeVulture" prob="5"/>		
+		<entity name="animalZombieWastelandCraterBear" prob="15"/>
+		<entity name="animalBossGrace" prob="10"/>
+		<entity name="animalZombieLargeVulture" prob="10"/>
+		<entity name="animalZombieFeralChicken" prob="10"/>		
 	</append>
 	
 	<!-- Desert -->
@@ -228,6 +229,8 @@
 		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.35"/>
 		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.35"/>
 		<entity name="animalZombieBear" prob="0.35"/>
+		<entity name="animalZombieLargeVulture" prob="0.35"/>
+		<entity name="animalZombieFeralChicken" prob="0.35"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Own Horde Night -->
