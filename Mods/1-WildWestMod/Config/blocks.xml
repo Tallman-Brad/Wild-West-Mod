@@ -7,6 +7,8 @@
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/property[@name='Model']/@value">Entities/OutdoorDecor/wildWestWagonPrefab</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@name='resourceHeadlight']/@count">0</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@name='resourceScrapIron']/@count">40,80</set> <!-- Default 10,20 -->
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/property[@class='Explosion']/property[@name='ParticleIndex']/@value">13</set> <!-- Default 4 -->
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/property[@class='Explosion']/property[@name='BlockDamage']/@value">50</set> <!-- Default 500 -->
  	<append xpath="/blocks/block[@name='cntCar03SedanDamage0Master']">
 		<drop event="Harvest" name="resourceWood" count="10,20" tag="allHarvest"/>	
 		<drop event="Harvest" name="resourceCloth" count="3,6" tag="allHarvest"/>
@@ -23,6 +25,8 @@
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@name='resourceRadiator']/@count">0</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@name='ammoGasCan']/@count">25,50</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@name='resourceScrapIron']/@count">68,140</set> <!-- Default 17,35 -->
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/property[@class='Explosion']/property[@name='ParticleIndex']/@value">13</set> <!-- Default 4 -->
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/property[@class='Explosion']/property[@name='BlockDamage']/@value">50</set> <!-- Default 500 -->	
  	<append xpath="/blocks/block[@name='cntCar03SedanDamage1Master']">
 		<drop event="Harvest" name="resourceForgedIron" count="1,2" tag="salvageHarvest"/>
 		<drop event="Harvest" name="resourceWood" count="10,20" tag="allHarvest"/>	
@@ -38,6 +42,8 @@
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@name='ammoGasCan']/@count">25,50</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@name='resourceHeadlight']/@count">0</set>
 	<set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@name='resourceScrapIron']/@count">48,80</set> <!-- Default 12,20 -->
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/property[@class='Explosion']/property[@name='ParticleIndex']/@value">13</set> <!-- Default 4 -->
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/property[@class='Explosion']/property[@name='BlockDamage']/@value">50</set> <!-- Default 500 -->	
  	<append xpath="/blocks/block[@name='cntCar03SedanDamage2Master']">
 		<drop event="Harvest" name="resourceForgedIron" count="1,2" tag="salvageHarvest"/>
 		<drop event="Harvest" name="resourceAcid" count="1,2" prob="0.1" tag="salvageHarvest"/>		
