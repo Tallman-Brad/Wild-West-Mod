@@ -218,7 +218,9 @@
 	</append>
 	<remove xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Destroy']" />
 	<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
-
+	
+<!-- Remove drop from campfire to avoid exploit -->
+	<set xpath="/blocks/block[@name='campfire']/drop[@event='Destroy']/@count">0</set>
 <!-- Adding Resin to all Trees -->
 	
 	<append xpath="/blocks/block[@name='treeMaster']" >
@@ -335,7 +337,7 @@
 	<property name="WorkstationJournalTip" value="heatMapTip"/>
 	<property name="PickupJournalEntry" value="campfireTip"/>
 	<property class="RepairItems"> <property name="resourceRockSmall" value="5"/> </property>
-	<drop event="Destroy" name="resourceRockSmall" count="3"/>
+	<drop event="Destroy" name="CookerVariantHelper" count="1"/>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -380,7 +382,6 @@
 	<property name="WorkstationJournalTip" value="heatMapTip"/>
 	<property name="PickupJournalEntry" value="campfireTip"/>
 	<property class="RepairItems"> <property name="resourceRockSmall" value="5"/> </property>
-	<drop event="Destroy" name="resourceRockSmall" count="3"/>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -415,7 +416,6 @@
 	<property name="WorkstationJournalTip" value="heatMapTip"/>
 	<property name="PickupJournalEntry" value="campfireTip"/>
 	<property class="RepairItems"> <property name="resourceRockSmall" value="5"/> </property>
-	<drop event="Destroy" name="resourceRockSmall" count="3"/>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -450,7 +450,6 @@
 	<property name="WorkstationJournalTip" value="heatMapTip"/>
 	<property name="PickupJournalEntry" value="campfireTip"/>
 	<property class="RepairItems"> <property name="resourceRockSmall" value="5"/> </property>
-	<drop event="Destroy" name="resourceRockSmall" count="3"/>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -496,7 +495,6 @@
 	<property name="WorkstationJournalTip" value="heatMapTip"/>
 	<property name="PickupJournalEntry" value="campfireTip"/>
 	<property class="RepairItems"> <property name="resourceRockSmall" value="5"/> </property>
-	<drop event="Destroy" name="resourceRockSmall" count="3"/>
 	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -762,6 +760,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="SquareHiveWithHoney"/>
+	<drop event="Destroy" name="BeeHiveVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -816,6 +815,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="BeeHiveWithHoney"/>
+	<drop event="Destroy" name="BeeHiveVariantHelper" count="1"/>	
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -870,6 +870,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="WoodBeeHiveWithHoney"/>
+	<drop event="Destroy" name="BeeHiveVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -984,6 +985,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="WoodCoopLaying"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 	
@@ -1004,6 +1006,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="WoodCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>	
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -1067,6 +1070,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="ChickenCoopLaying"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 	
@@ -1087,6 +1091,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="ChickenCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -1178,6 +1183,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="TinCoopLaying"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 	
@@ -1198,6 +1204,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="TinCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>	
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -1261,6 +1268,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="HouseCoopLaying"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>
 	<property name="Group" value="Food/Cooking"/>
 </block>
 	
@@ -1281,6 +1289,7 @@
 			<property name="PlantGrowing.IsRandom" value="false"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.Next" value="HouseCoopWithEggs"/>
+	<drop event="Destroy" name="WoodCoopVariantHelper" count="1"/>	
 	<property name="Group" value="Food/Cooking"/>
 </block>
 
@@ -1345,7 +1354,7 @@
 		<property name="SortOrder1" value="a090"/>
 		<property name="SortOrder2" value="0002"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		 <drop event="Destroy" name="lantern1" count="1"/>
+		<drop event="Destroy" name="lantern1" count="1"/>
 </block>
 
 <block name="WildWestOnOffLightsVariantHelper">
@@ -1367,7 +1376,7 @@
 		<property name="SortOrder1" value="a090"/>
 		<property name="SortOrder2" value="0002"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		 <drop event="Destroy" name="lantern2" count="1"/>
+		<drop event="Destroy" name="lantern2" count="1"/>
 </block>
 
 <block name="lantern3">
@@ -1379,7 +1388,7 @@
 		<property name="SortOrder1" value="a090"/>
 		<property name="SortOrder2" value="0002"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		 <drop event="Destroy" name="lantern3" count="1"/>
+		<drop event="Destroy" name="lantern3" count="1"/>
 </block>
 
 <block name="lantern4">
@@ -1391,7 +1400,7 @@
 		<property name="SortOrder1" value="a090"/>
 		<property name="SortOrder2" value="0002"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		 <drop event="Destroy" name="lantern4" count="1"/>
+		<drop event="Destroy" name="lantern4" count="1"/>
 </block>
 
 <block name="lantern5">
@@ -1403,7 +1412,7 @@
 		<property name="SortOrder1" value="a090"/>
 		<property name="SortOrder2" value="0002"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		 <drop event="Destroy" name="lantern5" count="1"/>
+		<drop event="Destroy" name="lantern5" count="1"/>
 </block>
 
 <block name="rooflight1">
@@ -1415,7 +1424,7 @@
 		<property name="SortOrder1" value="a090"/>
 		<property name="SortOrder2" value="0002"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		 <drop event="Destroy" name="rooflight1" count="1"/>
+		<drop event="Destroy" name="rooflight1" count="1"/>
 </block>
 
 <block name="OldPiano">
