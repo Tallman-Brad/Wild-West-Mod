@@ -2438,7 +2438,9 @@ If there is no hit the default quality is used.
 </lootgroup>
 
 <lootgroup name="groupWeaponsT3_DeadEye" count="all" loot_quality_template="QLTemplateT3">
-	<item name="gunRifleT3SniperRifle"/>
+	<!-- item name="gunRifleT3SniperRifle"/ -->
+	<item name="gunRifleT2LeverActionRifleLegendaryTribeWinchester"/>
+
 </lootgroup>
 
 <lootgroup name="groupWeaponsT1_Demolitionist">
@@ -2714,7 +2716,7 @@ If there is no hit the default quality is used.
 
 <!-- *** T3_Ranged_Weapons -->
 <lootgroup name="groupWeaponsT3_Ranged">
-	<!--item group="groupWeaponsT3_DeadEye"/-->
+	<item group="groupWeaponsT3_DeadEye"/>
 	<!--item group="groupWeaponsT3_Demolitionist"/-->
 	<!--item group="groupWeaponsT3_Boomstick"/-->
 	<!--item group="groupWeaponsT3_Machinegunner"/-->
@@ -4328,6 +4330,7 @@ If there is no hit the default quality is used.
 
 <lootgroup name="groupQuestWeaponsRangedT3" loot_quality_template="questT3QualTemplate">
 	<!--item name="gunRifleT3SniperRifle"/-->
+	<item name="gunRifleT2LeverActionRifleLegendaryTribeWinchester"/>
 	<!--item name="gunExplosivesT3RocketLauncher"/-->
 	<!--item name="gunShotgunT3AutoShotgun"/-->
 	<!--item name="gunMGT3M60"/-->

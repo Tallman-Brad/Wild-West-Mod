@@ -477,6 +477,8 @@ gunHandgunT0PipePistolDesc,items,Gun,,,"A home-made revolver firing .38 Short Co
 gunRifleT2LeverActionRifleWinchester,items,Gun,,,Winchester Rifle,,,,,,,,,,,,,
 gunRifleT2LeverActionRifleWinchesterDesc,items,Gun,,,"This Winchester Rifle uses .44mm ammo and will make anyone's day. Does not accept a long range scope.",,,,,,,,,,,,,
 gunRifleT2LeverActionRifleWinchesterSchematic,items,Gun,,,Winchester Rifle Schematic,,,,,,,,,,,,,
+gunRifleT2LeverActionRifleLegendaryTribeWinchester,items,Gun,,,Legendary Tribe Winchester Rifle,,,,,,,,,,,,,
+gunRifleT2LeverActionRifleLegendaryTribeWinchesterDesc,items,Gun,,,"This Legendary Tribe Winchester Rifle uses .44mm ammo. It is a one of its kind custom made weapon. Does not accept a long range scope.",,,,,,,,,,,,,
 gunM1849PrototypeRevolverRifle,items,item,,,M 1849 Prototype Revolver Rifle,,,,,,,,,,,,,
 gunM1849PrototypeRevolverRifleDesc,items,item,,,"The M 1849 Prototype Revolver Rifle uses henry ammo and has a 6 cartridge cylinder that allows it to fire in rapid succession and reload with ease. Effective at medium and long range. Can craft to Quality 6 but requires snow from the Snow Biome to ice quench the welded weapon parts.",,,,,,,,,,,,,
 gunM1849PrototypeRevolverRifleSchematic,items,Gun,,,M 1849 Prototype Revolver Rifle Schematic,,,,,,,,,,,,,

@@ -824,8 +824,8 @@
 			<item name="gunRifleT0PipeRifle" quality="3,5"/>
 			<!--item name="gunMGT0PipeMachineGun" quality="3,5"/-->
 			<!--item name="gunHandgunT1Pistol" quality="2,4"/-->
-			<item name="gunHandgunT1666Revolver" quality="2,4"/>
-			<item name="gunShotgunT1DoubleBarrel" quality="2,4"/>
+			<item name="gunHandgunT1666Revolver" quality="2,5"/>
+			<item name="gunShotgunT1DoubleBarrel" quality="2,5"/>
 			<!--item name="gunMGT1AK47" quality="2,4"/-->
 			<item name="gunRifleT1HuntingRifle" quality="2,4"/>
 			<item name="gunBowT1WoodenBow" prob="0.7" quality="2,4"/>
@@ -834,11 +834,12 @@
 		</trader_item_group>
 
 		<trader_item_group name="weaponsGunsT2">
-			<item name="gunShotgunT2PumpShotgun" quality="2,3"/>
+			<item name="gunShotgunT2PumpShotgun" quality="2,4"/>
+			<item name="gunShotgunT1DoubleBarrel" quality="3,5"/>
 			<!--item name="gunMGT2TacticalAR" quality="2,3"/-->
-			<item name="gunRifleT2LeverActionRifle" quality="2,3"/>
+			<item name="gunRifleT2LeverActionRifle" quality="2,4"/>
 			<!--item name="gunHandgunT2Magnum44" prob="0.7" quality="2,3"/-->
-			<item name="gunHandgunT2RavenRevolver" prob="0.7" quality="2,3"/>
+			<item name="gunHandgunT2RavenRevolver" prob="0.7" quality="2,4"/>
 			<!--item name="gunBowT3CompoundBow" prob="0.7" quality="2,3"/-->
 			<!--item name="gunBowT3CompoundCrossbow" prob="0.7" quality="2,3"/-->
 			<!--item name="gunBotT2JunkTurret" prob="0.7" quality="2,3"/-->
@@ -850,18 +851,19 @@
 			<!--item name="gunHandgunT3SMG5" prob="0.7" quality="2,3"/-->
 			<!--item name="gunMGT3M60" quality="2,3"/-->
 			<!--item name="gunHandgunT2Magnum44" prob="0.7" quality="2,3"/-->
-			<item name="gunHandgunT2RavenRevolver" prob="0.7" quality="2,3"/>			
+			<item name="gunHandgunT2RavenRevolver" prob="0.7" quality="2,5"/>			
 			<!--item name="gunHandgunT3DesertVulture" prob="0.7" quality="2,3"/-->
-			<item name="gunHandgunT3SchofieldRevolver" prob="0.7" quality="2,3"/>		
+			<item name="gunHandgunT3SchofieldRevolver" prob="0.7" quality="2,5"/>		
 			<!--item name="gunShotgunT3AutoShotgun" prob="0.7" quality="2,3"/-->
 			<!--item name="gunRifleT3SniperRifle" prob="0.7" quality="2,3"/-->
 			<!--item name="gunExplosivesT3RocketLauncher" quality="2,3"/-->
 			<!--item name="gunBotT3JunkDrone" prob="0.7" quality="2,3"/-->
-			<item name="gunRifleT1HuntingRifle" quality="3,5"/>			
-			<item name="gunBowT1WoodenBow" prob="0.7" quality="3,5"/>
-			<item name="gunBowT1IronCrossbow" prob="0.7" quality="3,5"/>			
-			<item name="gunShotgunT2PumpShotgun" quality="3,5"/>			
-			<item name="gunRifleT2LeverActionRifle" quality="3,5"/>
+			<!--item name="gunRifleT1HuntingRifle" quality="3,6"/-->			
+			<item name="gunBowT1WoodenBow" prob="0.7" quality="3,6"/>
+			<item name="gunBowT1IronCrossbow" prob="0.7" quality="3,6"/>
+			<item name="gunShotgunT1DoubleBarrel" quality="4,6"/>			
+			<item name="gunShotgunT2PumpShotgun" quality="3,6"/>			
+			<item name="gunRifleT2LeverActionRifle" quality="3,6"/>
 			<!--item name="gunM1849PrototypeRevolverRifle" quality="3,5"/-->
 			<!--item name="gunGatling" quality="3,5"/-->			
 		</trader_item_group>
@@ -877,13 +879,14 @@
 			<!--item name="gunRifleT3SniperRifle" prob="0.7" quality="2,5"/-->
 			<!--item name="gunExplosivesT3RocketLauncher" quality="2,5"/-->
 			<!--item name="gunBotT3JunkDrone" prob="0.7" quality="2,5"/-->
-			<item name="gunHandgunT0PipePistol" quality="5,6"/>			
+			<!--item name="gunHandgunT0PipePistol" quality="5,6"/-->			
 			<item name="gunShotgunT1DoubleBarrel" quality="4,6"/>			
-			<item name="gunRifleT1HuntingRifle" quality="4,6"/>			
+			<!--item name="gunRifleT1HuntingRifle" quality="4,6"/-->			
 			<item name="gunBowT1WoodenBow" prob="0.7" quality="4,6"/>
 			<item name="gunBowT1IronCrossbow" prob="0.7" quality="4,6"/>			
 			<item name="gunShotgunT2PumpShotgun" quality="4,6"/>			
 			<item name="gunRifleT2LeverActionRifle" quality="4,6"/>
+			<item name="gunRifleT2LeverActionRifleLegendaryTribeWinchester" quality="3,5"/>
 			<!--item name="gunM1849PrototypeRevolverRifle" quality="4,6"/-->
 			<!--item name="gunGatling" quality="4,6"/-->			
 		</trader_item_group>
@@ -1432,7 +1435,7 @@ workstations
 	</trader_info>
 	<!-- Trader Bob, id=6, carries more tools and vehicle parts at all levels -->
 	<trader_info id="6" full_reset="true" min_inventory="30" max_inventory="70" min_items_swapped="20" max_items_swapped="20"
-		reset_interval="3" open_time="6:05" close_time="21:50">
+		reset_interval="3" open_time="4:05" close_time="21:50">
 		<trader_items count="all">
 			<item group="tools" count="2" prob="1"/>
 			<item group="vehiclePartsMixed" count="2" prob="1"/>
@@ -1539,7 +1542,7 @@ workstations
 
 	<!-- Trader Jen, id=2, carries more medicine at all levels -->
 	<trader_info id="2" full_reset="true" min_inventory="30" max_inventory="70" min_items_swapped="20" max_items_swapped="20"
-		reset_interval="3" open_time="6:05" close_time="21:50">
+		reset_interval="3" open_time="4:05" close_time="21:50">
 		<trader_items count="all">
 			<item group="rareMedicine" count="2" prob="1"/>
 			<item group="medicine" count="2,5" prob="1"/>
