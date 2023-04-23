@@ -1077,7 +1077,7 @@
 			<item name="resourceYuccaFibers" count="50,500"/> <!-- 50 -->
 			<item name="resourceCrushedSand" count="50,500"/> <!-- 50 -->
 			<item name="resourceScrapIron" count="25,250"/> <!-- 10 -->
-			<item name="resourceScrapPolymers" count="30,150"/>
+			<item name="resourceScrapPolymers" count="80,200"/> <!-- 30,150 -->
 			<item name="resourceForgedIron" count="5,50"/>
 			<item name="resourceForgedSteel" count="5,50"/>
 			<item name="resourceMetalPipe" count="5,20"/>

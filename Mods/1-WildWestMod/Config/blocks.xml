@@ -224,7 +224,7 @@
 <!-- Adding Resin to all Trees -->
 	
 	<append xpath="/blocks/block[@name='treeMaster']" >
-		<drop event="Destroy" name="resourceScrapPolymers" count="1,3"/>
+		<drop event="Destroy" name="resourceScrapPolymers" count="2,3"/>
 	</append>
 	
 <!-- Custom Content From Here -->
