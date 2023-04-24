@@ -1,5 +1,11 @@
 <wildwestmod>
 
+	<!-- All at Night -->
+	
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
+		<entity name="zombieSpiderFeralFireGlider" prob="0.05"/>	
+	</append>
+
 	<!-- Wasteland -->
 
 	<set xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
@@ -27,7 +33,8 @@
 		<entity name="guppyMommaVultureBurnt" prob="0.8"/>
 		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
 		<entity name="zombieMolotovSoldierFeral" prob="0.5"/>
-		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.5"/>		
+		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.5"/>
+		<entity name="zombieSpiderFeralFireGlider" prob="0.25"/>		
 	</set>
 
 	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
@@ -55,7 +62,8 @@
 		<entity name="guppyMommaVultureBurnt" prob="0.8"/>
 		<entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
 		<entity name="zombieMolotovSoldierFeral" prob="0.5"/>
-		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.5"/>		
+		<entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.5"/>
+		<entity name="zombieSpiderFeralFireGlider" prob="0.25"/>		
 	</set>	
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
