@@ -6,9 +6,13 @@
 	
 	<set xpath="/progression/level/@max_level">1000</set> <!-- Default max level is 300 -->
 	<set xpath="/progression/skills/skill[@name='skillPistolPete']/@icon">ui_game_symbol_gunslinger</set>
+	<!-- Shotgun reload speed -->
 	<set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='ReloadSpeedMultiplier'][@value='.1,.30']/@value">.2,.60</set>
+	<!-- Revolver reload speed -->	
 	<set xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='ReloadSpeedMultiplier'][@value='0,0.30']/@value">0,0.45</set>
-	
+	<!-- Lockpick break chance -->	
+	<set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LockPickBreakChance'][@value='.1,.3']/@value">.2,.6</set>	
+
 	<insertAfter xpath="/progression/perks/perk[@name='perkGreaseMonkey']">
 
 	<perk name="perkWildWestExperience" parent="skillIntellectCraftsmanship" name_key="perkWildWestExperienceName" desc_key="perkWildWestExperienceDesc" icon="ui_game_symbol_wildwestexperience">
