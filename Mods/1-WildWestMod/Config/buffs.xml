@@ -89,8 +89,19 @@
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/NewHats.unity3d?Hat6" local_offset="0,-1.72,0.03" local_rotation="0,0,0" parent_transform="Head"/>
 			</effect_group>
-		</buff>	
-
+		</buff>
+		
+		<buff name="npcTraderJenHatDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder(1-WildWestMod):Resources/NewHats.unity3d?Hat1" local_offset="1.675,0,0.075" local_rotation="0,0,90" parent_transform="Head"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="npcTraderBobHatDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder(1-WildWestMod):Resources/NewHats.unity3d?Hat4" local_offset="1.7,0,0.075" local_rotation="0,0,90" parent_transform="Head"/>
+			</effect_group>
+		</buff>
 	
 <!-- Wild West Snufkins -->
 	

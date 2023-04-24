@@ -3,7 +3,7 @@
 	<!-- All at Night -->
 	
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
-		<entity name="zombieSpiderFeralFireGlider" prob="0.05"/>	
+		<entity name="zombieSpiderFeralFireGlider" prob="0.075"/>	
 	</append>
 
 	<!-- Wasteland -->
@@ -79,6 +79,8 @@
 		<entity name="animalDesertHare" prob="7"/> <!-- A timid animal but desert enemy group is appropriate -->
 		<entity name="ZombieUndertakerWildWest" prob="2"/> <!-- An entity but desert specific -->
 		<entity name="ZombieHammerSpammerWildWest" prob="2"/> <!-- An entity but desert specific -->
+		<entity name="animalBisonBoar" prob="3"/> <!-- A timid animal but will attack if attacked -->
+		<entity name="animalBisonBear" prob="0.3"/> <!-- Territorial and Bearish -->
 		<entity name="guppyVultureBurnt" prob="15"/>		
 	</append>
 	
@@ -104,7 +106,7 @@
 	
 	<!-- Custom Groups -->
 	
-	<!-- Wasteland Crater Single -->
+	<!-- Wasteland Crater and Select POIs -->
 
 	<append xpath="/entitygroups">	
 	<entitygroup name="animalZombieWastelandCraterBear">
@@ -146,6 +148,28 @@
         <entity name="guppyRadiatedMommaVultureBurnt" prob="0.5"/>
 	</entitygroup>
 	
+	<!-- Bison POI Spawn Group -->
+	
+	<entitygroup name="animalBisonBoar">
+		<entity name="animalBisonBoar" />
+	</entitygroup>
+	
+	<!-- Snow Bear Sleeper Group -->
+
+	<entitygroup name="animalWildWestSnowBear">
+		<entity name="animalWildWestSnowBear" />
+	</entitygroup>
+	
+	</append>
+	
+	<!-- Wandering Hordes -->
+	
+	<append xpath="/entitygroups/entitygroup[@name='ZombieBearsGroup']">
+		<entity name="animalBisonZombieBear"/>	
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='ZombieAnimalsGroup']">
+		<entity name="animalBisonZombieBear"/>	
 	</append>
 	
 	<!-- Sleeper Volume Gunslingers pegged to Big Momma Radiated -->
@@ -239,6 +263,7 @@
 		<entity name="animalZombieBear" prob="0.35"/>
 		<entity name="animalZombieLargeVulture" prob="0.35"/>
 		<entity name="animalZombieFeralChicken" prob="0.35"/>
+		<entity name="animalBisonZombieBear" prob="0.35"/>
 	</insertAfter>
 	
 	<!-- Crispy and Friends Own Horde Night -->

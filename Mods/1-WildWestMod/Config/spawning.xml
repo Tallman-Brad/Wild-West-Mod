@@ -26,4 +26,18 @@
 	<append xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']/@notags">,oldwest</append>
 	<append xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandDowntown']/@tags">,oldwest</append>	
 
+	<!-- Bison POI tag Group -->
+
+	<append xpath="/spawning/biome[@name='pine_forest']">
+		<spawn maxcount="10" respawndelay="0.3" time="Any" entitygroup="animalBisonBoar" tags="bison" spawnDeadChance="0" />
+	</append>
+
+	<append xpath="/spawning/biome[@name='desert']">
+		<spawn maxcount="10" respawndelay="0.3" time="Any" entitygroup="animalBisonBoar" tags="bison" spawnDeadChance="0" />
+	</append>
+	
+	<append xpath="/spawning/biome[@name='snow']">
+		<spawn maxcount="10" respawndelay="0.3" time="Any" entitygroup="animalBisonBoar" tags="bison" spawnDeadChance="0" />
+	</append>
+	
 </wildwestmod>
