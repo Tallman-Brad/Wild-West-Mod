@@ -2607,6 +2607,7 @@ If there is no hit the default quality is used.
 	<item name="meleeWpnKnucklesT0LeatherKnuckles"/>
 	<item name="meleeWpnBladeT0BoneKnife"/>
 	<item name="meleeWpnBatonT0PipeBaton"/>
+	<item name="meleeWpnClubT0Ladle"/> <!-- Custom Addition from Oakraven -->
 </lootgroup>
 
 <lootgroup name="groupWeaponsT0_Melee" loot_quality_template="QLTemplateT0">
@@ -2616,6 +2617,7 @@ If there is no hit the default quality is used.
 	<item name="meleeWpnKnucklesT0LeatherKnuckles"/>
 	<item name="meleeWpnBladeT0BoneKnife"/>
 	<item name="meleeWpnBatonT0PipeBaton"/>
+	<item name="meleeWpnClubT0Ladle"/> <!-- Custom Addition from Oakraven -->
 </lootgroup>
 
 <lootgroup name="groupWeaponsT0_MeleeNoStone" loot_quality_template="QLTemplateT0">

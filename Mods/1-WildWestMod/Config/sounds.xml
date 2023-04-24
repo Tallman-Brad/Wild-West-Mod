@@ -74,7 +74,14 @@
 	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 	<AudioClip ClipName="#@modfolder:Resources/Steamsounds.unity3d?SteamTrainChug Away"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
-  
+ 
+<!-- Oak Melee Pots and Pans -->
+ 
+<SoundDataNode name="pan_swinglight"> <AudioSource name="Sounds/AudioSource_Melee"/> <NetworkAudioSource name="Sounds/AudioSource_Melee"/>
+<AudioClip ClipName="#@modfolder:Resources/pan.unity3d?Bongo"/>
+<AudioClip ClipName="#@modfolder:Resources/pan.unity3d?Bongo2"/>
+<LocalCrouchVolumeScale value="0.25"/> <CrouchNoiseScale value="0.05"/> <NoiseScale value=".1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
   </append>
 
 </wildwestmod>
