@@ -79,8 +79,8 @@
 		<entity name="animalDesertHare" prob="7"/> <!-- A timid animal but desert enemy group is appropriate -->
 		<entity name="ZombieUndertakerWildWest" prob="2"/> <!-- An entity but desert specific -->
 		<entity name="ZombieHammerSpammerWildWest" prob="2"/> <!-- An entity but desert specific -->
-		<entity name="animalBisonBoar" prob="3"/> <!-- A timid animal but will attack if attacked -->
-		<entity name="animalBisonBear" prob="0.3"/> <!-- Territorial and Bearish -->
+		<entity name="animalBisonBoar" prob="4"/> <!-- A timid animal but will attack if attacked -->
+		<entity name="animalBisonBear" prob="0.4"/> <!-- Territorial and Bearish -->
 		<entity name="guppyVultureBurnt" prob="15"/>		
 	</append>
 	

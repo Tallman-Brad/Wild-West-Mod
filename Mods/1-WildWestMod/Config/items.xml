@@ -1500,10 +1500,10 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="180"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhitorganic"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy"/>
 		</property>
 		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+			<property name="Override0" value="organic" param1="pan_swinglight"/>
 		</property>
 	</property>
 
@@ -1521,10 +1521,10 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhitorganic"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy"/>
 		</property>
 		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+			<property name="Override0" value="organic" param1="pan_swinglight"/>
 		</property>
 	</property>
 
@@ -1591,10 +1591,10 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="180"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhollowhitorganic"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy"/>
 		</property>
 		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+			<property name="Override0" value="organic" param1="pan_swinglight"/>
 		</property>
 	</property>
 
@@ -1612,10 +1612,10 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhollowhitorganic"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy"/>
 		</property>
 		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+			<property name="Override0" value="organic" param1="pan_swinglight"/>
 		</property>
 	</property>
 
@@ -1672,7 +1672,7 @@
 
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sound_start" value="batwood_swinglight"/>
+		<property name="Sound_start" value="club_swinglight"/>
 		<property name="Sphere" value=".1"/>
 		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
 
@@ -1682,16 +1682,16 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="120"/>
 	<property class="HitSounds">
-		<property name="Override0" value="organic" param1="metalhitorganic"/>
+		<property name="Override0" value="organic" param1="pan_swingheavy"/>
 	</property>
 	<property class="GrazeSounds">
-		<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		<property name="Override0" value="organic" param1="pan_swinglight"/>
 	</property>
 	</property>
 
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sound_start" value="batwood_swingheavy"/>
+		<property name="Sound_start" value="club_swingheavy"/>
 		<property name="Sphere" value=".15"/>
 		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
@@ -1703,10 +1703,10 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 	<property class="HitSounds">
-		<property name="Override0" value="organic" param1="metalhitorganic"/>
+		<property name="Override0" value="organic" param1="pan_swingheavy"/>
 	</property>
 	<property class="GrazeSounds">
-		<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		<property name="Override0" value="organic" param1="pan_swinglight"/>
 	</property>
 			</property>
 

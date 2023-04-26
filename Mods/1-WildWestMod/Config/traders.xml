@@ -907,14 +907,14 @@
 			<item group="weaponsGunParts" count="1" prob=".3"/>
 		</trader_item_group>
 
-		<trader_item_group name="ammo">
-			<item name="ammo9mmBulletBall" count="40,150"/>
-			<item name="ammo9mmBulletAP" count="40,150"/>
-			<item name="ammo762mmBulletBall" count="20,100"/>
-			<item name="ammo762mmBulletAP" count="20,100"/>
+		<trader_item_group name="ammo"> <!-- Upgrades to account for reduced loot chance -->
+			<item name="ammo9mmBulletBall" count="80,150"/> <!-- 40,150 -->
+			<item name="ammo9mmBulletAP" count="80,150"/> <!-- 40,150 -->
+			<item name="ammo762mmBulletBall" count="50,100"/> <!-- 20,100 -->
+			<item name="ammo762mmBulletAP" count="50,100"/> <!-- 20,100 -->
 			<item name="ammo44MagnumBulletBall" count="15,60" prob="0.5"/>
 			<item name="ammo44MagnumBulletAP" count="15,60" prob="0.5"/>
-			<item name="ammoShotgunShell" count="15,100"/>
+			<item name="ammoShotgunShell" count="50,100"/> <!-- 15,100 -->
 			<item name="ammoShotgunSlug" count="6,25" prob="0.2"/>
 			<!--item name="ammoRocketHE" count="1,4"/-->
 			<!--item name="ammoRocketFrag" count="1,4"/-->
@@ -933,11 +933,11 @@
 			<item name="thrownAmmoMolotovCocktail" count="5,20"/>
 		</trader_item_group>
 
-		<trader_item_group name="ammoSupplies">
-			<item name="resourceBulletCasing" count="20,200"/> <!-- 5 -->
-			<item name="resourceBulletTip" count="20,200"/> <!-- 5 -->
-			<item name="resourceBuckshot" count="20,200"/> <!-- 5 -->
-			<item name="resourceGunPowder" count="20,200"/> <!-- 10 -->
+		<trader_item_group name="ammoSupplies"> <!-- Upgrades to account for reduced loot chance -->
+			<item name="resourceBulletCasing" count="100,200"/> <!-- 5 --> <!-- 20,200 -->
+			<item name="resourceBulletTip" count="100,200"/> <!-- 5 --> <!-- 20,200 -->
+			<item name="resourceBuckshot" count="100,200"/> <!-- 5 --> <!-- 20,200 -->
+			<item name="resourceGunPowder" count="150,300"/> <!-- 10 --> <!-- 20,200 -->
 			<item name="resourcePaper" count="20,200"/> <!-- 10 -->
 			<item name="resourceArrowHeadIron" count="20,200" prob="0.05"/> <!-- 5 -->
 			<item name="resourceArrowHeadSteelAP" count="5,25" prob="0.05"/> <!-- 5 -->
