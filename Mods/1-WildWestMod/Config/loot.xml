@@ -9660,7 +9660,7 @@ If there is no hit the default quality is used.
 		<item name="foodCropMushrooms" count="1,2" prob="0.1"/>
 		<item name="foodCropBlueberries" count="1,5" prob="0.1"/>
 		<item name="foodCropPumpkin" count="1" prob="0.1"/>
-		<item name="resourceCatfish" count="1" prob="0.05"/>		
+		<item name="resourceCatfish" count="1" prob="0.075"/>		
 		<item name="apparelCowboyBoots" count="1" prob="0.035"/>
 		<item name="apparelCowboyHat" count="1" prob="0.035"/>
 		<item name="modArmorCowboyHat" count="1" prob="0.03"/>
