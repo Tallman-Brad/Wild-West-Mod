@@ -9647,12 +9647,12 @@ If there is no hit the default quality is used.
 
 	<!-- Oakraven Fish Trap Loot -->
 	<lootcontainer id="775" name="cntFishTrap" count="1,4" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
-		<item name="foodPintoBeans" count="4,10" prob="0.375"/>
-		<item name="foodOkra" count="4,10" prob="0.375"/>
-		<item name="foodCrawfish" count="4,10" prob="0.375"/>
+		<item name="foodPintoBeans" count="5,10" prob="0.375"/>
+		<item name="foodOkra" count="5,10" prob="0.375"/>
+		<item name="foodCrawfish" count="5,10" prob="0.375"/>
 		<item name="resourceYuccaFibers" count="10,20" prob="0.3"/>
-		<item name="resourceCloth" count="1,5" prob="0.3"/>		
-		<item name="foodRottingFlesh" count="1,5" prob="0.3"/>		
+		<item name="resourceCloth" count="2,5" prob="0.3"/>		
+		<item name="foodRottingFlesh" count="2,5" prob="0.3"/>		
 		<item name="oldCash" count="10,20" prob="0.2"/>
 		<item name="resourceBone" count="1,5" prob="0.2"/>	
 		<item name="foodCropPotato" count="1,2" prob="0.1"/>

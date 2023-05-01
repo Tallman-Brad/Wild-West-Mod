@@ -954,7 +954,7 @@ loadingTipWildWestHUD,UI,Loading Screen,x,,"The Wild West Mod custom HUD changes
 loadingTipWildWestHUD_title,UI,Loading Screen,x,,Wild West HUD,,,,,,,,,,,,,
 loadingTipWildWestHivesCoops,UI,Loading Screen,x,,"Players can craft bee hives and chicken coops to support the homestead. A Queen bee can be harvested from trees and baby chicks can be found in nests.",,,,,,,,,,,,,
 loadingTipWildWestHivesCoops_title,UI,Loading Screen,x,,Bee Hives and Chicken Coops,,,,,,,,,,,,,
-loadingTipWildWestLights,UI,Loading Screen,x,,"If you fully break Wild West pianos or lights, they will be added to your inventory. They are functional and can be placed and used.",,,,,,,,,,,,,
+loadingTipWildWestLights,UI,Loading Screen,x,,"If you fully break Wild West pianos, lights, coops, hives, and stoves they will be added to your inventory. They remain functional and can be placed again for use.",,,,,,,,,,,,,
 loadingTipWildWestLights_title,UI,Loading Screen,x,,Wild West Lights,,,,,,,,,,,,,
 loadingTipWildWestWells,UI,Loading Screen,x,,"There are a variety of Wild West crafting options, including wells and water stands. These provide a water source for jars and buckets.",,,,,,,,,,,,,
 loadingTipWildWestWells_title,UI,Loading Screen,x,,Wells and Water Stands,,,,,,,,,,,,,
