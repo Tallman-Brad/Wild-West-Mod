@@ -1089,7 +1089,7 @@
 			<item name="resourceCloth" count="5,100"/>
 			<item name="resourceMilitaryFiber" count="5,20" prob="0.6"/>
 			<item name="resourceCoal" count="20,60"/> <!-- 10 -->
-			<item name="resourcePotassiumNitratePowder" count="20,60"/> <!-- 10 -->
+			<item name="resourcePotassiumNitratePowder" count="40,120"/> <!-- 10 --> <!-- 20,60 -->
 			<item name="resourceGunPowder" count="3,30"/> <!-- 10 -->
 			<item name="resourceOil" count="3,10"/>
 			<item name="resourceAcid" count="1" prob="0.6"/>

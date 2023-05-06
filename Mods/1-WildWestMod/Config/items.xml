@@ -955,7 +955,7 @@
 	<property name="RepairExpMultiplier" value="7.5"/>
 	<effect_group name="meleeToolRepairT2Tomahawk1">
 		<passive_effect name="EntityDamage" operation="base_set" value="18.5" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="30" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="37" tags="perkMiner69r"/> <!-- Double of Entity Damage -->
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="85" tags="perkMiner69r,axe"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="9" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="220,475" tier="1,6" tags="perkMiner69r"/>
@@ -1021,7 +1021,7 @@
 	<property name="RepairExpMultiplier" value="7.5"/>
 	<effect_group name="meleeToolRepairT2Tomahawk2">
 		<passive_effect name="EntityDamage" operation="base_set" value="18.5" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="30" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="37" tags="perkMiner69r"/> <!-- Double of Entity Damage -->
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="85" tags="perkMiner69r,axe"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="9" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="220,475" tier="1,6" tags="perkMiner69r"/>
@@ -1500,7 +1500,7 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="180"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="pan_swingheavy"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy_ladle"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="pan_swinglight"/>
@@ -1521,7 +1521,7 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="pan_swingheavy"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy_ladle"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="pan_swinglight"/>
@@ -1533,7 +1533,7 @@
 		<passive_effect name="BlockDamage" operation="base_set" value="12.75"/> <!-- meleeWpnClubT0WoodenClub +10% for base damage and -10% for degradation -->
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkPummelPete,perkFlurryOfBlows"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="17.4" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="66,120" tier="1,6" tags="perkPummelPete"/> <!-- meleeWpnClubT0WoodenClub +10% for base damage and -10% for degradation -->
+		<passive_effect name="DegradationMax" operation="base_set" value="120,220" tier="1,6" tags="perkPummelPete"/> <!-- meleeWpnClubT0WoodenClub +10% for base damage and -100% for degradation benefit due to scrap iron -->
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
@@ -1591,7 +1591,7 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="180"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="pan_swingheavy"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy_pan"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="pan_swinglight"/>
@@ -1612,7 +1612,7 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="pan_swingheavy"/>
+			<property name="Override0" value="organic" param1="pan_swingheavy_pan"/>
 		</property>
 		<property class="GrazeSounds">
 			<property name="Override0" value="organic" param1="pan_swinglight"/>
@@ -1682,7 +1682,7 @@
 		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="120"/>
 	<property class="HitSounds">
-		<property name="Override0" value="organic" param1="pan_swingheavy"/>
+		<property name="Override0" value="organic" param1="pan_swingheavy_skillet"/>
 	</property>
 	<property class="GrazeSounds">
 		<property name="Override0" value="organic" param1="pan_swinglight"/>
@@ -1703,7 +1703,7 @@
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
 	<property class="HitSounds">
-		<property name="Override0" value="organic" param1="pan_swingheavy"/>
+		<property name="Override0" value="organic" param1="pan_swingheavy_skillet"/>
 	</property>
 	<property class="GrazeSounds">
 		<property name="Override0" value="organic" param1="pan_swinglight"/>

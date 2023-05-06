@@ -81,8 +81,22 @@
 	<AudioClip ClipName="#@modfolder:Resources/pan.unity3d?Bongo"/>
 	<LocalCrouchVolumeScale value="0.25"/> <CrouchNoiseScale value="0.05"/> <NoiseScale value=".1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 	
-<SoundDataNode name="pan_swingheavy"> <AudioSource name="Sounds/AudioSource_Melee"/> <NetworkAudioSource name="Sounds/AudioSource_Melee"/>
+<SoundDataNode name="pan_swingheavy_ladle"> <AudioSource name="Sounds/AudioSource_Melee"/> <NetworkAudioSource name="Sounds/AudioSource_Melee"/>
   <AudioClip ClipName="#@modfolder:Resources/pan.unity3d?Bongo2"/>
+	<LowestPitch name="1.1"/>
+	<HighestPitch name="1.35"/>
+	<LocalCrouchVolumeScale value="0.25"/> <CrouchNoiseScale value="0.05"/> <NoiseScale value=".1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+<SoundDataNode name="pan_swingheavy_pan"> <AudioSource name="Sounds/AudioSource_Melee"/> <NetworkAudioSource name="Sounds/AudioSource_Melee"/>
+  <AudioClip ClipName="#@modfolder:Resources/pan.unity3d?Bongo2"/>
+	<LowestPitch name="0.9"/>
+	<HighestPitch name="1.05"/>
+	<LocalCrouchVolumeScale value="0.25"/> <CrouchNoiseScale value="0.05"/> <NoiseScale value=".1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	
+<SoundDataNode name="pan_swingheavy_skillet"> <AudioSource name="Sounds/AudioSource_Melee"/> <NetworkAudioSource name="Sounds/AudioSource_Melee"/>
+  <AudioClip ClipName="#@modfolder:Resources/pan.unity3d?Bongo2"/>
+	<LowestPitch name="0.8"/>
+	<HighestPitch name="0.95"/>
 	<LocalCrouchVolumeScale value="0.25"/> <CrouchNoiseScale value="0.05"/> <NoiseScale value=".1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
   </append>
