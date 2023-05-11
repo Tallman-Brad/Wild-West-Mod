@@ -28,6 +28,51 @@
 			<property name="FlameEffect" value="ItemModEffects/mod_spear_steel_flamePrefab"/>
 		</item_property_overrides>		
 	</append>
+	
+<!-- Oakraven Kitchen Melee Weapons -->
+	
+   <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
+        <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?SkilletSpikes"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?panSpikes"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?LadleSpikes"/>
+        </item_property_overrides>        
+    </append>    
+
+    
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">
+        <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?SkilletWire"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?panWire"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?LadleWire"/>
+        </item_property_overrides>        
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">
+        <item_property_overrides name="meleeWpnClubT3Skillet">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?SkilletChain"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT1OldPan">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?panChain"/>
+        </item_property_overrides>
+        
+        <item_property_overrides name="meleeWpnClubT0Ladle">
+            <property name="HandMeshfile" value="#@modfolder:Resources/pan.unity3d?LadleChain"/>
+        </item_property_overrides>        
+    </append>
 
 <append xpath="/item_modifiers">
 
