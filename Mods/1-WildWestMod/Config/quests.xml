@@ -3335,7 +3335,7 @@
 	<property name="difficulty" value="hard"/>
 	<property name="shareable" value="false"/>
 		
-			<objective type="ZombieKill" id="zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated" value="250"/>
+			<objective type="ZombieKill" id="zombieSoldier,zombieSoldierFeral,zombieSoldierRadiated,zombieMolotovSoldierFeral" value="250"/>
 		
 	<reward type="Exp" value="10000"/>
 	<reward type="Item" id="casinoCoin" value="5000"/>
