@@ -268,13 +268,10 @@
 	
 	<!-- Crispy and Friends Own Horde Night -->
 	
-	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS23']"><entity name="guppyVultureBurnt"/></set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS40']"><entity name="guppyVultureBurnt"/></set>
-	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS54']"><entity name="guppyVultureBurnt"/></set>
-	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS74']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.1"/></set>
-	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS97']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.15"/></set>	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS80']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.1"/></set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS121']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.2"/></set>
-	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS140']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.25"/><entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/><entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.05"/></set>
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS153']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.25"/><entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/><entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.05"/></set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS195']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.25"/><entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/><entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.05"/></set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS255']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.25"/><entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/><entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.05"/></set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS304']"><entity name="guppyVultureBurnt"/><entity name="guppyMommaVultureBurnt" prob="0.25"/><entity name="guppyRadiatedMommaVultureBurnt" prob="0.1"/><entity name="guppyRadiatedFireMommaVultureBurnt" prob="0.05"/></set>
