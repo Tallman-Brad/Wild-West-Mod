@@ -1,6 +1,6 @@
 <Servers>
-  <ServerGroup Name="Wild West Mod - Development Build">
-    <Server Name="Wild West Mod - Development Build" Logo="https://i.imgur.com/jDRulpb.jpg">
+  <ServerGroup Name="Wild West Mod (A20)">
+    <Server Name="Wild West Mod (A20)" Logo="https://i.imgur.com/jDRulpb.jpg">
       <Description>The Wild West Mod takes you back to the mid 19th Century American Wild West.
 	  
 Features Include:
@@ -17,7 +17,7 @@ Features Include:
 - Sustainable Farming and Animal Husbandry
 - and a great deal more...
 	  </Description>
-        <Version>alpha20.6</Version>
+        <Version>alpha20.7</Version>
 		<RSS/>
         <Excludes></Excludes>
         <ReleaseNotes></ReleaseNotes>
